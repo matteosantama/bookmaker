@@ -25,7 +25,9 @@ dtypes = {
 class ScheduleScraper:
     """
     The ScheduleScraper crawls basketball-reference.com and scrapes historical 
-    season schedules and simple box score data.
+    season schedules and simple box score data. The written dataframe is
+    indexed by basketball-reference's game link href, which acts as a
+    unique id.
     """
 
     def __init__(self):
@@ -44,7 +46,7 @@ class ScheduleScraper:
             if verbose:
                 print(f'Looking up {y-1}-{y} season')
             sched = self.__season_schedule(y, verbose)
-            df = df.append(sched, ignore_index=True)
+            df = df.append(sched)
         return df
 
     def __season_schedule(self, year: int, verbose=False):
@@ -87,7 +89,8 @@ class ScheduleScraper:
 
         df = pd.DataFrame.from_dict(data)
         df = df.astype(dtypes)
-        print(f'\tFound {len(df)} total games\n')
+        if verbose:
+            print(f'\tFound {len(df)} total games\n')
         
         # Some additional manipulating we need to do
         att = df['attendance']
@@ -99,6 +102,8 @@ class ScheduleScraper:
                 df['game_start_time'], format='%I:%M%p').dt.time
 
         df['season_year'] = year    # So we can easily group games by season
+        df = df.drop(['box_score_text', 'game_remarks'], axis='columns')
+        df = df.set_index('br_href')
         return df
 
 
