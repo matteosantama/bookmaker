@@ -31,7 +31,7 @@ class ScheduleScraper:
     def __init__(self):
         pass
 
-    def scrape(self, start_year: int, end_year: int, verbose=False):
+    def scrape(self, start_year: int, end_year: int, verbose: bool=False):
         """Starting point of all scraping logic. High-level function that 
         delegates tasks such as requesting the webpage, reading the html,
         and parsing the table into a dataframe.
@@ -97,7 +97,8 @@ class ScheduleScraper:
         df['game_start_time'] = df['game_start_time'] + 'm'
         df['game_start_time'] = pd.to_datetime(
                 df['game_start_time'], format='%I:%M%p').dt.time
-        
+
+        df['season_year'] = year    # So we can easily group games by season
         return df
 
 
