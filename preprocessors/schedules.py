@@ -1,6 +1,7 @@
 import argparse
 from collections import defaultdict
 import requests as req
+import os
 
 from bs4 import BeautifulSoup
 import pandas as pd
@@ -33,7 +34,8 @@ class ScheduleScraper:
     def __init__(self):
         pass
 
-    def scrape(self, start_year: int, end_year: int, verbose: bool=False):
+    def scrape(self, start_year: int, end_year: int, 
+            outdir: str, verbose: bool=False):
         """Starting point of all scraping logic. High-level function that 
         delegates tasks such as requesting the webpage, reading the html,
         and parsing the table into a dataframe.
@@ -41,13 +43,17 @@ class ScheduleScraper:
         Returns:
             pd.DataFrame
         """
-        df = pd.DataFrame()
         for y in range(start_year, end_year + 1):
             if verbose:
                 print(f'Looking up {y-1}-{y} season')
             sched = self.__season_schedule(y, verbose)
-            df = df.append(sched)
-        return df
+            
+            outfile = os.path.join(outdir, f'{y}-schedule.csv')
+            if verbose:
+                print(f'Writing {outfile}\n')
+
+            sched.to_csv(outfile)
+
 
     def __season_schedule(self, year: int, verbose=False):
         """Retrieve team schedule and box score for a given season.
@@ -90,7 +96,7 @@ class ScheduleScraper:
         df = pd.DataFrame.from_dict(data)
         df = df.astype(dtypes)
         if verbose:
-            print(f'\tFound {len(df)} total games\n')
+            print(f'\tFound {len(df)} total games')
         
         # Some additional manipulating we need to do
         att = df['attendance']
@@ -121,14 +127,11 @@ if __name__=='__main__':
             help='Ending year for which to scrape',
             type=int)
 
-    parser.add_argument('output_file', help='Where to store .csv file')
+    parser.add_argument('outdir', help='Where to store .csv file')
     parser.add_argument('-v', 
             dest='verbose', action='store_true', help='Print verbose output')
 
     args = parser.parse_args()
     scraper = ScheduleScraper()
 
-    df = scraper.scrape(args.start_year, args.end_year, args.verbose)
-    if args.verbose:
-        print(f'Writing data to {args.output_file}')
-    df.to_csv(args.output_file)
+    scraper.scrape(args.start_year, args.end_year, args.outdir, args.verbose)

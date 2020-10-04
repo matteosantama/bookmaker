@@ -1,0 +1,1317 @@
+br_href,date_game,game_start_time,visitor_team_name,visitor_pts,home_team_name,home_pts,overtimes,attendance,playoffs,season_year
+/boxscores/201510270CHI.html,2015-10-27,20:00:00,Cleveland Cavaliers,95,Chicago Bulls,97,,21957,False,2016
+/boxscores/201510270ATL.html,2015-10-27,20:00:00,Detroit Pistons,106,Atlanta Hawks,94,,19187,False,2016
+/boxscores/201510270GSW.html,2015-10-27,22:30:00,New Orleans Pelicans,95,Golden State Warriors,111,,19596,False,2016
+/boxscores/201510280ORL.html,2015-10-28,19:00:00,Washington Wizards,88,Orlando Magic,87,,18846,False,2016
+/boxscores/201510280BOS.html,2015-10-28,19:30:00,Philadelphia 76ers,95,Boston Celtics,112,,18624,False,2016
+/boxscores/201510280BRK.html,2015-10-28,19:30:00,Chicago Bulls,115,Brooklyn Nets,100,,17732,False,2016
+/boxscores/201510280DET.html,2015-10-28,19:30:00,Utah Jazz,87,Detroit Pistons,92,,18434,False,2016
+/boxscores/201510280TOR.html,2015-10-28,19:30:00,Indiana Pacers,99,Toronto Raptors,106,,19800,False,2016
+/boxscores/201510280MIA.html,2015-10-28,19:30:00,Charlotte Hornets,94,Miami Heat,104,,19724,False,2016
+/boxscores/201510280MIL.html,2015-10-28,20:00:00,New York Knicks,122,Milwaukee Bucks,97,,18717,False,2016
+/boxscores/201510280OKC.html,2015-10-28,20:00:00,San Antonio Spurs,106,Oklahoma City Thunder,112,,18203,False,2016
+/boxscores/201510280MEM.html,2015-10-28,20:00:00,Cleveland Cavaliers,106,Memphis Grizzlies,76,,18119,False,2016
+/boxscores/201510280HOU.html,2015-10-28,20:00:00,Denver Nuggets,105,Houston Rockets,85,,18240,False,2016
+/boxscores/201510280PHO.html,2015-10-28,22:00:00,Dallas Mavericks,111,Phoenix Suns,95,,18055,False,2016
+/boxscores/201510280POR.html,2015-10-28,22:00:00,New Orleans Pelicans,94,Portland Trail Blazers,112,,19393,False,2016
+/boxscores/201510280SAC.html,2015-10-28,22:00:00,Los Angeles Clippers,111,Sacramento Kings,104,,17458,False,2016
+/boxscores/201510280LAL.html,2015-10-28,22:30:00,Minnesota Timberwolves,112,Los Angeles Lakers,111,,18997,False,2016
+/boxscores/201510290IND.html,2015-10-29,19:00:00,Memphis Grizzlies,112,Indiana Pacers,103,,18165,False,2016
+/boxscores/201510290NYK.html,2015-10-29,20:00:00,Atlanta Hawks,112,New York Knicks,101,,19812,False,2016
+/boxscores/201510290LAC.html,2015-10-29,22:30:00,Dallas Mavericks,88,Los Angeles Clippers,104,,19218,False,2016
+/boxscores/201510300CLE.html,2015-10-30,19:00:00,Miami Heat,92,Cleveland Cavaliers,102,,20562,False,2016
+/boxscores/201510300PHI.html,2015-10-30,19:00:00,Utah Jazz,99,Philadelphia 76ers,71,,17122,False,2016
+/boxscores/201510300ORL.html,2015-10-30,19:00:00,Oklahoma City Thunder,139,Orlando Magic,136,2OT,18846,False,2016
+/boxscores/201510300BOS.html,2015-10-30,19:30:00,Toronto Raptors,113,Boston Celtics,103,,16898,False,2016
+/boxscores/201510300DET.html,2015-10-30,19:30:00,Chicago Bulls,94,Detroit Pistons,98,OT,16035,False,2016
+/boxscores/201510300ATL.html,2015-10-30,20:00:00,Charlotte Hornets,94,Atlanta Hawks,97,,17024,False,2016
+/boxscores/201510300MIL.html,2015-10-30,20:00:00,Washington Wizards,118,Milwaukee Bucks,113,,13858,False,2016
+/boxscores/201510300SAS.html,2015-10-30,20:30:00,Brooklyn Nets,75,San Antonio Spurs,102,,18418,False,2016
+/boxscores/201510300DEN.html,2015-10-30,21:00:00,Minnesota Timberwolves,95,Denver Nuggets,78,,17660,False,2016
+/boxscores/201510300HOU.html,2015-10-30,21:30:00,Golden State Warriors,112,Houston Rockets,92,,18142,False,2016
+/boxscores/201510300SAC.html,2015-10-30,22:00:00,Los Angeles Lakers,114,Sacramento Kings,132,,17391,False,2016
+/boxscores/201510300PHO.html,2015-10-30,22:30:00,Portland Trail Blazers,92,Phoenix Suns,110,,18055,False,2016
+/boxscores/201510310IND.html,2015-10-31,19:00:00,Utah Jazz,97,Indiana Pacers,76,,14412,False,2016
+/boxscores/201510310WAS.html,2015-10-31,19:00:00,New York Knicks,117,Washington Wizards,110,,20356,False,2016
+/boxscores/201510310NOP.html,2015-10-31,19:30:00,Golden State Warriors,134,New Orleans Pelicans,120,,18406,False,2016
+/boxscores/201510310MEM.html,2015-10-31,20:00:00,Brooklyn Nets,91,Memphis Grizzlies,101,,16013,False,2016
+/boxscores/201510310POR.html,2015-10-31,22:00:00,Phoenix Suns,101,Portland Trail Blazers,90,,17906,False,2016
+/boxscores/201510310LAC.html,2015-10-31,22:30:00,Sacramento Kings,109,Los Angeles Clippers,114,,19060,False,2016
+/boxscores/201511010CHO.html,2015-11-01,14:00:00,Atlanta Hawks,94,Charlotte Hornets,92,,18691,False,2016
+/boxscores/201511010BOS.html,2015-11-01,15:30:00,San Antonio Spurs,95,Boston Celtics,87,,17461,False,2016
+/boxscores/201511010MIA.html,2015-11-01,18:00:00,Houston Rockets,89,Miami Heat,109,,19600,False,2016
+/boxscores/201511010TOR.html,2015-11-01,18:00:00,Milwaukee Bucks,87,Toronto Raptors,106,,19800,False,2016
+/boxscores/201511010CHI.html,2015-11-01,19:00:00,Orlando Magic,87,Chicago Bulls,92,,21585,False,2016
+/boxscores/201511010OKC.html,2015-11-01,19:00:00,Denver Nuggets,93,Oklahoma City Thunder,117,,18203,False,2016
+/boxscores/201511010LAL.html,2015-11-01,21:30:00,Dallas Mavericks,103,Los Angeles Lakers,93,,18997,False,2016
+/boxscores/201511020PHI.html,2015-11-02,19:00:00,Cleveland Cavaliers,107,Philadelphia 76ers,100,,18094,False,2016
+/boxscores/201511020BRK.html,2015-11-02,19:30:00,Milwaukee Bucks,103,Brooklyn Nets,96,,12576,False,2016
+/boxscores/201511020NYK.html,2015-11-02,19:30:00,San Antonio Spurs,94,New York Knicks,84,,19812,False,2016
+/boxscores/201511020HOU.html,2015-11-02,20:00:00,Oklahoma City Thunder,105,Houston Rockets,110,,17224,False,2016
+/boxscores/201511020MIN.html,2015-11-02,20:00:00,Portland Trail Blazers,106,Minnesota Timberwolves,101,,18903,False,2016
+/boxscores/201511020GSW.html,2015-11-02,22:30:00,Memphis Grizzlies,69,Golden State Warriors,119,,19596,False,2016
+/boxscores/201511020LAC.html,2015-11-02,22:30:00,Phoenix Suns,96,Los Angeles Clippers,102,,19060,False,2016
+/boxscores/201511030CHO.html,2015-11-03,19:00:00,Chicago Bulls,105,Charlotte Hornets,130,,15136,False,2016
+/boxscores/201511030DET.html,2015-11-03,19:30:00,Indiana Pacers,94,Detroit Pistons,82,,13325,False,2016
+/boxscores/201511030MIA.html,2015-11-03,19:30:00,Atlanta Hawks,98,Miami Heat,92,,19600,False,2016
+/boxscores/201511030NOP.html,2015-11-03,20:00:00,Orlando Magic,103,New Orleans Pelicans,94,,16876,False,2016
+/boxscores/201511030DAL.html,2015-11-03,20:30:00,Toronto Raptors,102,Dallas Mavericks,91,,20034,False,2016
+/boxscores/201511030SAC.html,2015-11-03,22:00:00,Memphis Grizzlies,103,Sacramento Kings,89,,17317,False,2016
+/boxscores/201511030LAL.html,2015-11-03,22:30:00,Denver Nuggets,120,Los Angeles Lakers,109,,18997,False,2016
+/boxscores/201511040IND.html,2015-11-04,19:00:00,Boston Celtics,98,Indiana Pacers,100,,14022,False,2016
+/boxscores/201511040WAS.html,2015-11-04,19:00:00,San Antonio Spurs,99,Washington Wizards,102,,17721,False,2016
+/boxscores/201511040ATL.html,2015-11-04,20:00:00,Brooklyn Nets,87,Atlanta Hawks,101,,14044,False,2016
+/boxscores/201511040CLE.html,2015-11-04,20:00:00,New York Knicks,86,Cleveland Cavaliers,96,,20562,False,2016
+/boxscores/201511040HOU.html,2015-11-04,20:00:00,Orlando Magic,114,Houston Rockets,119,OT,16735,False,2016
+/boxscores/201511040MIL.html,2015-11-04,20:00:00,Philadelphia 76ers,87,Milwaukee Bucks,91,,12437,False,2016
+/boxscores/201511040OKC.html,2015-11-04,20:00:00,Toronto Raptors,103,Oklahoma City Thunder,98,,18203,False,2016
+/boxscores/201511040PHO.html,2015-11-04,21:00:00,Sacramento Kings,97,Phoenix Suns,118,,16497,False,2016
+/boxscores/201511040UTA.html,2015-11-04,21:00:00,Portland Trail Blazers,108,Utah Jazz,92,,19911,False,2016
+/boxscores/201511040GSW.html,2015-11-04,22:30:00,Los Angeles Clippers,108,Golden State Warriors,112,,19596,False,2016
+/boxscores/201511050CHI.html,2015-11-05,20:00:00,Oklahoma City Thunder,98,Chicago Bulls,104,,21861,False,2016
+/boxscores/201511050MIN.html,2015-11-05,20:00:00,Miami Heat,96,Minnesota Timberwolves,84,,11794,False,2016
+/boxscores/201511050DAL.html,2015-11-05,20:30:00,Charlotte Hornets,108,Dallas Mavericks,94,,19635,False,2016
+/boxscores/201511050DEN.html,2015-11-05,21:00:00,Utah Jazz,96,Denver Nuggets,84,,9906,False,2016
+/boxscores/201511050POR.html,2015-11-05,22:30:00,Memphis Grizzlies,96,Portland Trail Blazers,115,,19393,False,2016
+/boxscores/201511060ORL.html,2015-11-06,19:00:00,Toronto Raptors,87,Orlando Magic,92,,16578,False,2016
+/boxscores/201511060BOS.html,2015-11-06,19:30:00,Washington Wizards,98,Boston Celtics,118,,18624,False,2016
+/boxscores/201511060BRK.html,2015-11-06,19:30:00,Los Angeles Lakers,104,Brooklyn Nets,98,,17732,False,2016
+/boxscores/201511060CLE.html,2015-11-06,19:30:00,Philadelphia 76ers,102,Cleveland Cavaliers,108,,20562,False,2016
+/boxscores/201511060NYK.html,2015-11-06,19:30:00,Milwaukee Bucks,99,New York Knicks,92,,19812,False,2016
+/boxscores/201511060IND.html,2015-11-06,20:00:00,Miami Heat,87,Indiana Pacers,90,,16914,False,2016
+/boxscores/201511060NOP.html,2015-11-06,20:00:00,Atlanta Hawks,121,New Orleans Pelicans,115,,16983,False,2016
+/boxscores/201511060PHO.html,2015-11-06,21:30:00,Detroit Pistons,100,Phoenix Suns,92,,16676,False,2016
+/boxscores/201511060GSW.html,2015-11-06,22:30:00,Denver Nuggets,104,Golden State Warriors,119,,19596,False,2016
+/boxscores/201511060SAC.html,2015-11-06,22:30:00,Houston Rockets,116,Sacramento Kings,110,,16983,False,2016
+/boxscores/201511070CHI.html,2015-11-07,18:00:00,Minnesota Timberwolves,102,Chicago Bulls,93,OT,21988,False,2016
+/boxscores/201511070PHI.html,2015-11-07,19:00:00,Orlando Magic,105,Philadelphia 76ers,97,,15207,False,2016
+/boxscores/201511070ATL.html,2015-11-07,19:30:00,Washington Wizards,99,Atlanta Hawks,114,,18047,False,2016
+/boxscores/201511070DAL.html,2015-11-07,20:30:00,New Orleans Pelicans,98,Dallas Mavericks,107,,20454,False,2016
+/boxscores/201511070MIL.html,2015-11-07,20:30:00,Brooklyn Nets,86,Milwaukee Bucks,94,,15228,False,2016
+/boxscores/201511070SAS.html,2015-11-07,20:30:00,Charlotte Hornets,94,San Antonio Spurs,114,,18418,False,2016
+/boxscores/201511070UTA.html,2015-11-07,21:00:00,Memphis Grizzlies,79,Utah Jazz,89,,19456,False,2016
+/boxscores/201511070SAC.html,2015-11-07,22:00:00,Golden State Warriors,103,Sacramento Kings,94,,17317,False,2016
+/boxscores/201511070LAC.html,2015-11-07,22:30:00,Houston Rockets,109,Los Angeles Clippers,105,,19361,False,2016
+/boxscores/201511080CLE.html,2015-11-08,15:30:00,Indiana Pacers,97,Cleveland Cavaliers,101,,20562,False,2016
+/boxscores/201511080NYK.html,2015-11-08,15:30:00,Los Angeles Lakers,95,New York Knicks,99,,19812,False,2016
+/boxscores/201511080MIA.html,2015-11-08,18:00:00,Toronto Raptors,76,Miami Heat,96,,19600,False,2016
+/boxscores/201511080OKC.html,2015-11-08,19:00:00,Phoenix Suns,103,Oklahoma City Thunder,124,,18203,False,2016
+/boxscores/201511080POR.html,2015-11-08,21:00:00,Detroit Pistons,120,Portland Trail Blazers,103,,19393,False,2016
+/boxscores/201511090IND.html,2015-11-09,19:00:00,Orlando Magic,84,Indiana Pacers,97,,13104,False,2016
+/boxscores/201511090PHI.html,2015-11-09,19:00:00,Chicago Bulls,111,Philadelphia 76ers,88,,13879,False,2016
+/boxscores/201511090ATL.html,2015-11-09,20:00:00,Minnesota Timberwolves,117,Atlanta Hawks,107,,12016,False,2016
+/boxscores/201511090DEN.html,2015-11-09,21:00:00,Portland Trail Blazers,104,Denver Nuggets,108,,9153,False,2016
+/boxscores/201511090SAC.html,2015-11-09,22:00:00,San Antonio Spurs,106,Sacramento Kings,88,,17317,False,2016
+/boxscores/201511090GSW.html,2015-11-09,22:30:00,Detroit Pistons,95,Golden State Warriors,109,,19596,False,2016
+/boxscores/201511090LAC.html,2015-11-09,22:30:00,Memphis Grizzlies,92,Los Angeles Clippers,94,,19060,False,2016
+/boxscores/201511100CLE.html,2015-11-10,19:00:00,Utah Jazz,114,Cleveland Cavaliers,118,,20562,False,2016
+/boxscores/201511100WAS.html,2015-11-10,19:00:00,Oklahoma City Thunder,125,Washington Wizards,101,,20356,False,2016
+/boxscores/201511100MIA.html,2015-11-10,19:30:00,Los Angeles Lakers,88,Miami Heat,101,,19825,False,2016
+/boxscores/201511100TOR.html,2015-11-10,19:30:00,New York Knicks,111,Toronto Raptors,109,,19800,False,2016
+/boxscores/201511100MIL.html,2015-11-10,20:00:00,Boston Celtics,99,Milwaukee Bucks,83,,11822,False,2016
+/boxscores/201511100MIN.html,2015-11-10,20:00:00,Charlotte Hornets,104,Minnesota Timberwolves,95,,14722,False,2016
+/boxscores/201511100NOP.html,2015-11-10,20:00:00,Dallas Mavericks,105,New Orleans Pelicans,120,,17128,False,2016
+/boxscores/201511110CHO.html,2015-11-11,19:00:00,New York Knicks,93,Charlotte Hornets,95,,16643,False,2016
+/boxscores/201511110ORL.html,2015-11-11,19:00:00,Los Angeles Lakers,99,Orlando Magic,101,,18846,False,2016
+/boxscores/201511110PHI.html,2015-11-11,19:00:00,Toronto Raptors,119,Philadelphia 76ers,103,,12744,False,2016
+/boxscores/201511110BOS.html,2015-11-11,19:30:00,Indiana Pacers,102,Boston Celtics,91,,17879,False,2016
+/boxscores/201511110ATL.html,2015-11-11,20:00:00,New Orleans Pelicans,98,Atlanta Hawks,106,,15597,False,2016
+/boxscores/201511110DAL.html,2015-11-11,20:00:00,Los Angeles Clippers,108,Dallas Mavericks,118,,19805,False,2016
+/boxscores/201511110HOU.html,2015-11-11,20:00:00,Brooklyn Nets,106,Houston Rockets,98,,18155,False,2016
+/boxscores/201511110MEM.html,2015-11-11,20:00:00,Golden State Warriors,100,Memphis Grizzlies,84,,18119,False,2016
+/boxscores/201511110DEN.html,2015-11-11,21:00:00,Milwaukee Bucks,102,Denver Nuggets,103,,9403,False,2016
+/boxscores/201511110SAC.html,2015-11-11,22:00:00,Detroit Pistons,92,Sacramento Kings,101,,17317,False,2016
+/boxscores/201511110POR.html,2015-11-11,22:30:00,San Antonio Spurs,113,Portland Trail Blazers,101,,19393,False,2016
+/boxscores/201511120MIA.html,2015-11-12,19:30:00,Utah Jazz,91,Miami Heat,92,,19600,False,2016
+/boxscores/201511120MIN.html,2015-11-12,20:00:00,Golden State Warriors,129,Minnesota Timberwolves,116,,16130,False,2016
+/boxscores/201511120PHO.html,2015-11-12,22:30:00,Los Angeles Clippers,104,Phoenix Suns,118,,17204,False,2016
+/boxscores/201511130IND.html,2015-11-13,19:00:00,Minnesota Timberwolves,103,Indiana Pacers,107,,16797,False,2016
+/boxscores/201511130ORL.html,2015-11-13,19:00:00,Utah Jazz,93,Orlando Magic,102,,16709,False,2016
+/boxscores/201511130BOS.html,2015-11-13,19:30:00,Atlanta Hawks,93,Boston Celtics,106,,17138,False,2016
+/boxscores/201511130NYK.html,2015-11-13,19:30:00,Cleveland Cavaliers,90,New York Knicks,84,,19812,False,2016
+/boxscores/201511130TOR.html,2015-11-13,19:30:00,New Orleans Pelicans,81,Toronto Raptors,100,,19800,False,2016
+/boxscores/201511130CHI.html,2015-11-13,20:00:00,Charlotte Hornets,97,Chicago Bulls,102,,21749,False,2016
+/boxscores/201511130MEM.html,2015-11-13,20:00:00,Portland Trail Blazers,100,Memphis Grizzlies,101,,16919,False,2016
+/boxscores/201511130OKC.html,2015-11-13,20:00:00,Philadelphia 76ers,85,Oklahoma City Thunder,102,,18203,False,2016
+/boxscores/201511130DAL.html,2015-11-13,20:30:00,Los Angeles Lakers,82,Dallas Mavericks,90,,20260,False,2016
+/boxscores/201511130DEN.html,2015-11-13,21:00:00,Houston Rockets,98,Denver Nuggets,107,,16113,False,2016
+/boxscores/201511130SAC.html,2015-11-13,22:00:00,Brooklyn Nets,109,Sacramento Kings,111,,17131,False,2016
+/boxscores/201511140LAC.html,2015-11-14,15:30:00,Detroit Pistons,96,Los Angeles Clippers,101,,19060,False,2016
+/boxscores/201511140WAS.html,2015-11-14,19:00:00,Orlando Magic,99,Washington Wizards,108,,18311,False,2016
+/boxscores/201511140HOU.html,2015-11-14,20:00:00,Dallas Mavericks,110,Houston Rockets,98,,18231,False,2016
+/boxscores/201511140MIL.html,2015-11-14,20:30:00,Cleveland Cavaliers,105,Milwaukee Bucks,108,2OT,18717,False,2016
+/boxscores/201511140SAS.html,2015-11-14,20:30:00,Philadelphia 76ers,83,San Antonio Spurs,92,,18418,False,2016
+/boxscores/201511140PHO.html,2015-11-14,21:00:00,Denver Nuggets,81,Phoenix Suns,105,,16722,False,2016
+/boxscores/201511140GSW.html,2015-11-14,22:30:00,Brooklyn Nets,99,Golden State Warriors,107,OT,19596,False,2016
+/boxscores/201511150NYK.html,2015-11-15,12:00:00,New Orleans Pelicans,87,New York Knicks,95,,19812,False,2016
+/boxscores/201511150MIN.html,2015-11-15,15:30:00,Memphis Grizzlies,114,Minnesota Timberwolves,106,,12086,False,2016
+/boxscores/201511150CHO.html,2015-11-15,17:00:00,Portland Trail Blazers,94,Charlotte Hornets,106,,15317,False,2016
+/boxscores/201511150ATL.html,2015-11-15,18:00:00,Utah Jazz,97,Atlanta Hawks,96,,14436,False,2016
+/boxscores/201511150OKC.html,2015-11-15,19:00:00,Boston Celtics,100,Oklahoma City Thunder,85,,18203,False,2016
+/boxscores/201511150SAC.html,2015-11-15,21:00:00,Toronto Raptors,101,Sacramento Kings,107,,17006,False,2016
+/boxscores/201511150LAL.html,2015-11-15,21:30:00,Detroit Pistons,85,Los Angeles Lakers,97,,18997,False,2016
+/boxscores/201511160PHI.html,2015-11-16,19:00:00,Dallas Mavericks,92,Philadelphia 76ers,86,,11555,False,2016
+/boxscores/201511160CHI.html,2015-11-16,20:00:00,Indiana Pacers,95,Chicago Bulls,96,,21660,False,2016
+/boxscores/201511160HOU.html,2015-11-16,20:00:00,Boston Celtics,111,Houston Rockets,95,,17005,False,2016
+/boxscores/201511160MEM.html,2015-11-16,20:00:00,Oklahoma City Thunder,114,Memphis Grizzlies,122,,17270,False,2016
+/boxscores/201511160SAS.html,2015-11-16,20:30:00,Portland Trail Blazers,80,San Antonio Spurs,93,,18418,False,2016
+/boxscores/201511160PHO.html,2015-11-16,21:00:00,Los Angeles Lakers,101,Phoenix Suns,120,,18055,False,2016
+/boxscores/201511170WAS.html,2015-11-17,19:00:00,Milwaukee Bucks,86,Washington Wizards,115,,15485,False,2016
+/boxscores/201511170BRK.html,2015-11-17,19:30:00,Atlanta Hawks,88,Brooklyn Nets,90,,12241,False,2016
+/boxscores/201511170DET.html,2015-11-17,19:30:00,Cleveland Cavaliers,99,Detroit Pistons,104,,18442,False,2016
+/boxscores/201511170MIA.html,2015-11-17,19:30:00,Minnesota Timberwolves,103,Miami Heat,91,,19600,False,2016
+/boxscores/201511170NYK.html,2015-11-17,19:30:00,Charlotte Hornets,94,New York Knicks,102,,19812,False,2016
+/boxscores/201511170NOP.html,2015-11-17,20:00:00,Denver Nuggets,115,New Orleans Pelicans,98,,17269,False,2016
+/boxscores/201511170GSW.html,2015-11-17,22:30:00,Toronto Raptors,110,Golden State Warriors,115,,19596,False,2016
+/boxscores/201511180CHO.html,2015-11-18,19:00:00,Brooklyn Nets,111,Charlotte Hornets,116,,14040,False,2016
+/boxscores/201511180ORL.html,2015-11-18,19:00:00,Minnesota Timberwolves,101,Orlando Magic,104,OT,16048,False,2016
+/boxscores/201511180PHI.html,2015-11-18,19:00:00,Indiana Pacers,112,Philadelphia 76ers,85,,11080,False,2016
+/boxscores/201511180BOS.html,2015-11-18,19:30:00,Dallas Mavericks,106,Boston Celtics,102,,17262,False,2016
+/boxscores/201511180ATL.html,2015-11-18,20:00:00,Sacramento Kings,97,Atlanta Hawks,103,,13008,False,2016
+/boxscores/201511180HOU.html,2015-11-18,20:00:00,Portland Trail Blazers,103,Houston Rockets,108,OT,17107,False,2016
+/boxscores/201511180OKC.html,2015-11-18,20:00:00,New Orleans Pelicans,103,Oklahoma City Thunder,110,,18203,False,2016
+/boxscores/201511180SAS.html,2015-11-18,20:30:00,Denver Nuggets,98,San Antonio Spurs,109,,18418,False,2016
+/boxscores/201511180UTA.html,2015-11-18,21:00:00,Toronto Raptors,89,Utah Jazz,93,,18741,False,2016
+/boxscores/201511180PHO.html,2015-11-18,22:30:00,Chicago Bulls,103,Phoenix Suns,97,,17377,False,2016
+/boxscores/201511190MIA.html,2015-11-19,19:30:00,Sacramento Kings,109,Miami Heat,116,,19600,False,2016
+/boxscores/201511190CLE.html,2015-11-19,20:00:00,Milwaukee Bucks,100,Cleveland Cavaliers,115,,20562,False,2016
+/boxscores/201511190LAC.html,2015-11-19,22:30:00,Golden State Warriors,124,Los Angeles Clippers,117,,19528,False,2016
+/boxscores/201511200CHO.html,2015-11-20,19:00:00,Philadelphia 76ers,88,Charlotte Hornets,113,,17926,False,2016
+/boxscores/201511200BOS.html,2015-11-20,19:30:00,Brooklyn Nets,95,Boston Celtics,120,,18361,False,2016
+/boxscores/201511200MEM.html,2015-11-20,20:00:00,Houston Rockets,84,Memphis Grizzlies,96,,17555,False,2016
+/boxscores/201511200MIN.html,2015-11-20,20:00:00,Detroit Pistons,96,Minnesota Timberwolves,86,,13445,False,2016
+/boxscores/201511200NOP.html,2015-11-20,20:00:00,San Antonio Spurs,90,New Orleans Pelicans,104,,16698,False,2016
+/boxscores/201511200OKC.html,2015-11-20,20:00:00,New York Knicks,93,Oklahoma City Thunder,90,,18203,False,2016
+/boxscores/201511200DAL.html,2015-11-20,20:30:00,Utah Jazz,93,Dallas Mavericks,102,,20028,False,2016
+/boxscores/201511200DEN.html,2015-11-20,21:00:00,Phoenix Suns,114,Denver Nuggets,107,,12264,False,2016
+/boxscores/201511200POR.html,2015-11-20,22:00:00,Los Angeles Clippers,91,Portland Trail Blazers,102,,19393,False,2016
+/boxscores/201511200GSW.html,2015-11-20,22:30:00,Chicago Bulls,94,Golden State Warriors,106,,19596,False,2016
+/boxscores/201511200LAL.html,2015-11-20,22:30:00,Toronto Raptors,102,Los Angeles Lakers,91,,18997,False,2016
+/boxscores/201511210ORL.html,2015-11-21,17:00:00,Sacramento Kings,97,Orlando Magic,91,,16104,False,2016
+/boxscores/201511210IND.html,2015-11-21,19:00:00,Milwaukee Bucks,86,Indiana Pacers,123,,17137,False,2016
+/boxscores/201511210CLE.html,2015-11-21,19:30:00,Atlanta Hawks,97,Cleveland Cavaliers,109,,20562,False,2016
+/boxscores/201511210DET.html,2015-11-21,19:30:00,Washington Wizards,97,Detroit Pistons,95,,15890,False,2016
+/boxscores/201511210HOU.html,2015-11-21,20:00:00,New York Knicks,107,Houston Rockets,102,,18226,False,2016
+/boxscores/201511210MIA.html,2015-11-21,20:00:00,Philadelphia 76ers,91,Miami Heat,96,,19673,False,2016
+/boxscores/201511210SAS.html,2015-11-21,20:30:00,Memphis Grizzlies,82,San Antonio Spurs,92,,18418,False,2016
+/boxscores/201511220LAC.html,2015-11-22,15:30:00,Toronto Raptors,91,Los Angeles Clippers,80,,19060,False,2016
+/boxscores/201511220BRK.html,2015-11-22,18:00:00,Boston Celtics,101,Brooklyn Nets,111,,14866,False,2016
+/boxscores/201511220NOP.html,2015-11-22,18:00:00,Phoenix Suns,116,New Orleans Pelicans,122,,16680,False,2016
+/boxscores/201511220OKC.html,2015-11-22,19:00:00,Dallas Mavericks,114,Oklahoma City Thunder,117,,18203,False,2016
+/boxscores/201511220DEN.html,2015-11-22,20:00:00,Golden State Warriors,118,Denver Nuggets,105,,17689,False,2016
+/boxscores/201511220LAL.html,2015-11-22,21:30:00,Portland Trail Blazers,107,Los Angeles Lakers,93,,18997,False,2016
+/boxscores/201511230CHO.html,2015-11-23,19:00:00,Sacramento Kings,122,Charlotte Hornets,127,OT,14163,False,2016
+/boxscores/201511230CLE.html,2015-11-23,19:00:00,Orlando Magic,103,Cleveland Cavaliers,117,,20562,False,2016
+/boxscores/201511230MIA.html,2015-11-23,19:30:00,New York Knicks,78,Miami Heat,95,,19777,False,2016
+/boxscores/201511230MIL.html,2015-11-23,20:00:00,Detroit Pistons,88,Milwaukee Bucks,109,,12319,False,2016
+/boxscores/201511230MIN.html,2015-11-23,20:00:00,Philadelphia 76ers,95,Minnesota Timberwolves,100,,11382,False,2016
+/boxscores/201511230SAS.html,2015-11-23,20:30:00,Phoenix Suns,84,San Antonio Spurs,98,,18418,False,2016
+/boxscores/201511230UTA.html,2015-11-23,21:00:00,Oklahoma City Thunder,111,Utah Jazz,89,,19911,False,2016
+/boxscores/201511240WAS.html,2015-11-24,19:00:00,Indiana Pacers,123,Washington Wizards,106,,15486,False,2016
+/boxscores/201511240ATL.html,2015-11-24,20:00:00,Boston Celtics,97,Atlanta Hawks,121,,18968,False,2016
+/boxscores/201511240MEM.html,2015-11-24,20:00:00,Dallas Mavericks,96,Memphis Grizzlies,110,,17381,False,2016
+/boxscores/201511240DEN.html,2015-11-24,21:00:00,Los Angeles Clippers,111,Denver Nuggets,94,,13257,False,2016
+/boxscores/201511240POR.html,2015-11-24,22:00:00,Chicago Bulls,93,Portland Trail Blazers,88,,19393,False,2016
+/boxscores/201511240GSW.html,2015-11-24,22:30:00,Los Angeles Lakers,77,Golden State Warriors,111,,19596,False,2016
+/boxscores/201511250CHO.html,2015-11-25,19:00:00,Washington Wizards,87,Charlotte Hornets,101,,17064,False,2016
+/boxscores/201511250ORL.html,2015-11-25,19:00:00,New York Knicks,91,Orlando Magic,100,,18846,False,2016
+/boxscores/201511250BOS.html,2015-11-25,19:30:00,Philadelphia 76ers,80,Boston Celtics,84,,17588,False,2016
+/boxscores/201511250DET.html,2015-11-25,19:30:00,Miami Heat,81,Detroit Pistons,104,,15119,False,2016
+/boxscores/201511250TOR.html,2015-11-25,19:30:00,Cleveland Cavaliers,99,Toronto Raptors,103,,20140,False,2016
+/boxscores/201511250HOU.html,2015-11-25,20:00:00,Memphis Grizzlies,102,Houston Rockets,93,,18143,False,2016
+/boxscores/201511250MIL.html,2015-11-25,20:00:00,Sacramento Kings,129,Milwaukee Bucks,118,,14120,False,2016
+/boxscores/201511250MIN.html,2015-11-25,20:00:00,Atlanta Hawks,95,Minnesota Timberwolves,99,,14289,False,2016
+/boxscores/201511250OKC.html,2015-11-25,20:00:00,Brooklyn Nets,99,Oklahoma City Thunder,110,,18203,False,2016
+/boxscores/201511250SAS.html,2015-11-25,20:30:00,Dallas Mavericks,83,San Antonio Spurs,88,,18418,False,2016
+/boxscores/201511250PHO.html,2015-11-25,21:00:00,New Orleans Pelicans,120,Phoenix Suns,114,,16338,False,2016
+/boxscores/201511250LAC.html,2015-11-25,22:30:00,Utah Jazz,102,Los Angeles Clippers,91,,19060,False,2016
+/boxscores/201511270CHO.html,2015-11-27,19:00:00,Cleveland Cavaliers,95,Charlotte Hornets,90,,19093,False,2016
+/boxscores/201511270ORL.html,2015-11-27,19:00:00,Milwaukee Bucks,90,Orlando Magic,114,,16317,False,2016
+/boxscores/201511270BOS.html,2015-11-27,19:30:00,Washington Wizards,78,Boston Celtics,111,,18624,False,2016
+/boxscores/201511270NYK.html,2015-11-27,19:30:00,Miami Heat,97,New York Knicks,78,,19812,False,2016
+/boxscores/201511270HOU.html,2015-11-27,20:00:00,Philadelphia 76ers,114,Houston Rockets,116,,17306,False,2016
+/boxscores/201511270IND.html,2015-11-27,20:00:00,Chicago Bulls,92,Indiana Pacers,104,,18165,False,2016
+/boxscores/201511270MEM.html,2015-11-27,20:00:00,Atlanta Hawks,116,Memphis Grizzlies,101,,17684,False,2016
+/boxscores/201511270OKC.html,2015-11-27,20:00:00,Detroit Pistons,87,Oklahoma City Thunder,103,,18203,False,2016
+/boxscores/201511270DEN.html,2015-11-27,21:00:00,San Antonio Spurs,91,Denver Nuggets,80,,17121,False,2016
+/boxscores/201511270PHO.html,2015-11-27,21:30:00,Golden State Warriors,135,Phoenix Suns,116,,18055,False,2016
+/boxscores/201511270SAC.html,2015-11-27,22:00:00,Minnesota Timberwolves,101,Sacramento Kings,91,,17317,False,2016
+/boxscores/201511270LAC.html,2015-11-27,22:30:00,New Orleans Pelicans,90,Los Angeles Clippers,111,,19162,False,2016
+/boxscores/201511280WAS.html,2015-11-28,19:00:00,Toronto Raptors,84,Washington Wizards,82,,16841,False,2016
+/boxscores/201511280CLE.html,2015-11-28,19:30:00,Brooklyn Nets,88,Cleveland Cavaliers,90,,20562,False,2016
+/boxscores/201511280DAL.html,2015-11-28,20:30:00,Denver Nuggets,81,Dallas Mavericks,92,,20339,False,2016
+/boxscores/201511280SAS.html,2015-11-28,20:30:00,Atlanta Hawks,88,San Antonio Spurs,108,,18418,False,2016
+/boxscores/201511280UTA.html,2015-11-28,21:00:00,New Orleans Pelicans,87,Utah Jazz,101,,19911,False,2016
+/boxscores/201511280POR.html,2015-11-28,22:00:00,Los Angeles Lakers,96,Portland Trail Blazers,108,,20019,False,2016
+/boxscores/201511280GSW.html,2015-11-28,22:30:00,Sacramento Kings,101,Golden State Warriors,120,,19596,False,2016
+/boxscores/201511290CHO.html,2015-11-29,14:00:00,Milwaukee Bucks,82,Charlotte Hornets,87,,14224,False,2016
+/boxscores/201511290LAC.html,2015-11-29,15:30:00,Minnesota Timberwolves,99,Los Angeles Clippers,107,,19060,False,2016
+/boxscores/201511290BRK.html,2015-11-29,18:00:00,Detroit Pistons,83,Brooklyn Nets,87,,12823,False,2016
+/boxscores/201511290MEM.html,2015-11-29,18:00:00,Philadelphia 76ers,84,Memphis Grizzlies,92,,15322,False,2016
+/boxscores/201511290ORL.html,2015-11-29,18:00:00,Boston Celtics,91,Orlando Magic,110,,16209,False,2016
+/boxscores/201511290TOR.html,2015-11-29,18:00:00,Phoenix Suns,107,Toronto Raptors,102,,19800,False,2016
+/boxscores/201511290NYK.html,2015-11-29,19:30:00,Houston Rockets,116,New York Knicks,111,OT,19812,False,2016
+/boxscores/201511290LAL.html,2015-11-29,21:30:00,Indiana Pacers,107,Los Angeles Lakers,103,,18997,False,2016
+/boxscores/201511300DET.html,2015-11-30,19:30:00,Houston Rockets,105,Detroit Pistons,116,,14818,False,2016
+/boxscores/201511300MIA.html,2015-11-30,19:30:00,Boston Celtics,105,Miami Heat,95,,19600,False,2016
+/boxscores/201511300ATL.html,2015-11-30,20:00:00,Oklahoma City Thunder,100,Atlanta Hawks,106,,17768,False,2016
+/boxscores/201511300CHI.html,2015-11-30,20:00:00,San Antonio Spurs,89,Chicago Bulls,92,,21909,False,2016
+/boxscores/201511300MIL.html,2015-11-30,20:00:00,Denver Nuggets,74,Milwaukee Bucks,92,,10187,False,2016
+/boxscores/201511300UTA.html,2015-11-30,21:00:00,Golden State Warriors,106,Utah Jazz,103,,19911,False,2016
+/boxscores/201511300SAC.html,2015-11-30,22:00:00,Dallas Mavericks,98,Sacramento Kings,112,,16937,False,2016
+/boxscores/201511300LAC.html,2015-11-30,22:30:00,Portland Trail Blazers,87,Los Angeles Clippers,102,,19060,False,2016
+/boxscores/201512010CLE.html,2015-12-01,19:00:00,Washington Wizards,97,Cleveland Cavaliers,85,,20562,False,2016
+/boxscores/201512010PHI.html,2015-12-01,19:00:00,Los Angeles Lakers,91,Philadelphia 76ers,103,,20510,False,2016
+/boxscores/201512010BRK.html,2015-12-01,19:30:00,Phoenix Suns,91,Brooklyn Nets,94,,12787,False,2016
+/boxscores/201512010MIN.html,2015-12-01,20:00:00,Orlando Magic,96,Minnesota Timberwolves,93,,10694,False,2016
+/boxscores/201512010NOP.html,2015-12-01,20:00:00,Memphis Grizzlies,113,New Orleans Pelicans,104,,16020,False,2016
+/boxscores/201512010POR.html,2015-12-01,22:00:00,Dallas Mavericks,115,Portland Trail Blazers,112,OT,19393,False,2016
+/boxscores/201512020CHO.html,2015-12-02,19:00:00,Golden State Warriors,116,Charlotte Hornets,99,,19542,False,2016
+/boxscores/201512020WAS.html,2015-12-02,19:00:00,Los Angeles Lakers,108,Washington Wizards,104,,20356,False,2016
+/boxscores/201512020DET.html,2015-12-02,19:30:00,Phoenix Suns,122,Detroit Pistons,127,OT,13985,False,2016
+/boxscores/201512020NYK.html,2015-12-02,19:30:00,Philadelphia 76ers,87,New York Knicks,99,,19812,False,2016
+/boxscores/201512020ATL.html,2015-12-02,20:00:00,Toronto Raptors,96,Atlanta Hawks,86,,12559,False,2016
+/boxscores/201512020CHI.html,2015-12-02,20:00:00,Denver Nuggets,90,Chicago Bulls,99,,21349,False,2016
+/boxscores/201512020HOU.html,2015-12-02,20:00:00,New Orleans Pelicans,101,Houston Rockets,108,,17339,False,2016
+/boxscores/201512020SAS.html,2015-12-02,20:30:00,Milwaukee Bucks,70,San Antonio Spurs,95,,18418,False,2016
+/boxscores/201512020LAC.html,2015-12-02,22:30:00,Indiana Pacers,103,Los Angeles Clippers,91,,19060,False,2016
+/boxscores/201512030MIA.html,2015-12-03,19:00:00,Oklahoma City Thunder,95,Miami Heat,97,,19600,False,2016
+/boxscores/201512030TOR.html,2015-12-03,19:30:00,Denver Nuggets,106,Toronto Raptors,105,,19800,False,2016
+/boxscores/201512030UTA.html,2015-12-03,21:00:00,Orlando Magic,103,Utah Jazz,94,,19247,False,2016
+/boxscores/201512030MEM.html,2015-12-03,21:30:00,San Antonio Spurs,103,Memphis Grizzlies,83,,17013,False,2016
+/boxscores/201512030POR.html,2015-12-03,22:00:00,Indiana Pacers,111,Portland Trail Blazers,123,,19206,False,2016
+/boxscores/201512030SAC.html,2015-12-03,22:00:00,Boston Celtics,114,Sacramento Kings,97,,18660,False,2016
+/boxscores/201512040NYK.html,2015-12-04,19:00:00,Brooklyn Nets,91,New York Knicks,108,,19812,False,2016
+/boxscores/201512040WAS.html,2015-12-04,19:00:00,Phoenix Suns,106,Washington Wizards,109,,17255,False,2016
+/boxscores/201512040DET.html,2015-12-04,19:30:00,Milwaukee Bucks,95,Detroit Pistons,102,,16963,False,2016
+/boxscores/201512040ATL.html,2015-12-04,20:00:00,Los Angeles Lakers,87,Atlanta Hawks,100,,19051,False,2016
+/boxscores/201512040DAL.html,2015-12-04,20:30:00,Houston Rockets,100,Dallas Mavericks,96,,20339,False,2016
+/boxscores/201512040NOP.html,2015-12-04,21:30:00,Cleveland Cavaliers,108,New Orleans Pelicans,114,OT,17906,False,2016
+/boxscores/201512050PHI.html,2015-12-05,13:00:00,Denver Nuggets,108,Philadelphia 76ers,105,,15677,False,2016
+/boxscores/201512050TOR.html,2015-12-05,17:00:00,Golden State Warriors,112,Toronto Raptors,109,,20160,False,2016
+/boxscores/201512050CHI.html,2015-12-05,20:00:00,Charlotte Hornets,102,Chicago Bulls,96,,21770,False,2016
+/boxscores/201512050HOU.html,2015-12-05,20:00:00,Sacramento Kings,113,Houston Rockets,120,,17318,False,2016
+/boxscores/201512050MIA.html,2015-12-05,20:00:00,Cleveland Cavaliers,84,Miami Heat,99,,19600,False,2016
+/boxscores/201512050MIN.html,2015-12-05,20:00:00,Portland Trail Blazers,109,Minnesota Timberwolves,103,,16203,False,2016
+/boxscores/201512050MIL.html,2015-12-05,20:30:00,New York Knicks,91,Milwaukee Bucks,106,,16223,False,2016
+/boxscores/201512050SAS.html,2015-12-05,20:30:00,Boston Celtics,105,San Antonio Spurs,108,,18418,False,2016
+/boxscores/201512050UTA.html,2015-12-05,21:00:00,Indiana Pacers,119,Utah Jazz,122,OT,19500,False,2016
+/boxscores/201512050LAC.html,2015-12-05,22:30:00,Orlando Magic,101,Los Angeles Clippers,103,,19146,False,2016
+/boxscores/201512060MEM.html,2015-12-06,15:30:00,Phoenix Suns,93,Memphis Grizzlies,95,,16022,False,2016
+/boxscores/201512060BRK.html,2015-12-06,18:00:00,Golden State Warriors,114,Brooklyn Nets,98,,17732,False,2016
+/boxscores/201512060DET.html,2015-12-06,18:00:00,Los Angeles Lakers,91,Detroit Pistons,111,,20228,False,2016
+/boxscores/201512060WAS.html,2015-12-06,18:00:00,Dallas Mavericks,116,Washington Wizards,104,,16394,False,2016
+/boxscores/201512060OKC.html,2015-12-06,19:00:00,Sacramento Kings,95,Oklahoma City Thunder,98,,18203,False,2016
+/boxscores/201512070CHO.html,2015-12-07,19:00:00,Detroit Pistons,84,Charlotte Hornets,104,,15481,False,2016
+/boxscores/201512070PHI.html,2015-12-07,19:00:00,San Antonio Spurs,119,Philadelphia 76ers,68,,14449,False,2016
+/boxscores/201512070MIA.html,2015-12-07,19:30:00,Washington Wizards,114,Miami Heat,103,,19600,False,2016
+/boxscores/201512070NYK.html,2015-12-07,19:30:00,Dallas Mavericks,104,New York Knicks,97,,19812,False,2016
+/boxscores/201512070TOR.html,2015-12-07,19:30:00,Los Angeles Lakers,93,Toronto Raptors,102,,20163,False,2016
+/boxscores/201512070CHI.html,2015-12-07,20:00:00,Phoenix Suns,103,Chicago Bulls,101,,21337,False,2016
+/boxscores/201512070MIL.html,2015-12-07,20:00:00,Portland Trail Blazers,88,Milwaukee Bucks,90,,14389,False,2016
+/boxscores/201512070MIN.html,2015-12-07,20:00:00,Los Angeles Clippers,110,Minnesota Timberwolves,106,,11467,False,2016
+/boxscores/201512070NOP.html,2015-12-07,20:00:00,Boston Celtics,111,New Orleans Pelicans,93,,15715,False,2016
+/boxscores/201512080CLE.html,2015-12-08,19:00:00,Portland Trail Blazers,100,Cleveland Cavaliers,105,,20562,False,2016
+/boxscores/201512080IND.html,2015-12-08,19:00:00,Golden State Warriors,131,Indiana Pacers,123,,18165,False,2016
+/boxscores/201512080BRK.html,2015-12-08,19:30:00,Houston Rockets,105,Brooklyn Nets,110,,13319,False,2016
+/boxscores/201512080MEM.html,2015-12-08,20:00:00,Oklahoma City Thunder,125,Memphis Grizzlies,88,,16415,False,2016
+/boxscores/201512080DEN.html,2015-12-08,21:00:00,Orlando Magic,85,Denver Nuggets,74,,13925,False,2016
+/boxscores/201512080SAC.html,2015-12-08,22:00:00,Utah Jazz,106,Sacramento Kings,114,,16505,False,2016
+/boxscores/201512090BOS.html,2015-12-09,19:00:00,Chicago Bulls,100,Boston Celtics,105,,17318,False,2016
+/boxscores/201512090CHO.html,2015-12-09,19:00:00,Miami Heat,81,Charlotte Hornets,99,,17404,False,2016
+/boxscores/201512090WAS.html,2015-12-09,19:00:00,Houston Rockets,109,Washington Wizards,103,,16041,False,2016
+/boxscores/201512090DET.html,2015-12-09,19:30:00,Memphis Grizzlies,93,Detroit Pistons,92,,13411,False,2016
+/boxscores/201512090TOR.html,2015-12-09,19:30:00,San Antonio Spurs,94,Toronto Raptors,97,,19800,False,2016
+/boxscores/201512090MIL.html,2015-12-09,20:00:00,Los Angeles Clippers,109,Milwaukee Bucks,95,,14224,False,2016
+/boxscores/201512090MIN.html,2015-12-09,20:00:00,Los Angeles Lakers,122,Minnesota Timberwolves,123,OT,18076,False,2016
+/boxscores/201512090PHO.html,2015-12-09,21:00:00,Orlando Magic,104,Phoenix Suns,107,,17637,False,2016
+/boxscores/201512090UTA.html,2015-12-09,21:00:00,New York Knicks,85,Utah Jazz,106,,18586,False,2016
+/boxscores/201512090DAL.html,2015-12-09,21:30:00,Atlanta Hawks,98,Dallas Mavericks,95,,19936,False,2016
+/boxscores/201512100BRK.html,2015-12-10,19:30:00,Philadelphia 76ers,91,Brooklyn Nets,100,,13266,False,2016
+/boxscores/201512100CHI.html,2015-12-10,20:00:00,Los Angeles Clippers,80,Chicago Bulls,83,,21491,False,2016
+/boxscores/201512100OKC.html,2015-12-10,20:00:00,Atlanta Hawks,94,Oklahoma City Thunder,107,,18203,False,2016
+/boxscores/201512100SAC.html,2015-12-10,22:30:00,New York Knicks,97,Sacramento Kings,99,,17317,False,2016
+/boxscores/201512110IND.html,2015-12-11,19:00:00,Miami Heat,83,Indiana Pacers,96,,16184,False,2016
+/boxscores/201512110ORL.html,2015-12-11,19:00:00,Cleveland Cavaliers,111,Orlando Magic,76,,17239,False,2016
+/boxscores/201512110PHI.html,2015-12-11,19:00:00,Detroit Pistons,107,Philadelphia 76ers,95,,17239,False,2016
+/boxscores/201512110BOS.html,2015-12-11,19:30:00,Golden State Warriors,124,Boston Celtics,119,2OT,18624,False,2016
+/boxscores/201512110TOR.html,2015-12-11,19:30:00,Milwaukee Bucks,83,Toronto Raptors,90,,19800,False,2016
+/boxscores/201512110MEM.html,2015-12-11,20:00:00,Charlotte Hornets,123,Memphis Grizzlies,99,,17111,False,2016
+/boxscores/201512110NOP.html,2015-12-11,20:00:00,Washington Wizards,105,New Orleans Pelicans,107,,16875,False,2016
+/boxscores/201512110DEN.html,2015-12-11,21:00:00,Minnesota Timberwolves,108,Denver Nuggets,111,OT,12533,False,2016
+/boxscores/201512110UTA.html,2015-12-11,21:00:00,Oklahoma City Thunder,94,Utah Jazz,90,,19911,False,2016
+/boxscores/201512110PHO.html,2015-12-11,21:30:00,Portland Trail Blazers,106,Phoenix Suns,96,,17028,False,2016
+/boxscores/201512110SAS.html,2015-12-11,21:30:00,Los Angeles Lakers,87,San Antonio Spurs,109,,18418,False,2016
+/boxscores/201512120BRK.html,2015-12-12,17:00:00,Los Angeles Clippers,105,Brooklyn Nets,100,,15689,False,2016
+/boxscores/201512120CHO.html,2015-12-12,19:00:00,Boston Celtics,98,Charlotte Hornets,93,,18490,False,2016
+/boxscores/201512120DET.html,2015-12-12,19:30:00,Indiana Pacers,96,Detroit Pistons,118,,14858,False,2016
+/boxscores/201512120ATL.html,2015-12-12,20:00:00,San Antonio Spurs,103,Atlanta Hawks,78,,17752,False,2016
+/boxscores/201512120CHI.html,2015-12-12,20:00:00,New Orleans Pelicans,94,Chicago Bulls,98,,21605,False,2016
+/boxscores/201512120HOU.html,2015-12-12,20:00:00,Los Angeles Lakers,97,Houston Rockets,126,,18456,False,2016
+/boxscores/201512120DAL.html,2015-12-12,20:30:00,Washington Wizards,114,Dallas Mavericks,111,,20088,False,2016
+/boxscores/201512120MIL.html,2015-12-12,20:30:00,Golden State Warriors,95,Milwaukee Bucks,108,,18717,False,2016
+/boxscores/201512120POR.html,2015-12-12,22:00:00,New York Knicks,112,Portland Trail Blazers,110,,19511,False,2016
+/boxscores/201512130PHO.html,2015-12-13,15:30:00,Minnesota Timberwolves,101,Phoenix Suns,108,,16919,False,2016
+/boxscores/201512130MIA.html,2015-12-13,18:00:00,Memphis Grizzlies,97,Miami Heat,100,,19813,False,2016
+/boxscores/201512130TOR.html,2015-12-13,18:00:00,Philadelphia 76ers,76,Toronto Raptors,96,,19800,False,2016
+/boxscores/201512130OKC.html,2015-12-13,19:00:00,Utah Jazz,98,Oklahoma City Thunder,104,OT,18203,False,2016
+/boxscores/201512140IND.html,2015-12-14,19:00:00,Toronto Raptors,90,Indiana Pacers,106,,16598,False,2016
+/boxscores/201512140BRK.html,2015-12-14,19:30:00,Orlando Magic,105,Brooklyn Nets,82,,12946,False,2016
+/boxscores/201512140DET.html,2015-12-14,19:30:00,Los Angeles Clippers,105,Detroit Pistons,103,OT,13525,False,2016
+/boxscores/201512140ATL.html,2015-12-14,20:00:00,Miami Heat,100,Atlanta Hawks,88,,15039,False,2016
+/boxscores/201512140CHI.html,2015-12-14,20:00:00,Philadelphia 76ers,96,Chicago Bulls,115,,21166,False,2016
+/boxscores/201512140MEM.html,2015-12-14,20:00:00,Washington Wizards,95,Memphis Grizzlies,112,,15397,False,2016
+/boxscores/201512140DAL.html,2015-12-14,20:30:00,Phoenix Suns,94,Dallas Mavericks,104,,19822,False,2016
+/boxscores/201512140SAS.html,2015-12-14,20:30:00,Utah Jazz,81,San Antonio Spurs,118,,18418,False,2016
+/boxscores/201512140DEN.html,2015-12-14,21:00:00,Houston Rockets,108,Denver Nuggets,114,,12022,False,2016
+/boxscores/201512140POR.html,2015-12-14,22:00:00,New Orleans Pelicans,101,Portland Trail Blazers,105,,19231,False,2016
+/boxscores/201512150BOS.html,2015-12-15,19:30:00,Cleveland Cavaliers,89,Boston Celtics,77,,18624,False,2016
+/boxscores/201512150MIN.html,2015-12-15,20:00:00,Denver Nuggets,112,Minnesota Timberwolves,100,,11323,False,2016
+/boxscores/201512150SAC.html,2015-12-15,22:00:00,Houston Rockets,97,Sacramento Kings,107,,17317,False,2016
+/boxscores/201512150LAL.html,2015-12-15,22:30:00,Milwaukee Bucks,95,Los Angeles Lakers,113,,18997,False,2016
+/boxscores/201512160IND.html,2015-12-16,19:00:00,Dallas Mavericks,81,Indiana Pacers,107,,14824,False,2016
+/boxscores/201512160ORL.html,2015-12-16,19:00:00,Charlotte Hornets,98,Orlando Magic,113,,16019,False,2016
+/boxscores/201512160BRK.html,2015-12-16,19:30:00,Miami Heat,104,Brooklyn Nets,98,,15113,False,2016
+/boxscores/201512160DET.html,2015-12-16,19:30:00,Boston Celtics,116,Detroit Pistons,119,,13120,False,2016
+/boxscores/201512160NYK.html,2015-12-16,19:30:00,Minnesota Timberwolves,102,New York Knicks,107,,19812,False,2016
+/boxscores/201512160ATL.html,2015-12-16,20:00:00,Philadelphia 76ers,106,Atlanta Hawks,127,,14827,False,2016
+/boxscores/201512160CHI.html,2015-12-16,20:00:00,Memphis Grizzlies,85,Chicago Bulls,98,,21032,False,2016
+/boxscores/201512160OKC.html,2015-12-16,20:00:00,Portland Trail Blazers,90,Oklahoma City Thunder,106,,18203,False,2016
+/boxscores/201512160SAS.html,2015-12-16,20:30:00,Washington Wizards,95,San Antonio Spurs,114,,18418,False,2016
+/boxscores/201512160UTA.html,2015-12-16,21:00:00,New Orleans Pelicans,104,Utah Jazz,94,,17899,False,2016
+/boxscores/201512160GSW.html,2015-12-16,22:30:00,Phoenix Suns,103,Golden State Warriors,128,,19596,False,2016
+/boxscores/201512160LAC.html,2015-12-16,22:30:00,Milwaukee Bucks,90,Los Angeles Clippers,103,,19060,False,2016
+/boxscores/201512170CHO.html,2015-12-17,19:00:00,Toronto Raptors,99,Charlotte Hornets,109,OT,15817,False,2016
+/boxscores/201512170CLE.html,2015-12-17,20:00:00,Oklahoma City Thunder,100,Cleveland Cavaliers,104,,20562,False,2016
+/boxscores/201512170LAL.html,2015-12-17,22:30:00,Houston Rockets,107,Los Angeles Lakers,87,,18997,False,2016
+/boxscores/201512180IND.html,2015-12-18,19:00:00,Brooklyn Nets,97,Indiana Pacers,104,,16548,False,2016
+/boxscores/201512180ORL.html,2015-12-18,19:00:00,Portland Trail Blazers,94,Orlando Magic,102,,17156,False,2016
+/boxscores/201512180PHI.html,2015-12-18,19:00:00,New York Knicks,107,Philadelphia 76ers,97,,17880,False,2016
+/boxscores/201512180BOS.html,2015-12-18,19:30:00,Atlanta Hawks,109,Boston Celtics,101,,18624,False,2016
+/boxscores/201512180CHI.html,2015-12-18,20:00:00,Detroit Pistons,147,Chicago Bulls,144,4OT,21534,False,2016
+/boxscores/201512180MIA.html,2015-12-18,20:00:00,Toronto Raptors,108,Miami Heat,94,,19600,False,2016
+/boxscores/201512180MIN.html,2015-12-18,20:00:00,Sacramento Kings,95,Minnesota Timberwolves,99,,12770,False,2016
+/boxscores/201512180SAS.html,2015-12-18,20:00:00,Los Angeles Clippers,107,San Antonio Spurs,115,,18418,False,2016
+/boxscores/201512180DAL.html,2015-12-18,20:30:00,Memphis Grizzlies,88,Dallas Mavericks,97,,20199,False,2016
+/boxscores/201512180UTA.html,2015-12-18,21:00:00,Denver Nuggets,88,Utah Jazz,97,,19169,False,2016
+/boxscores/201512180GSW.html,2015-12-18,22:30:00,Milwaukee Bucks,112,Golden State Warriors,121,,19596,False,2016
+/boxscores/201512180PHO.html,2015-12-18,22:30:00,New Orleans Pelicans,88,Phoenix Suns,104,,17227,False,2016
+/boxscores/201512190OKC.html,2015-12-19,17:00:00,Los Angeles Lakers,78,Oklahoma City Thunder,118,,18203,False,2016
+/boxscores/201512190WAS.html,2015-12-19,19:00:00,Charlotte Hornets,101,Washington Wizards,109,,16987,False,2016
+/boxscores/201512190NYK.html,2015-12-19,19:30:00,Chicago Bulls,91,New York Knicks,107,,19812,False,2016
+/boxscores/201512190HOU.html,2015-12-19,20:00:00,Los Angeles Clippers,97,Houston Rockets,107,,18212,False,2016
+/boxscores/201512190MEM.html,2015-12-19,20:00:00,Indiana Pacers,84,Memphis Grizzlies,96,,18119,False,2016
+/boxscores/201512200BRK.html,2015-12-20,13:00:00,Minnesota Timberwolves,100,Brooklyn Nets,85,,14552,False,2016
+/boxscores/201512200MIA.html,2015-12-20,13:00:00,Portland Trail Blazers,109,Miami Heat,116,,19600,False,2016
+/boxscores/201512200CLE.html,2015-12-20,15:30:00,Philadelphia 76ers,86,Cleveland Cavaliers,108,,20562,False,2016
+/boxscores/201512200PHO.html,2015-12-20,17:00:00,Milwaukee Bucks,101,Phoenix Suns,95,,16859,False,2016
+/boxscores/201512200ORL.html,2015-12-20,18:00:00,Atlanta Hawks,103,Orlando Magic,100,,16982,False,2016
+/boxscores/201512200TOR.html,2015-12-20,18:00:00,Sacramento Kings,104,Toronto Raptors,94,,19800,False,2016
+/boxscores/201512200DEN.html,2015-12-20,20:00:00,New Orleans Pelicans,130,Denver Nuggets,125,,13857,False,2016
+/boxscores/201512210WAS.html,2015-12-21,19:00:00,Sacramento Kings,99,Washington Wizards,113,,15124,False,2016
+/boxscores/201512210BOS.html,2015-12-21,19:30:00,Minnesota Timberwolves,99,Boston Celtics,113,,18624,False,2016
+/boxscores/201512210NYK.html,2015-12-21,19:30:00,Orlando Magic,107,New York Knicks,99,,19812,False,2016
+/boxscores/201512210ATL.html,2015-12-21,20:00:00,Portland Trail Blazers,97,Atlanta Hawks,106,,18373,False,2016
+/boxscores/201512210CHI.html,2015-12-21,20:00:00,Brooklyn Nets,105,Chicago Bulls,102,,21825,False,2016
+/boxscores/201512210HOU.html,2015-12-21,20:00:00,Charlotte Hornets,95,Houston Rockets,102,,18236,False,2016
+/boxscores/201512210SAS.html,2015-12-21,20:30:00,Indiana Pacers,92,San Antonio Spurs,106,,18418,False,2016
+/boxscores/201512210UTA.html,2015-12-21,21:00:00,Phoenix Suns,89,Utah Jazz,110,,19911,False,2016
+/boxscores/201512210LAC.html,2015-12-21,22:30:00,Oklahoma City Thunder,100,Los Angeles Clippers,99,,19415,False,2016
+/boxscores/201512220PHI.html,2015-12-22,19:00:00,Memphis Grizzlies,104,Philadelphia 76ers,90,,15552,False,2016
+/boxscores/201512220MIA.html,2015-12-22,19:30:00,Detroit Pistons,93,Miami Heat,92,,19901,False,2016
+/boxscores/201512220TOR.html,2015-12-22,19:30:00,Dallas Mavericks,99,Toronto Raptors,103,,19800,False,2016
+/boxscores/201512220DEN.html,2015-12-22,21:00:00,Los Angeles Lakers,111,Denver Nuggets,107,,19124,False,2016
+/boxscores/201512230CHO.html,2015-12-23,19:00:00,Boston Celtics,102,Charlotte Hornets,89,,19082,False,2016
+/boxscores/201512230CLE.html,2015-12-23,19:00:00,New York Knicks,84,Cleveland Cavaliers,91,,20562,False,2016
+/boxscores/201512230IND.html,2015-12-23,19:00:00,Sacramento Kings,108,Indiana Pacers,106,,18165,False,2016
+/boxscores/201512230ORL.html,2015-12-23,19:00:00,Houston Rockets,101,Orlando Magic,104,,17061,False,2016
+/boxscores/201512230WAS.html,2015-12-23,19:00:00,Memphis Grizzlies,91,Washington Wizards,100,,15879,False,2016
+/boxscores/201512230BRK.html,2015-12-23,19:30:00,Dallas Mavericks,119,Brooklyn Nets,118,OT,15994,False,2016
+/boxscores/201512230ATL.html,2015-12-23,20:00:00,Detroit Pistons,100,Atlanta Hawks,107,,17575,False,2016
+/boxscores/201512230MIL.html,2015-12-23,20:00:00,Philadelphia 76ers,100,Milwaukee Bucks,113,,15754,False,2016
+/boxscores/201512230MIN.html,2015-12-23,20:00:00,San Antonio Spurs,108,Minnesota Timberwolves,83,,16788,False,2016
+/boxscores/201512230NOP.html,2015-12-23,20:00:00,Portland Trail Blazers,89,New Orleans Pelicans,115,,16686,False,2016
+/boxscores/201512230PHO.html,2015-12-23,21:00:00,Denver Nuggets,104,Phoenix Suns,96,,17034,False,2016
+/boxscores/201512230GSW.html,2015-12-23,22:30:00,Utah Jazz,85,Golden State Warriors,103,,19596,False,2016
+/boxscores/201512230LAL.html,2015-12-23,22:30:00,Oklahoma City Thunder,120,Los Angeles Lakers,85,,18997,False,2016
+/boxscores/201512250MIA.html,2015-12-25,12:00:00,New Orleans Pelicans,88,Miami Heat,94,OT,19845,False,2016
+/boxscores/201512250OKC.html,2015-12-25,14:30:00,Chicago Bulls,105,Oklahoma City Thunder,96,,18203,False,2016
+/boxscores/201512250GSW.html,2015-12-25,17:00:00,Cleveland Cavaliers,83,Golden State Warriors,89,,19596,False,2016
+/boxscores/201512250HOU.html,2015-12-25,20:00:00,San Antonio Spurs,84,Houston Rockets,88,,18319,False,2016
+/boxscores/201512250LAL.html,2015-12-25,22:30:00,Los Angeles Clippers,94,Los Angeles Lakers,84,,18997,False,2016
+/boxscores/201512260BRK.html,2015-12-26,16:00:00,Washington Wizards,111,Brooklyn Nets,96,,17732,False,2016
+/boxscores/201512260MIL.html,2015-12-26,17:00:00,Toronto Raptors,111,Milwaukee Bucks,90,,16329,False,2016
+/boxscores/201512260CHO.html,2015-12-26,19:00:00,Memphis Grizzlies,92,Charlotte Hornets,98,,19091,False,2016
+/boxscores/201512260NOP.html,2015-12-26,19:00:00,Houston Rockets,108,New Orleans Pelicans,110,,18248,False,2016
+/boxscores/201512260ORL.html,2015-12-26,19:00:00,Miami Heat,108,Orlando Magic,101,,18846,False,2016
+/boxscores/201512260ATL.html,2015-12-26,19:30:00,New York Knicks,98,Atlanta Hawks,117,,19015,False,2016
+/boxscores/201512260DET.html,2015-12-26,19:30:00,Boston Celtics,99,Detroit Pistons,93,,18288,False,2016
+/boxscores/201512260MIN.html,2015-12-26,20:00:00,Indiana Pacers,102,Minnesota Timberwolves,88,,15076,False,2016
+/boxscores/201512260DAL.html,2015-12-26,20:30:00,Chicago Bulls,111,Dallas Mavericks,118,,20392,False,2016
+/boxscores/201512260SAS.html,2015-12-26,20:30:00,Denver Nuggets,86,San Antonio Spurs,101,,18420,False,2016
+/boxscores/201512260PHO.html,2015-12-26,21:00:00,Philadelphia 76ers,111,Phoenix Suns,104,,17548,False,2016
+/boxscores/201512260UTA.html,2015-12-26,21:00:00,Los Angeles Clippers,109,Utah Jazz,104,,19911,False,2016
+/boxscores/201512260POR.html,2015-12-26,22:00:00,Cleveland Cavaliers,76,Portland Trail Blazers,105,,19393,False,2016
+/boxscores/201512270MEM.html,2015-12-27,18:00:00,Los Angeles Lakers,96,Memphis Grizzlies,112,,18119,False,2016
+/boxscores/201512270BOS.html,2015-12-27,19:00:00,New York Knicks,91,Boston Celtics,100,,18624,False,2016
+/boxscores/201512270OKC.html,2015-12-27,19:00:00,Denver Nuggets,112,Oklahoma City Thunder,122,,18203,False,2016
+/boxscores/201512270SAC.html,2015-12-27,21:00:00,Portland Trail Blazers,98,Sacramento Kings,94,,17317,False,2016
+/boxscores/201512280CHO.html,2015-12-28,19:00:00,Los Angeles Lakers,98,Charlotte Hornets,108,,19632,False,2016
+/boxscores/201512280IND.html,2015-12-28,19:00:00,Atlanta Hawks,87,Indiana Pacers,93,,18165,False,2016
+/boxscores/201512280ORL.html,2015-12-28,19:00:00,New Orleans Pelicans,89,Orlando Magic,104,,17606,False,2016
+/boxscores/201512280WAS.html,2015-12-28,19:00:00,Los Angeles Clippers,108,Washington Wizards,91,,20356,False,2016
+/boxscores/201512280MIA.html,2015-12-28,19:30:00,Brooklyn Nets,111,Miami Heat,105,,19975,False,2016
+/boxscores/201512280CHI.html,2015-12-28,20:00:00,Toronto Raptors,97,Chicago Bulls,104,,21898,False,2016
+/boxscores/201512280DAL.html,2015-12-28,20:30:00,Milwaukee Bucks,93,Dallas Mavericks,103,,20300,False,2016
+/boxscores/201512280SAS.html,2015-12-28,20:30:00,Minnesota Timberwolves,95,San Antonio Spurs,101,,18493,False,2016
+/boxscores/201512280PHO.html,2015-12-28,21:00:00,Cleveland Cavaliers,101,Phoenix Suns,97,,18319,False,2016
+/boxscores/201512280UTA.html,2015-12-28,21:00:00,Philadelphia 76ers,91,Utah Jazz,95,,19911,False,2016
+/boxscores/201512280GSW.html,2015-12-28,22:30:00,Sacramento Kings,103,Golden State Warriors,122,,19596,False,2016
+/boxscores/201512290NYK.html,2015-12-29,19:30:00,Detroit Pistons,96,New York Knicks,108,,19812,False,2016
+/boxscores/201512290HOU.html,2015-12-29,20:00:00,Atlanta Hawks,121,Houston Rockets,115,,18211,False,2016
+/boxscores/201512290MEM.html,2015-12-29,20:00:00,Miami Heat,90,Memphis Grizzlies,99,OT,18119,False,2016
+/boxscores/201512290OKC.html,2015-12-29,20:00:00,Milwaukee Bucks,123,Oklahoma City Thunder,131,,18203,False,2016
+/boxscores/201512290DEN.html,2015-12-29,21:00:00,Cleveland Cavaliers,93,Denver Nuggets,87,,17523,False,2016
+/boxscores/201512300CHO.html,2015-12-30,19:00:00,Los Angeles Clippers,122,Charlotte Hornets,117,,19145,False,2016
+/boxscores/201512300ORL.html,2015-12-30,19:00:00,Brooklyn Nets,93,Orlando Magic,100,,18397,False,2016
+/boxscores/201512300BOS.html,2015-12-30,19:30:00,Los Angeles Lakers,112,Boston Celtics,104,,18624,False,2016
+/boxscores/201512300TOR.html,2015-12-30,19:30:00,Washington Wizards,91,Toronto Raptors,94,,19800,False,2016
+/boxscores/201512300CHI.html,2015-12-30,20:00:00,Indiana Pacers,100,Chicago Bulls,102,OT,22206,False,2016
+/boxscores/201512300MIN.html,2015-12-30,20:00:00,Utah Jazz,80,Minnesota Timberwolves,94,,14326,False,2016
+/boxscores/201512300DAL.html,2015-12-30,20:30:00,Golden State Warriors,91,Dallas Mavericks,114,,20494,False,2016
+/boxscores/201512300SAS.html,2015-12-30,20:30:00,Phoenix Suns,79,San Antonio Spurs,112,,18418,False,2016
+/boxscores/201512300POR.html,2015-12-30,22:00:00,Denver Nuggets,103,Portland Trail Blazers,110,,19393,False,2016
+/boxscores/201512300SAC.html,2015-12-30,22:00:00,Philadelphia 76ers,110,Sacramento Kings,105,,17317,False,2016
+/boxscores/201512310DET.html,2015-12-31,18:00:00,Minnesota Timberwolves,90,Detroit Pistons,115,,15475,False,2016
+/boxscores/201512310IND.html,2015-12-31,18:00:00,Milwaukee Bucks,120,Indiana Pacers,116,,16348,False,2016
+/boxscores/201512310HOU.html,2015-12-31,19:00:00,Golden State Warriors,114,Houston Rockets,110,,18313,False,2016
+/boxscores/201512310NOP.html,2015-12-31,20:00:00,Los Angeles Clippers,95,New Orleans Pelicans,89,,16920,False,2016
+/boxscores/201512310OKC.html,2015-12-31,20:00:00,Phoenix Suns,106,Oklahoma City Thunder,110,,18203,False,2016
+/boxscores/201512310UTA.html,2015-12-31,21:00:00,Portland Trail Blazers,96,Utah Jazz,109,,19380,False,2016
+/boxscores/201601010WAS.html,2016-01-01,19:00:00,Orlando Magic,91,Washington Wizards,103,,16986,False,2016
+/boxscores/201601010MIA.html,2016-01-01,19:30:00,Dallas Mavericks,82,Miami Heat,106,,19748,False,2016
+/boxscores/201601010TOR.html,2016-01-01,19:30:00,Charlotte Hornets,94,Toronto Raptors,104,,19800,False,2016
+/boxscores/201601010CHI.html,2016-01-01,20:00:00,New York Knicks,81,Chicago Bulls,108,,22443,False,2016
+/boxscores/201601010LAL.html,2016-01-01,22:30:00,Philadelphia 76ers,84,Los Angeles Lakers,93,,18997,False,2016
+/boxscores/201601020BOS.html,2016-01-02,15:00:00,Brooklyn Nets,100,Boston Celtics,97,,18624,False,2016
+/boxscores/201601020SAC.html,2016-01-02,17:00:00,Phoenix Suns,119,Sacramento Kings,142,,17317,False,2016
+/boxscores/201601020CHO.html,2016-01-02,19:00:00,Oklahoma City Thunder,109,Charlotte Hornets,90,,19387,False,2016
+/boxscores/201601020IND.html,2016-01-02,19:00:00,Detroit Pistons,82,Indiana Pacers,94,,18165,False,2016
+/boxscores/201601020CLE.html,2016-01-02,19:30:00,Orlando Magic,79,Cleveland Cavaliers,104,,20562,False,2016
+/boxscores/201601020MIN.html,2016-01-02,20:00:00,Milwaukee Bucks,95,Minnesota Timberwolves,85,,14107,False,2016
+/boxscores/201601020DAL.html,2016-01-02,20:30:00,New Orleans Pelicans,105,Dallas Mavericks,98,,20152,False,2016
+/boxscores/201601020SAS.html,2016-01-02,20:30:00,Houston Rockets,103,San Antonio Spurs,121,,18652,False,2016
+/boxscores/201601020UTA.html,2016-01-02,21:00:00,Memphis Grizzlies,87,Utah Jazz,92,OT,18455,False,2016
+/boxscores/201601020GSW.html,2016-01-02,22:30:00,Denver Nuggets,108,Golden State Warriors,111,OT,19596,False,2016
+/boxscores/201601020LAC.html,2016-01-02,22:30:00,Philadelphia 76ers,99,Los Angeles Clippers,130,,19212,False,2016
+/boxscores/201601030NYK.html,2016-01-03,15:30:00,Atlanta Hawks,97,New York Knicks,111,,19812,False,2016
+/boxscores/201601030TOR.html,2016-01-03,15:30:00,Chicago Bulls,115,Toronto Raptors,113,,19800,False,2016
+/boxscores/201601030WAS.html,2016-01-03,18:00:00,Miami Heat,97,Washington Wizards,75,,17793,False,2016
+/boxscores/201601030DEN.html,2016-01-03,21:00:00,Portland Trail Blazers,112,Denver Nuggets,106,,11883,False,2016
+/boxscores/201601030LAL.html,2016-01-03,21:30:00,Phoenix Suns,77,Los Angeles Lakers,97,,18997,False,2016
+/boxscores/201601040CLE.html,2016-01-04,19:00:00,Toronto Raptors,100,Cleveland Cavaliers,122,,20562,False,2016
+/boxscores/201601040PHI.html,2016-01-04,19:00:00,Minnesota Timberwolves,99,Philadelphia 76ers,109,,14013,False,2016
+/boxscores/201601040BRK.html,2016-01-04,19:30:00,Boston Celtics,103,Brooklyn Nets,94,,15448,False,2016
+/boxscores/201601040DET.html,2016-01-04,19:30:00,Orlando Magic,89,Detroit Pistons,115,,14301,False,2016
+/boxscores/201601040MIA.html,2016-01-04,19:30:00,Indiana Pacers,100,Miami Heat,103,OT,19874,False,2016
+/boxscores/201601040MIL.html,2016-01-04,20:00:00,San Antonio Spurs,123,Milwaukee Bucks,98,,14718,False,2016
+/boxscores/201601040OKC.html,2016-01-04,20:00:00,Sacramento Kings,116,Oklahoma City Thunder,104,,18203,False,2016
+/boxscores/201601040UTA.html,2016-01-04,21:00:00,Houston Rockets,93,Utah Jazz,91,,17912,False,2016
+/boxscores/201601040POR.html,2016-01-04,22:00:00,Memphis Grizzlies,91,Portland Trail Blazers,78,,18832,False,2016
+/boxscores/201601040GSW.html,2016-01-04,22:30:00,Charlotte Hornets,101,Golden State Warriors,111,,19596,False,2016
+/boxscores/201601050ATL.html,2016-01-05,20:00:00,New York Knicks,107,Atlanta Hawks,101,,15082,False,2016
+/boxscores/201601050CHI.html,2016-01-05,20:00:00,Milwaukee Bucks,106,Chicago Bulls,117,,21686,False,2016
+/boxscores/201601050DAL.html,2016-01-05,20:30:00,Sacramento Kings,116,Dallas Mavericks,117,2OT,20059,False,2016
+/boxscores/201601050LAL.html,2016-01-05,22:30:00,Golden State Warriors,109,Los Angeles Lakers,88,,18997,False,2016
+/boxscores/201601060MIA.html,2016-01-06,19:00:00,New York Knicks,98,Miami Heat,90,,19987,False,2016
+/boxscores/201601060ORL.html,2016-01-06,19:00:00,Indiana Pacers,95,Orlando Magic,86,,18846,False,2016
+/boxscores/201601060WAS.html,2016-01-06,19:00:00,Cleveland Cavaliers,121,Washington Wizards,115,,20356,False,2016
+/boxscores/201601060BOS.html,2016-01-06,19:30:00,Detroit Pistons,99,Boston Celtics,94,,18624,False,2016
+/boxscores/201601060BRK.html,2016-01-06,19:30:00,Toronto Raptors,91,Brooklyn Nets,74,,14544,False,2016
+/boxscores/201601060MIN.html,2016-01-06,20:00:00,Denver Nuggets,78,Minnesota Timberwolves,74,,12059,False,2016
+/boxscores/201601060NOP.html,2016-01-06,20:00:00,Dallas Mavericks,100,New Orleans Pelicans,91,,15255,False,2016
+/boxscores/201601060SAS.html,2016-01-06,20:30:00,Utah Jazz,98,San Antonio Spurs,123,,18418,False,2016
+/boxscores/201601060PHO.html,2016-01-06,21:00:00,Charlotte Hornets,102,Phoenix Suns,111,,16910,False,2016
+/boxscores/201601060OKC.html,2016-01-06,21:30:00,Memphis Grizzlies,94,Oklahoma City Thunder,112,,18203,False,2016
+/boxscores/201601060POR.html,2016-01-06,22:00:00,Los Angeles Clippers,109,Portland Trail Blazers,98,,18598,False,2016
+/boxscores/201601070PHI.html,2016-01-07,19:00:00,Atlanta Hawks,126,Philadelphia 76ers,98,,12611,False,2016
+/boxscores/201601070CHI.html,2016-01-07,20:00:00,Boston Celtics,92,Chicago Bulls,101,,21497,False,2016
+/boxscores/201601070HOU.html,2016-01-07,20:00:00,Utah Jazz,94,Houston Rockets,103,,18155,False,2016
+/boxscores/201601070SAC.html,2016-01-07,22:30:00,Los Angeles Lakers,115,Sacramento Kings,118,,17386,False,2016
+/boxscores/201601080WAS.html,2016-01-08,19:00:00,Toronto Raptors,97,Washington Wizards,88,,17064,False,2016
+/boxscores/201601080BRK.html,2016-01-08,19:30:00,Orlando Magic,83,Brooklyn Nets,77,,13907,False,2016
+/boxscores/201601080MEM.html,2016-01-08,20:00:00,Denver Nuggets,84,Memphis Grizzlies,91,,17499,False,2016
+/boxscores/201601080MIL.html,2016-01-08,20:00:00,Dallas Mavericks,95,Milwaukee Bucks,96,,16409,False,2016
+/boxscores/201601080MIN.html,2016-01-08,20:00:00,Cleveland Cavaliers,125,Minnesota Timberwolves,99,,16768,False,2016
+/boxscores/201601080NOP.html,2016-01-08,20:00:00,Indiana Pacers,91,New Orleans Pelicans,86,,16895,False,2016
+/boxscores/201601080SAS.html,2016-01-08,20:30:00,New York Knicks,99,San Antonio Spurs,100,,18420,False,2016
+/boxscores/201601080PHO.html,2016-01-08,21:30:00,Miami Heat,103,Phoenix Suns,95,,16866,False,2016
+/boxscores/201601080POR.html,2016-01-08,22:00:00,Golden State Warriors,128,Portland Trail Blazers,108,,20035,False,2016
+/boxscores/201601080LAL.html,2016-01-08,22:30:00,Oklahoma City Thunder,117,Los Angeles Lakers,113,,18997,False,2016
+/boxscores/201601090LAC.html,2016-01-09,15:30:00,Charlotte Hornets,83,Los Angeles Clippers,97,,19060,False,2016
+/boxscores/201601090ATL.html,2016-01-09,17:00:00,Chicago Bulls,105,Atlanta Hawks,120,,19010,False,2016
+/boxscores/201601090ORL.html,2016-01-09,19:00:00,Washington Wizards,105,Orlando Magic,99,,18058,False,2016
+/boxscores/201601090DET.html,2016-01-09,19:30:00,Brooklyn Nets,89,Detroit Pistons,103,,16406,False,2016
+/boxscores/201601090PHI.html,2016-01-09,19:30:00,Toronto Raptors,108,Philadelphia 76ers,95,,14100,False,2016
+/boxscores/201601090UTA.html,2016-01-09,21:00:00,Miami Heat,83,Utah Jazz,98,,19911,False,2016
+/boxscores/201601090SAC.html,2016-01-09,22:00:00,Golden State Warriors,128,Sacramento Kings,116,,17317,False,2016
+/boxscores/201601100LAC.html,2016-01-10,15:30:00,New Orleans Pelicans,111,Los Angeles Clippers,114,OT,19060,False,2016
+/boxscores/201601100MIN.html,2016-01-10,17:00:00,Dallas Mavericks,93,Minnesota Timberwolves,87,,14363,False,2016
+/boxscores/201601100MEM.html,2016-01-10,18:00:00,Boston Celtics,98,Memphis Grizzlies,101,,17112,False,2016
+/boxscores/201601100PHI.html,2016-01-10,18:00:00,Cleveland Cavaliers,95,Philadelphia 76ers,85,,19226,False,2016
+/boxscores/201601100HOU.html,2016-01-10,19:00:00,Indiana Pacers,103,Houston Rockets,107,OT,18133,False,2016
+/boxscores/201601100NYK.html,2016-01-10,19:30:00,Milwaukee Bucks,88,New York Knicks,100,,19812,False,2016
+/boxscores/201601100DEN.html,2016-01-10,20:00:00,Charlotte Hornets,92,Denver Nuggets,95,,11343,False,2016
+/boxscores/201601100POR.html,2016-01-10,21:00:00,Oklahoma City Thunder,110,Portland Trail Blazers,115,,19393,False,2016
+/boxscores/201601100LAL.html,2016-01-10,21:30:00,Utah Jazz,86,Los Angeles Lakers,74,,18997,False,2016
+/boxscores/201601110BRK.html,2016-01-11,19:30:00,San Antonio Spurs,106,Brooklyn Nets,79,,15214,False,2016
+/boxscores/201601110CHI.html,2016-01-11,20:00:00,Washington Wizards,114,Chicago Bulls,100,,21409,False,2016
+/boxscores/201601110GSW.html,2016-01-11,22:30:00,Miami Heat,103,Golden State Warriors,111,,19596,False,2016
+/boxscores/201601120IND.html,2016-01-12,19:00:00,Phoenix Suns,97,Indiana Pacers,116,,15284,False,2016
+/boxscores/201601120DET.html,2016-01-12,19:30:00,San Antonio Spurs,109,Detroit Pistons,99,,14273,False,2016
+/boxscores/201601120NYK.html,2016-01-12,19:30:00,Boston Celtics,114,New York Knicks,120,,19812,False,2016
+/boxscores/201601120MEM.html,2016-01-12,20:00:00,Houston Rockets,107,Memphis Grizzlies,91,,16044,False,2016
+/boxscores/201601120MIL.html,2016-01-12,20:00:00,Chicago Bulls,101,Milwaukee Bucks,106,,16867,False,2016
+/boxscores/201601120MIN.html,2016-01-12,20:00:00,Oklahoma City Thunder,101,Minnesota Timberwolves,96,,14791,False,2016
+/boxscores/201601120DAL.html,2016-01-12,20:30:00,Cleveland Cavaliers,110,Dallas Mavericks,107,OT,20347,False,2016
+/boxscores/201601120LAL.html,2016-01-12,22:30:00,New Orleans Pelicans,91,Los Angeles Lakers,95,,18997,False,2016
+/boxscores/201601130CHO.html,2016-01-13,19:00:00,Atlanta Hawks,84,Charlotte Hornets,107,,15334,False,2016
+/boxscores/201601130WAS.html,2016-01-13,19:00:00,Milwaukee Bucks,101,Washington Wizards,106,,16248,False,2016
+/boxscores/201601130BRK.html,2016-01-13,19:30:00,New York Knicks,104,Brooklyn Nets,110,,17732,False,2016
+/boxscores/201601130BOS.html,2016-01-13,20:00:00,Indiana Pacers,94,Boston Celtics,103,,18624,False,2016
+/boxscores/201601130HOU.html,2016-01-13,20:00:00,Minnesota Timberwolves,104,Houston Rockets,107,,17115,False,2016
+/boxscores/201601130OKC.html,2016-01-13,20:00:00,Dallas Mavericks,89,Oklahoma City Thunder,108,,18203,False,2016
+/boxscores/201601130DEN.html,2016-01-13,21:00:00,Golden State Warriors,110,Denver Nuggets,112,,18004,False,2016
+/boxscores/201601130POR.html,2016-01-13,22:00:00,Utah Jazz,85,Portland Trail Blazers,99,,19393,False,2016
+/boxscores/201601130SAC.html,2016-01-13,22:00:00,New Orleans Pelicans,109,Sacramento Kings,97,,17317,False,2016
+/boxscores/201601130LAC.html,2016-01-13,22:30:00,Miami Heat,90,Los Angeles Clippers,104,,19194,False,2016
+/boxscores/201601140ORL.html,2016-01-14,15:00:00,Toronto Raptors,106,Orlando Magic,103,OT,18689,False,2016
+/boxscores/201601140PHI.html,2016-01-14,19:00:00,Chicago Bulls,115,Philadelphia 76ers,111,OT,14063,False,2016
+/boxscores/201601140MEM.html,2016-01-14,20:00:00,Detroit Pistons,101,Memphis Grizzlies,103,,15977,False,2016
+/boxscores/201601140SAS.html,2016-01-14,20:00:00,Cleveland Cavaliers,95,San Antonio Spurs,99,,18418,False,2016
+/boxscores/201601140UTA.html,2016-01-14,21:00:00,Sacramento Kings,103,Utah Jazz,101,,17894,False,2016
+/boxscores/201601140GSW.html,2016-01-14,22:30:00,Los Angeles Lakers,98,Golden State Warriors,116,,19596,False,2016
+/boxscores/201601150IND.html,2016-01-15,19:00:00,Washington Wizards,118,Indiana Pacers,104,,18165,False,2016
+/boxscores/201601150OKC.html,2016-01-15,19:00:00,Minnesota Timberwolves,93,Oklahoma City Thunder,113,,18203,False,2016
+/boxscores/201601150BOS.html,2016-01-15,19:30:00,Phoenix Suns,103,Boston Celtics,117,,18624,False,2016
+/boxscores/201601150BRK.html,2016-01-15,19:30:00,Portland Trail Blazers,116,Brooklyn Nets,104,,14749,False,2016
+/boxscores/201601150CHI.html,2016-01-15,20:00:00,Dallas Mavericks,83,Chicago Bulls,77,,22056,False,2016
+/boxscores/201601150MIL.html,2016-01-15,20:00:00,Atlanta Hawks,101,Milwaukee Bucks,108,OT,15144,False,2016
+/boxscores/201601150NOP.html,2016-01-15,20:00:00,Charlotte Hornets,107,New Orleans Pelicans,109,,16876,False,2016
+/boxscores/201601150DEN.html,2016-01-15,21:00:00,Miami Heat,98,Denver Nuggets,95,,15406,False,2016
+/boxscores/201601150HOU.html,2016-01-15,21:30:00,Cleveland Cavaliers,91,Houston Rockets,77,,18320,False,2016
+/boxscores/201601160CHO.html,2016-01-16,19:00:00,Milwaukee Bucks,105,Charlotte Hornets,92,,18288,False,2016
+/boxscores/201601160ATL.html,2016-01-16,19:30:00,Brooklyn Nets,86,Atlanta Hawks,114,,17052,False,2016
+/boxscores/201601160DET.html,2016-01-16,19:30:00,Golden State Warriors,95,Detroit Pistons,113,,21584,False,2016
+/boxscores/201601160PHI.html,2016-01-16,19:30:00,Portland Trail Blazers,89,Philadelphia 76ers,114,,15698,False,2016
+/boxscores/201601160WAS.html,2016-01-16,19:30:00,Boston Celtics,119,Washington Wizards,117,,20356,False,2016
+/boxscores/201601160MEM.html,2016-01-16,20:00:00,New York Knicks,95,Memphis Grizzlies,103,,18119,False,2016
+/boxscores/201601160UTA.html,2016-01-16,21:00:00,Los Angeles Lakers,82,Utah Jazz,109,,19911,False,2016
+/boxscores/201601160LAC.html,2016-01-16,22:30:00,Sacramento Kings,110,Los Angeles Clippers,103,,19191,False,2016
+/boxscores/201601170MIN.html,2016-01-17,15:30:00,Phoenix Suns,87,Minnesota Timberwolves,117,,14330,False,2016
+/boxscores/201601170OKC.html,2016-01-17,19:00:00,Miami Heat,74,Oklahoma City Thunder,99,,18203,False,2016
+/boxscores/201601170SAS.html,2016-01-17,19:00:00,Dallas Mavericks,83,San Antonio Spurs,112,,18418,False,2016
+/boxscores/201601170DEN.html,2016-01-17,20:00:00,Indiana Pacers,126,Denver Nuggets,129,,11104,False,2016
+/boxscores/201601170LAL.html,2016-01-17,21:30:00,Houston Rockets,112,Los Angeles Lakers,95,,18997,False,2016
+/boxscores/201601180NYK.html,2016-01-18,13:00:00,Philadelphia 76ers,113,New York Knicks,119,2OT,19812,False,2016
+/boxscores/201601180CHO.html,2016-01-18,14:00:00,Utah Jazz,119,Charlotte Hornets,124,2OT,17459,False,2016
+/boxscores/201601180WAS.html,2016-01-18,14:00:00,Portland Trail Blazers,108,Washington Wizards,98,,17236,False,2016
+/boxscores/201601180MEM.html,2016-01-18,14:30:00,New Orleans Pelicans,99,Memphis Grizzlies,101,,18119,False,2016
+/boxscores/201601180DET.html,2016-01-18,15:30:00,Chicago Bulls,111,Detroit Pistons,101,,18935,False,2016
+/boxscores/201601180ATL.html,2016-01-18,17:00:00,Orlando Magic,81,Atlanta Hawks,98,,17460,False,2016
+/boxscores/201601180TOR.html,2016-01-18,19:30:00,Brooklyn Nets,100,Toronto Raptors,112,,19800,False,2016
+/boxscores/201601180CLE.html,2016-01-18,20:00:00,Golden State Warriors,132,Cleveland Cavaliers,98,,20562,False,2016
+/boxscores/201601180DAL.html,2016-01-18,20:30:00,Boston Celtics,113,Dallas Mavericks,118,OT,19866,False,2016
+/boxscores/201601180LAC.html,2016-01-18,22:30:00,Houston Rockets,132,Los Angeles Clippers,140,OT,19060,False,2016
+/boxscores/201601190MIA.html,2016-01-19,19:30:00,Milwaukee Bucks,91,Miami Heat,79,,19886,False,2016
+/boxscores/201601190NOP.html,2016-01-19,20:00:00,Minnesota Timberwolves,99,New Orleans Pelicans,114,,14255,False,2016
+/boxscores/201601190DEN.html,2016-01-19,21:00:00,Oklahoma City Thunder,110,Denver Nuggets,104,,12844,False,2016
+/boxscores/201601190PHO.html,2016-01-19,21:00:00,Indiana Pacers,97,Phoenix Suns,94,,16802,False,2016
+/boxscores/201601200ORL.html,2016-01-20,19:00:00,Philadelphia 76ers,96,Orlando Magic,87,,17746,False,2016
+/boxscores/201601200WAS.html,2016-01-20,19:00:00,Miami Heat,87,Washington Wizards,106,,17008,False,2016
+/boxscores/201601200BRK.html,2016-01-20,19:30:00,Cleveland Cavaliers,91,Brooklyn Nets,78,,17732,False,2016
+/boxscores/201601200NYK.html,2016-01-20,19:30:00,Utah Jazz,111,New York Knicks,118,OT,19812,False,2016
+/boxscores/201601200TOR.html,2016-01-20,19:30:00,Boston Celtics,109,Toronto Raptors,115,,19800,False,2016
+/boxscores/201601200CHI.html,2016-01-20,20:00:00,Golden State Warriors,125,Chicago Bulls,94,,23152,False,2016
+/boxscores/201601200HOU.html,2016-01-20,20:00:00,Detroit Pistons,123,Houston Rockets,114,,17203,False,2016
+/boxscores/201601200OKC.html,2016-01-20,20:00:00,Charlotte Hornets,95,Oklahoma City Thunder,109,,18203,False,2016
+/boxscores/201601200DAL.html,2016-01-20,20:30:00,Minnesota Timberwolves,94,Dallas Mavericks,106,OT,19621,False,2016
+/boxscores/201601200LAL.html,2016-01-20,22:30:00,Sacramento Kings,112,Los Angeles Lakers,93,,18997,False,2016
+/boxscores/201601200POR.html,2016-01-20,22:30:00,Atlanta Hawks,104,Portland Trail Blazers,98,,18783,False,2016
+/boxscores/201601210CLE.html,2016-01-21,20:00:00,Los Angeles Clippers,102,Cleveland Cavaliers,115,,20562,False,2016
+/boxscores/201601210NOP.html,2016-01-21,20:00:00,Detroit Pistons,99,New Orleans Pelicans,115,,15281,False,2016
+/boxscores/201601210DEN.html,2016-01-21,21:00:00,Memphis Grizzlies,102,Denver Nuggets,101,,16140,False,2016
+/boxscores/201601210SAC.html,2016-01-21,22:00:00,Atlanta Hawks,88,Sacramento Kings,91,,17019,False,2016
+/boxscores/201601210PHO.html,2016-01-21,22:30:00,San Antonio Spurs,117,Phoenix Suns,89,,16779,False,2016
+/boxscores/201601220ORL.html,2016-01-22,19:00:00,Charlotte Hornets,120,Orlando Magic,116,OT,18083,False,2016
+/boxscores/201601220BOS.html,2016-01-22,19:30:00,Chicago Bulls,101,Boston Celtics,110,,18624,False,2016
+/boxscores/201601220BRK.html,2016-01-22,19:30:00,Utah Jazz,108,Brooklyn Nets,86,,12809,False,2016
+/boxscores/201601220NYK.html,2016-01-22,19:30:00,Los Angeles Clippers,116,New York Knicks,88,,19812,False,2016
+/boxscores/201601220HOU.html,2016-01-22,20:00:00,Milwaukee Bucks,98,Houston Rockets,102,,17196,False,2016
+/boxscores/201601220TOR.html,2016-01-22,20:00:00,Miami Heat,81,Toronto Raptors,101,,19800,False,2016
+/boxscores/201601220DAL.html,2016-01-22,20:30:00,Oklahoma City Thunder,109,Dallas Mavericks,106,,20284,False,2016
+/boxscores/201601220GSW.html,2016-01-22,22:30:00,Indiana Pacers,110,Golden State Warriors,122,,19596,False,2016
+/boxscores/201601220LAL.html,2016-01-22,22:30:00,San Antonio Spurs,108,Los Angeles Lakers,95,,18997,False,2016
+/boxscores/201601230CHO.html,2016-01-23,19:00:00,New York Knicks,84,Charlotte Hornets,97,,17768,False,2016
+/boxscores/201601230NOP.html,2016-01-23,19:00:00,Milwaukee Bucks,99,New Orleans Pelicans,116,,16980,False,2016
+/boxscores/201601230MIN.html,2016-01-23,20:00:00,Memphis Grizzlies,101,Minnesota Timberwolves,106,,15608,False,2016
+/boxscores/201601230CLE.html,2016-01-23,20:30:00,Chicago Bulls,96,Cleveland Cavaliers,83,,20562,False,2016
+/boxscores/201601230PHO.html,2016-01-23,21:00:00,Atlanta Hawks,95,Phoenix Suns,98,,17034,False,2016
+/boxscores/201601230DEN.html,2016-01-23,21:30:00,Detroit Pistons,101,Denver Nuggets,104,,14646,False,2016
+/boxscores/201601230POR.html,2016-01-23,22:30:00,Los Angeles Lakers,103,Portland Trail Blazers,121,,19728,False,2016
+/boxscores/201601230SAC.html,2016-01-23,22:30:00,Indiana Pacers,97,Sacramento Kings,108,,17419,False,2016
+/boxscores/201601240HOU.html,2016-01-24,15:30:00,Dallas Mavericks,104,Houston Rockets,115,,18142,False,2016
+/boxscores/201601240TOR.html,2016-01-24,18:00:00,Los Angeles Clippers,94,Toronto Raptors,112,,19800,False,2016
+/boxscores/201601240PHI.html,2016-01-24,19:00:00,Boston Celtics,112,Philadelphia 76ers,92,,9722,False,2016
+/boxscores/201601240BRK.html,2016-01-24,19:30:00,Oklahoma City Thunder,106,Brooklyn Nets,116,,16019,False,2016
+/boxscores/201601250CLE.html,2016-01-25,19:00:00,Minnesota Timberwolves,107,Cleveland Cavaliers,114,,20562,False,2016
+/boxscores/201601250WAS.html,2016-01-25,19:00:00,Boston Celtics,116,Washington Wizards,91,,11753,False,2016
+/boxscores/201601250CHI.html,2016-01-25,20:00:00,Miami Heat,89,Chicago Bulls,84,,21720,False,2016
+/boxscores/201601250MEM.html,2016-01-25,20:00:00,Orlando Magic,102,Memphis Grizzlies,108,OT,15779,False,2016
+/boxscores/201601250NOP.html,2016-01-25,20:00:00,Houston Rockets,112,New Orleans Pelicans,111,,15688,False,2016
+/boxscores/201601250DEN.html,2016-01-25,21:00:00,Atlanta Hawks,119,Denver Nuggets,105,,10280,False,2016
+/boxscores/201601250UTA.html,2016-01-25,21:00:00,Detroit Pistons,95,Utah Jazz,92,,18783,False,2016
+/boxscores/201601250SAC.html,2016-01-25,22:00:00,Charlotte Hornets,129,Sacramento Kings,128,2OT,16991,False,2016
+/boxscores/201601250GSW.html,2016-01-25,22:30:00,San Antonio Spurs,90,Golden State Warriors,120,,19596,False,2016
+/boxscores/201601260IND.html,2016-01-26,19:00:00,Los Angeles Clippers,91,Indiana Pacers,89,,15448,False,2016
+/boxscores/201601260PHI.html,2016-01-26,19:00:00,Phoenix Suns,103,Philadelphia 76ers,113,,10851,False,2016
+/boxscores/201601260BRK.html,2016-01-26,19:30:00,Miami Heat,102,Brooklyn Nets,98,,15267,False,2016
+/boxscores/201601260NYK.html,2016-01-26,19:30:00,Oklahoma City Thunder,128,New York Knicks,122,OT,19812,False,2016
+/boxscores/201601260TOR.html,2016-01-26,19:30:00,Washington Wizards,89,Toronto Raptors,106,,19800,False,2016
+/boxscores/201601260MIL.html,2016-01-26,20:00:00,Orlando Magic,100,Milwaukee Bucks,107,,11884,False,2016
+/boxscores/201601260POR.html,2016-01-26,22:00:00,Sacramento Kings,97,Portland Trail Blazers,112,,19393,False,2016
+/boxscores/201601260LAL.html,2016-01-26,22:30:00,Dallas Mavericks,92,Los Angeles Lakers,90,,18997,False,2016
+/boxscores/201601270CLE.html,2016-01-27,19:00:00,Phoenix Suns,93,Cleveland Cavaliers,115,,20562,False,2016
+/boxscores/201601270BOS.html,2016-01-27,19:30:00,Denver Nuggets,103,Boston Celtics,111,,18108,False,2016
+/boxscores/201601270DET.html,2016-01-27,19:30:00,Philadelphia 76ers,97,Detroit Pistons,110,,13712,False,2016
+/boxscores/201601270ATL.html,2016-01-27,20:00:00,Los Angeles Clippers,85,Atlanta Hawks,83,,17664,False,2016
+/boxscores/201601270MIN.html,2016-01-27,20:00:00,Oklahoma City Thunder,126,Minnesota Timberwolves,123,,13337,False,2016
+/boxscores/201601270SAS.html,2016-01-27,20:00:00,Houston Rockets,99,San Antonio Spurs,130,,18418,False,2016
+/boxscores/201601270UTA.html,2016-01-27,21:00:00,Charlotte Hornets,73,Utah Jazz,102,,16683,False,2016
+/boxscores/201601270GSW.html,2016-01-27,22:30:00,Dallas Mavericks,107,Golden State Warriors,127,,19596,False,2016
+/boxscores/201601280IND.html,2016-01-28,19:00:00,Atlanta Hawks,92,Indiana Pacers,111,,15196,False,2016
+/boxscores/201601280WAS.html,2016-01-28,19:00:00,Denver Nuggets,117,Washington Wizards,113,,15146,False,2016
+/boxscores/201601280MEM.html,2016-01-28,20:00:00,Milwaukee Bucks,83,Memphis Grizzlies,103,,15244,False,2016
+/boxscores/201601280NOP.html,2016-01-28,20:00:00,Sacramento Kings,105,New Orleans Pelicans,114,,15636,False,2016
+/boxscores/201601280TOR.html,2016-01-28,20:00:00,New York Knicks,93,Toronto Raptors,103,,19800,False,2016
+/boxscores/201601280LAL.html,2016-01-28,22:30:00,Chicago Bulls,114,Los Angeles Lakers,91,,18997,False,2016
+/boxscores/201601290BOS.html,2016-01-29,19:30:00,Orlando Magic,94,Boston Celtics,113,,17729,False,2016
+/boxscores/201601290DET.html,2016-01-29,19:30:00,Cleveland Cavaliers,114,Detroit Pistons,106,,21012,False,2016
+/boxscores/201601290NYK.html,2016-01-29,19:30:00,Phoenix Suns,84,New York Knicks,102,,19812,False,2016
+/boxscores/201601290MIL.html,2016-01-29,20:00:00,Miami Heat,107,Milwaukee Bucks,103,,17846,False,2016
+/boxscores/201601290OKC.html,2016-01-29,20:00:00,Houston Rockets,108,Oklahoma City Thunder,116,,18203,False,2016
+/boxscores/201601290DAL.html,2016-01-29,20:30:00,Brooklyn Nets,79,Dallas Mavericks,91,,20409,False,2016
+/boxscores/201601290UTA.html,2016-01-29,21:00:00,Minnesota Timberwolves,90,Utah Jazz,103,,18850,False,2016
+/boxscores/201601290POR.html,2016-01-29,22:00:00,Charlotte Hornets,91,Portland Trail Blazers,109,,19393,False,2016
+/boxscores/201601290LAC.html,2016-01-29,22:30:00,Los Angeles Lakers,93,Los Angeles Clippers,105,,19495,False,2016
+/boxscores/201601300PHI.html,2016-01-30,17:00:00,Golden State Warriors,108,Philadelphia 76ers,105,,20798,False,2016
+/boxscores/201601300TOR.html,2016-01-30,18:30:00,Detroit Pistons,107,Toronto Raptors,111,,19800,False,2016
+/boxscores/201601300IND.html,2016-01-30,19:00:00,Denver Nuggets,105,Indiana Pacers,109,OT,18165,False,2016
+/boxscores/201601300NOP.html,2016-01-30,19:00:00,Brooklyn Nets,103,New Orleans Pelicans,105,,18037,False,2016
+/boxscores/201601300HOU.html,2016-01-30,20:00:00,Washington Wizards,123,Houston Rockets,122,,18320,False,2016
+/boxscores/201601300MEM.html,2016-01-30,20:00:00,Sacramento Kings,117,Memphis Grizzlies,121,,18119,False,2016
+/boxscores/201601300CLE.html,2016-01-30,20:30:00,San Antonio Spurs,103,Cleveland Cavaliers,117,,20562,False,2016
+/boxscores/201601310LAC.html,2016-01-31,15:30:00,Chicago Bulls,93,Los Angeles Clippers,120,,19325,False,2016
+/boxscores/201601310MIA.html,2016-01-31,18:00:00,Atlanta Hawks,87,Miami Heat,105,,19937,False,2016
+/boxscores/201601310ORL.html,2016-01-31,18:00:00,Boston Celtics,114,Orlando Magic,119,,18846,False,2016
+/boxscores/201601310DAL.html,2016-01-31,19:00:00,Phoenix Suns,78,Dallas Mavericks,91,,20137,False,2016
+/boxscores/201601310NYK.html,2016-01-31,19:30:00,Golden State Warriors,116,New York Knicks,95,,19812,False,2016
+/boxscores/201601310POR.html,2016-01-31,21:00:00,Minnesota Timberwolves,93,Portland Trail Blazers,96,,19393,False,2016
+/boxscores/201601310LAL.html,2016-01-31,21:30:00,Charlotte Hornets,101,Los Angeles Lakers,82,,18997,False,2016
+/boxscores/201602010IND.html,2016-02-01,19:00:00,Cleveland Cavaliers,111,Indiana Pacers,106,OT,17283,False,2016
+/boxscores/201602010BRK.html,2016-02-01,19:30:00,Detroit Pistons,105,Brooklyn Nets,100,,13290,False,2016
+/boxscores/201602010ATL.html,2016-02-01,20:00:00,Dallas Mavericks,97,Atlanta Hawks,112,,15455,False,2016
+/boxscores/201602010NOP.html,2016-02-01,20:00:00,Memphis Grizzlies,110,New Orleans Pelicans,95,,15210,False,2016
+/boxscores/201602010OKC.html,2016-02-01,20:00:00,Washington Wizards,98,Oklahoma City Thunder,114,,18203,False,2016
+/boxscores/201602010SAS.html,2016-02-01,20:30:00,Orlando Magic,92,San Antonio Spurs,107,,18418,False,2016
+/boxscores/201602010DEN.html,2016-02-01,21:00:00,Toronto Raptors,93,Denver Nuggets,112,,10007,False,2016
+/boxscores/201602010UTA.html,2016-02-01,21:00:00,Chicago Bulls,96,Utah Jazz,105,OT,18811,False,2016
+/boxscores/201602010SAC.html,2016-02-01,22:00:00,Milwaukee Bucks,104,Sacramento Kings,111,,16827,False,2016
+/boxscores/201602020NYK.html,2016-02-02,19:30:00,Boston Celtics,97,New York Knicks,89,,19812,False,2016
+/boxscores/201602020HOU.html,2016-02-02,20:00:00,Miami Heat,102,Houston Rockets,115,,18229,False,2016
+/boxscores/201602020PHO.html,2016-02-02,21:00:00,Toronto Raptors,104,Phoenix Suns,97,,15897,False,2016
+/boxscores/201602020POR.html,2016-02-02,22:00:00,Milwaukee Bucks,95,Portland Trail Blazers,107,,18306,False,2016
+/boxscores/201602020LAL.html,2016-02-02,22:30:00,Minnesota Timberwolves,115,Los Angeles Lakers,119,,18997,False,2016
+/boxscores/201602030CHO.html,2016-02-03,19:00:00,Cleveland Cavaliers,97,Charlotte Hornets,106,,19189,False,2016
+/boxscores/201602030PHI.html,2016-02-03,19:00:00,Atlanta Hawks,124,Philadelphia 76ers,86,,10429,False,2016
+/boxscores/201602030BOS.html,2016-02-03,19:30:00,Detroit Pistons,95,Boston Celtics,102,,17297,False,2016
+/boxscores/201602030BRK.html,2016-02-03,19:30:00,Indiana Pacers,114,Brooklyn Nets,100,,13311,False,2016
+/boxscores/201602030OKC.html,2016-02-03,20:00:00,Orlando Magic,114,Oklahoma City Thunder,117,,18203,False,2016
+/boxscores/201602030WAS.html,2016-02-03,20:00:00,Golden State Warriors,134,Washington Wizards,121,,20356,False,2016
+/boxscores/201602030DAL.html,2016-02-03,20:30:00,Miami Heat,93,Dallas Mavericks,90,,20385,False,2016
+/boxscores/201602030SAS.html,2016-02-03,20:30:00,New Orleans Pelicans,97,San Antonio Spurs,110,,18418,False,2016
+/boxscores/201602030UTA.html,2016-02-03,21:00:00,Denver Nuggets,81,Utah Jazz,85,,19461,False,2016
+/boxscores/201602030SAC.html,2016-02-03,22:00:00,Chicago Bulls,107,Sacramento Kings,102,,17317,False,2016
+/boxscores/201602030LAC.html,2016-02-03,22:30:00,Minnesota Timberwolves,108,Los Angeles Clippers,102,,19060,False,2016
+/boxscores/201602040DET.html,2016-02-04,19:00:00,New York Knicks,105,Detroit Pistons,111,,17095,False,2016
+/boxscores/201602040PHO.html,2016-02-04,21:00:00,Houston Rockets,111,Phoenix Suns,105,,15723,False,2016
+/boxscores/201602040NOP.html,2016-02-04,21:30:00,Los Angeles Lakers,99,New Orleans Pelicans,96,,18420,False,2016
+/boxscores/201602040POR.html,2016-02-04,22:00:00,Toronto Raptors,110,Portland Trail Blazers,103,,19393,False,2016
+/boxscores/201602050ATL.html,2016-02-05,19:00:00,Indiana Pacers,96,Atlanta Hawks,102,,17225,False,2016
+/boxscores/201602050CHO.html,2016-02-05,19:00:00,Miami Heat,98,Charlotte Hornets,95,,19147,False,2016
+/boxscores/201602050ORL.html,2016-02-05,19:00:00,Los Angeles Clippers,107,Orlando Magic,93,,16647,False,2016
+/boxscores/201602050WAS.html,2016-02-05,19:00:00,Philadelphia 76ers,94,Washington Wizards,106,,17305,False,2016
+/boxscores/201602050BRK.html,2016-02-05,19:30:00,Sacramento Kings,119,Brooklyn Nets,128,,14432,False,2016
+/boxscores/201602050CLE.html,2016-02-05,19:30:00,Boston Celtics,104,Cleveland Cavaliers,103,,20562,False,2016
+/boxscores/201602050NYK.html,2016-02-05,19:30:00,Memphis Grizzlies,91,New York Knicks,85,,19812,False,2016
+/boxscores/201602050DEN.html,2016-02-05,21:00:00,Chicago Bulls,110,Denver Nuggets,115,,19155,False,2016
+/boxscores/201602050UTA.html,2016-02-05,21:00:00,Milwaukee Bucks,81,Utah Jazz,84,,19911,False,2016
+/boxscores/201602050DAL.html,2016-02-05,21:30:00,San Antonio Spurs,116,Dallas Mavericks,90,,20404,False,2016
+/boxscores/201602060HOU.html,2016-02-06,17:00:00,Portland Trail Blazers,96,Houston Rockets,79,,18308,False,2016
+/boxscores/201602060CHO.html,2016-02-06,19:00:00,Washington Wizards,104,Charlotte Hornets,108,,18450,False,2016
+/boxscores/201602060IND.html,2016-02-06,19:00:00,Detroit Pistons,104,Indiana Pacers,112,,18165,False,2016
+/boxscores/201602060CLE.html,2016-02-06,19:30:00,New Orleans Pelicans,84,Cleveland Cavaliers,99,,20562,False,2016
+/boxscores/201602060PHI.html,2016-02-06,19:30:00,Brooklyn Nets,98,Philadelphia 76ers,103,,18847,False,2016
+/boxscores/201602060MEM.html,2016-02-06,20:00:00,Dallas Mavericks,114,Memphis Grizzlies,110,OT,18119,False,2016
+/boxscores/201602060MIN.html,2016-02-06,20:00:00,Chicago Bulls,105,Minnesota Timberwolves,112,,17876,False,2016
+/boxscores/201602060SAS.html,2016-02-06,20:30:00,Los Angeles Lakers,102,San Antonio Spurs,106,,18418,False,2016
+/boxscores/201602060GSW.html,2016-02-06,21:00:00,Oklahoma City Thunder,108,Golden State Warriors,116,,19596,False,2016
+/boxscores/201602060PHO.html,2016-02-06,21:00:00,Utah Jazz,98,Phoenix Suns,89,,16180,False,2016
+/boxscores/201602070BOS.html,2016-02-07,13:00:00,Sacramento Kings,119,Boston Celtics,128,,18624,False,2016
+/boxscores/201602070NYK.html,2016-02-07,13:00:00,Denver Nuggets,101,New York Knicks,96,,19812,False,2016
+/boxscores/201602070ORL.html,2016-02-07,13:00:00,Atlanta Hawks,94,Orlando Magic,96,,16021,False,2016
+/boxscores/201602070MIA.html,2016-02-07,14:00:00,Los Angeles Clippers,100,Miami Heat,93,,19624,False,2016
+/boxscores/201602080CHO.html,2016-02-08,19:00:00,Chicago Bulls,91,Charlotte Hornets,108,,15886,False,2016
+/boxscores/201602080CLE.html,2016-02-08,19:00:00,Sacramento Kings,100,Cleveland Cavaliers,120,,20562,False,2016
+/boxscores/201602080IND.html,2016-02-08,19:00:00,Los Angeles Lakers,87,Indiana Pacers,89,,18165,False,2016
+/boxscores/201602080PHI.html,2016-02-08,19:00:00,Los Angeles Clippers,98,Philadelphia 76ers,92,OT,13310,False,2016
+/boxscores/201602080BRK.html,2016-02-08,19:30:00,Denver Nuggets,104,Brooklyn Nets,105,,13043,False,2016
+/boxscores/201602080DET.html,2016-02-08,19:30:00,Toronto Raptors,103,Detroit Pistons,89,,14103,False,2016
+/boxscores/201602080ATL.html,2016-02-08,20:00:00,Orlando Magic,117,Atlanta Hawks,110,OT,13057,False,2016
+/boxscores/201602080MEM.html,2016-02-08,20:00:00,Portland Trail Blazers,112,Memphis Grizzlies,106,OT,15892,False,2016
+/boxscores/201602080MIN.html,2016-02-08,20:00:00,New Orleans Pelicans,116,Minnesota Timberwolves,102,,11926,False,2016
+/boxscores/201602080PHO.html,2016-02-08,21:00:00,Oklahoma City Thunder,122,Phoenix Suns,106,,16316,False,2016
+/boxscores/201602090MIA.html,2016-02-09,20:00:00,San Antonio Spurs,119,Miami Heat,101,,19723,False,2016
+/boxscores/201602090MIL.html,2016-02-09,20:00:00,Boston Celtics,111,Milwaukee Bucks,112,,13215,False,2016
+/boxscores/201602090NYK.html,2016-02-09,20:00:00,Washington Wizards,111,New York Knicks,108,,19812,False,2016
+/boxscores/201602090DAL.html,2016-02-09,20:30:00,Utah Jazz,121,Dallas Mavericks,119,OT,19394,False,2016
+/boxscores/201602090GSW.html,2016-02-09,22:30:00,Houston Rockets,110,Golden State Warriors,123,,19596,False,2016
+/boxscores/201602100IND.html,2016-02-10,19:00:00,Charlotte Hornets,117,Indiana Pacers,95,,15653,False,2016
+/boxscores/201602100ORL.html,2016-02-10,19:00:00,San Antonio Spurs,98,Orlando Magic,96,,17467,False,2016
+/boxscores/201602100PHI.html,2016-02-10,19:00:00,Sacramento Kings,114,Philadelphia 76ers,110,,12501,False,2016
+/boxscores/201602100BOS.html,2016-02-10,19:30:00,Los Angeles Clippers,134,Boston Celtics,139,OT,18186,False,2016
+/boxscores/201602100BRK.html,2016-02-10,19:30:00,Memphis Grizzlies,109,Brooklyn Nets,90,,14262,False,2016
+/boxscores/201602100DET.html,2016-02-10,19:30:00,Denver Nuggets,103,Detroit Pistons,92,,19971,False,2016
+/boxscores/201602100CHI.html,2016-02-10,20:00:00,Atlanta Hawks,113,Chicago Bulls,90,,21709,False,2016
+/boxscores/201602100CLE.html,2016-02-10,20:00:00,Los Angeles Lakers,111,Cleveland Cavaliers,120,,20562,False,2016
+/boxscores/201602100MIN.html,2016-02-10,20:00:00,Toronto Raptors,112,Minnesota Timberwolves,117,,11171,False,2016
+/boxscores/201602100NOP.html,2016-02-10,20:00:00,Utah Jazz,96,New Orleans Pelicans,100,,15256,False,2016
+/boxscores/201602100PHO.html,2016-02-10,21:00:00,Golden State Warriors,112,Phoenix Suns,104,,18055,False,2016
+/boxscores/201602100POR.html,2016-02-10,22:30:00,Houston Rockets,103,Portland Trail Blazers,116,,19393,False,2016
+/boxscores/201602110MIL.html,2016-02-11,20:00:00,Washington Wizards,92,Milwaukee Bucks,99,,14172,False,2016
+/boxscores/201602110OKC.html,2016-02-11,20:00:00,New Orleans Pelicans,95,Oklahoma City Thunder,121,,18203,False,2016
+/boxscores/201602180WAS.html,2016-02-18,19:00:00,Utah Jazz,89,Washington Wizards,103,,12415,False,2016
+/boxscores/201602180CLE.html,2016-02-18,20:00:00,Chicago Bulls,95,Cleveland Cavaliers,106,,20562,False,2016
+/boxscores/201602180LAC.html,2016-02-18,22:30:00,San Antonio Spurs,86,Los Angeles Clippers,105,,19410,False,2016
+/boxscores/201602190ORL.html,2016-02-19,19:00:00,Dallas Mavericks,104,Orlando Magic,110,OT,17764,False,2016
+/boxscores/201602190WAS.html,2016-02-19,19:00:00,Detroit Pistons,86,Washington Wizards,98,,20356,False,2016
+/boxscores/201602190BRK.html,2016-02-19,19:30:00,New York Knicks,98,Brooklyn Nets,109,,17732,False,2016
+/boxscores/201602190ATL.html,2016-02-19,20:00:00,Miami Heat,115,Atlanta Hawks,111,,19043,False,2016
+/boxscores/201602190CHI.html,2016-02-19,20:00:00,Toronto Raptors,106,Chicago Bulls,116,,21849,False,2016
+/boxscores/201602190MEM.html,2016-02-19,20:00:00,Minnesota Timberwolves,104,Memphis Grizzlies,109,,18119,False,2016
+/boxscores/201602190MIL.html,2016-02-19,20:00:00,Charlotte Hornets,98,Milwaukee Bucks,95,,16370,False,2016
+/boxscores/201602190NOP.html,2016-02-19,20:00:00,Philadelphia 76ers,114,New Orleans Pelicans,121,,16953,False,2016
+/boxscores/201602190OKC.html,2016-02-19,20:00:00,Indiana Pacers,101,Oklahoma City Thunder,98,,18203,False,2016
+/boxscores/201602190PHO.html,2016-02-19,21:30:00,Houston Rockets,116,Phoenix Suns,100,,17102,False,2016
+/boxscores/201602190POR.html,2016-02-19,22:00:00,Golden State Warriors,105,Portland Trail Blazers,137,,20100,False,2016
+/boxscores/201602190SAC.html,2016-02-19,22:00:00,Denver Nuggets,110,Sacramento Kings,116,,17317,False,2016
+/boxscores/201602190LAL.html,2016-02-19,22:30:00,San Antonio Spurs,119,Los Angeles Lakers,113,,18997,False,2016
+/boxscores/201602190UTA.html,2016-02-19,22:30:00,Boston Celtics,93,Utah Jazz,111,,19911,False,2016
+/boxscores/201602200ATL.html,2016-02-20,19:30:00,Milwaukee Bucks,117,Atlanta Hawks,109,2OT,18653,False,2016
+/boxscores/201602200MIA.html,2016-02-20,19:30:00,Washington Wizards,94,Miami Heat,114,,19710,False,2016
+/boxscores/201602200MIN.html,2016-02-20,20:00:00,New York Knicks,103,Minnesota Timberwolves,95,,16663,False,2016
+/boxscores/201602200LAC.html,2016-02-20,20:30:00,Golden State Warriors,115,Los Angeles Clippers,112,,19585,False,2016
+/boxscores/201602210DET.html,2016-02-21,15:30:00,New Orleans Pelicans,111,Detroit Pistons,106,,17886,False,2016
+/boxscores/201602210OKC.html,2016-02-21,15:30:00,Cleveland Cavaliers,115,Oklahoma City Thunder,92,,18203,False,2016
+/boxscores/201602210DEN.html,2016-02-21,17:00:00,Boston Celtics,121,Denver Nuggets,101,,16065,False,2016
+/boxscores/201602210PHO.html,2016-02-21,17:00:00,San Antonio Spurs,118,Phoenix Suns,111,,16224,False,2016
+/boxscores/201602210BRK.html,2016-02-21,18:00:00,Charlotte Hornets,104,Brooklyn Nets,96,,16155,False,2016
+/boxscores/201602210ORL.html,2016-02-21,18:00:00,Indiana Pacers,105,Orlando Magic,102,,17242,False,2016
+/boxscores/201602210TOR.html,2016-02-21,18:00:00,Memphis Grizzlies,85,Toronto Raptors,98,,19800,False,2016
+/boxscores/201602210DAL.html,2016-02-21,19:00:00,Philadelphia 76ers,103,Dallas Mavericks,129,,20194,False,2016
+/boxscores/201602210CHI.html,2016-02-21,20:00:00,Los Angeles Lakers,115,Chicago Bulls,126,,23143,False,2016
+/boxscores/201602210POR.html,2016-02-21,21:00:00,Utah Jazz,111,Portland Trail Blazers,115,,19470,False,2016
+/boxscores/201602220CLE.html,2016-02-22,19:00:00,Detroit Pistons,96,Cleveland Cavaliers,88,,20562,False,2016
+/boxscores/201602220MIA.html,2016-02-22,19:30:00,Indiana Pacers,93,Miami Heat,101,OT,19600,False,2016
+/boxscores/201602220NYK.html,2016-02-22,19:30:00,Toronto Raptors,122,New York Knicks,95,,19812,False,2016
+/boxscores/201602220ATL.html,2016-02-22,20:00:00,Golden State Warriors,102,Atlanta Hawks,92,,19330,False,2016
+/boxscores/201602220MIL.html,2016-02-22,20:00:00,Los Angeles Lakers,101,Milwaukee Bucks,108,,18717,False,2016
+/boxscores/201602220MIN.html,2016-02-22,20:00:00,Boston Celtics,122,Minnesota Timberwolves,124,,11639,False,2016
+/boxscores/201602220LAC.html,2016-02-22,22:30:00,Phoenix Suns,84,Los Angeles Clippers,124,,19060,False,2016
+/boxscores/201602230PHI.html,2016-02-23,19:00:00,Orlando Magic,124,Philadelphia 76ers,115,,13745,False,2016
+/boxscores/201602230WAS.html,2016-02-23,19:00:00,New Orleans Pelicans,89,Washington Wizards,109,,15743,False,2016
+/boxscores/201602230DEN.html,2016-02-23,21:00:00,Sacramento Kings,114,Denver Nuggets,110,,15721,False,2016
+/boxscores/201602230UTA.html,2016-02-23,21:00:00,Houston Rockets,114,Utah Jazz,117,OT,18132,False,2016
+/boxscores/201602230POR.html,2016-02-23,22:00:00,Brooklyn Nets,104,Portland Trail Blazers,112,,19393,False,2016
+/boxscores/201602240CLE.html,2016-02-24,19:00:00,Charlotte Hornets,103,Cleveland Cavaliers,114,,20562,False,2016
+/boxscores/201602240IND.html,2016-02-24,19:00:00,New York Knicks,105,Indiana Pacers,108,,16018,False,2016
+/boxscores/201602240DET.html,2016-02-24,19:30:00,Philadelphia 76ers,91,Detroit Pistons,111,,13429,False,2016
+/boxscores/201602240MIA.html,2016-02-24,19:30:00,Golden State Warriors,118,Miami Heat,112,,19899,False,2016
+/boxscores/201602240TOR.html,2016-02-24,19:30:00,Minnesota Timberwolves,105,Toronto Raptors,114,,19800,False,2016
+/boxscores/201602240CHI.html,2016-02-24,20:00:00,Washington Wizards,104,Chicago Bulls,109,,21560,False,2016
+/boxscores/201602240MEM.html,2016-02-24,20:00:00,Los Angeles Lakers,119,Memphis Grizzlies,128,,18119,False,2016
+/boxscores/201602240DAL.html,2016-02-24,20:30:00,Oklahoma City Thunder,116,Dallas Mavericks,103,,19805,False,2016
+/boxscores/201602240LAC.html,2016-02-24,22:30:00,Denver Nuggets,87,Los Angeles Clippers,81,,19060,False,2016
+/boxscores/201602240SAC.html,2016-02-24,22:30:00,San Antonio Spurs,108,Sacramento Kings,92,,17317,False,2016
+/boxscores/201602250ORL.html,2016-02-25,19:00:00,Golden State Warriors,130,Orlando Magic,114,,19189,False,2016
+/boxscores/201602250BOS.html,2016-02-25,19:30:00,Milwaukee Bucks,107,Boston Celtics,112,,18157,False,2016
+/boxscores/201602250NOP.html,2016-02-25,20:00:00,Oklahoma City Thunder,119,New Orleans Pelicans,123,,16974,False,2016
+/boxscores/201602250PHO.html,2016-02-25,21:00:00,Brooklyn Nets,116,Phoenix Suns,106,,16145,False,2016
+/boxscores/201602250POR.html,2016-02-25,22:30:00,Houston Rockets,119,Portland Trail Blazers,105,,19393,False,2016
+/boxscores/201602250UTA.html,2016-02-25,22:30:00,San Antonio Spurs,96,Utah Jazz,78,,19911,False,2016
+/boxscores/201602260IND.html,2016-02-26,19:00:00,Charlotte Hornets,96,Indiana Pacers,95,,18165,False,2016
+/boxscores/201602260PHI.html,2016-02-26,19:00:00,Washington Wizards,103,Philadelphia 76ers,94,,16511,False,2016
+/boxscores/201602260NYK.html,2016-02-26,19:30:00,Orlando Magic,95,New York Knicks,108,,19812,False,2016
+/boxscores/201602260TOR.html,2016-02-26,19:30:00,Cleveland Cavaliers,97,Toronto Raptors,99,,19800,False,2016
+/boxscores/201602260ATL.html,2016-02-26,20:00:00,Chicago Bulls,88,Atlanta Hawks,103,,18123,False,2016
+/boxscores/201602260DAL.html,2016-02-26,20:30:00,Denver Nuggets,116,Dallas Mavericks,122,OT,20298,False,2016
+/boxscores/201602260SAC.html,2016-02-26,22:00:00,Los Angeles Clippers,117,Sacramento Kings,107,,17317,False,2016
+/boxscores/201602260LAL.html,2016-02-26,22:30:00,Memphis Grizzlies,112,Los Angeles Lakers,95,,18997,False,2016
+/boxscores/201602270BOS.html,2016-02-27,15:00:00,Miami Heat,89,Boston Celtics,101,,18624,False,2016
+/boxscores/201602270NOP.html,2016-02-27,19:00:00,Minnesota Timberwolves,112,New Orleans Pelicans,110,,17338,False,2016
+/boxscores/201602270CHI.html,2016-02-27,20:00:00,Portland Trail Blazers,103,Chicago Bulls,95,,21962,False,2016
+/boxscores/201602270HOU.html,2016-02-27,20:00:00,San Antonio Spurs,104,Houston Rockets,94,,18240,False,2016
+/boxscores/201602270MIL.html,2016-02-27,20:30:00,Detroit Pistons,102,Milwaukee Bucks,91,,17165,False,2016
+/boxscores/201602270OKC.html,2016-02-27,20:30:00,Golden State Warriors,121,Oklahoma City Thunder,118,OT,18203,False,2016
+/boxscores/201602270PHO.html,2016-02-27,21:30:00,Memphis Grizzlies,106,Phoenix Suns,111,,17101,False,2016
+/boxscores/201602270UTA.html,2016-02-27,21:30:00,Brooklyn Nets,98,Utah Jazz,96,,18863,False,2016
+/boxscores/201602280WAS.html,2016-02-28,13:00:00,Cleveland Cavaliers,99,Washington Wizards,113,,20356,False,2016
+/boxscores/201602280ATL.html,2016-02-28,15:30:00,Charlotte Hornets,76,Atlanta Hawks,87,,17156,False,2016
+/boxscores/201602280DET.html,2016-02-28,18:00:00,Toronto Raptors,101,Detroit Pistons,114,,17201,False,2016
+/boxscores/201602280IND.html,2016-02-28,18:00:00,Portland Trail Blazers,111,Indiana Pacers,102,,16662,False,2016
+/boxscores/201602280ORL.html,2016-02-28,18:00:00,Philadelphia 76ers,116,Orlando Magic,130,,16168,False,2016
+/boxscores/201602280DAL.html,2016-02-28,19:00:00,Minnesota Timberwolves,101,Dallas Mavericks,128,,20289,False,2016
+/boxscores/201602280NYK.html,2016-02-28,19:30:00,Miami Heat,98,New York Knicks,81,,19812,False,2016
+/boxscores/201602290CLE.html,2016-02-29,19:00:00,Indiana Pacers,96,Cleveland Cavaliers,100,,20562,False,2016
+/boxscores/201602290WAS.html,2016-02-29,19:00:00,Philadelphia 76ers,108,Washington Wizards,116,,15096,False,2016
+/boxscores/201602290BOS.html,2016-02-29,19:30:00,Utah Jazz,95,Boston Celtics,100,,17680,False,2016
+/boxscores/201602290MIL.html,2016-02-29,20:00:00,Houston Rockets,121,Milwaukee Bucks,128,,13214,False,2016
+/boxscores/201602290DEN.html,2016-02-29,21:00:00,Memphis Grizzlies,103,Denver Nuggets,96,,10324,False,2016
+/boxscores/201602290SAC.html,2016-02-29,22:00:00,Oklahoma City Thunder,131,Sacramento Kings,116,,17317,False,2016
+/boxscores/201602290LAC.html,2016-02-29,22:30:00,Brooklyn Nets,95,Los Angeles Clippers,105,,19060,False,2016
+/boxscores/201603010CHO.html,2016-03-01,19:00:00,Phoenix Suns,92,Charlotte Hornets,126,,16849,False,2016
+/boxscores/201603010MIA.html,2016-03-01,19:30:00,Chicago Bulls,111,Miami Heat,129,,19654,False,2016
+/boxscores/201603010NYK.html,2016-03-01,19:30:00,Portland Trail Blazers,104,New York Knicks,85,,19812,False,2016
+/boxscores/201603010DAL.html,2016-03-01,20:30:00,Orlando Magic,108,Dallas Mavericks,121,,19546,False,2016
+/boxscores/201603010GSW.html,2016-03-01,22:30:00,Atlanta Hawks,105,Golden State Warriors,109,OT,19596,False,2016
+/boxscores/201603010LAL.html,2016-03-01,22:30:00,Brooklyn Nets,101,Los Angeles Lakers,107,,18997,False,2016
+/boxscores/201603020ORL.html,2016-03-02,19:00:00,Chicago Bulls,89,Orlando Magic,102,,16072,False,2016
+/boxscores/201603020PHI.html,2016-03-02,19:00:00,Charlotte Hornets,119,Philadelphia 76ers,99,,11143,False,2016
+/boxscores/201603020BOS.html,2016-03-02,19:30:00,Portland Trail Blazers,93,Boston Celtics,116,,18624,False,2016
+/boxscores/201603020TOR.html,2016-03-02,19:30:00,Utah Jazz,94,Toronto Raptors,104,,19800,False,2016
+/boxscores/201603020HOU.html,2016-03-02,20:00:00,New Orleans Pelicans,95,Houston Rockets,100,,18226,False,2016
+/boxscores/201603020MEM.html,2016-03-02,20:00:00,Sacramento Kings,98,Memphis Grizzlies,104,,15310,False,2016
+/boxscores/201603020MIL.html,2016-03-02,20:00:00,Indiana Pacers,104,Milwaukee Bucks,99,,14263,False,2016
+/boxscores/201603020MIN.html,2016-03-02,20:00:00,Washington Wizards,104,Minnesota Timberwolves,98,,11307,False,2016
+/boxscores/201603020SAS.html,2016-03-02,20:00:00,Detroit Pistons,81,San Antonio Spurs,97,,18418,False,2016
+/boxscores/201603020DEN.html,2016-03-02,21:00:00,Los Angeles Lakers,107,Denver Nuggets,117,,20096,False,2016
+/boxscores/201603020LAC.html,2016-03-02,22:30:00,Oklahoma City Thunder,98,Los Angeles Clippers,103,,19304,False,2016
+/boxscores/201603030MIA.html,2016-03-03,19:30:00,Phoenix Suns,92,Miami Heat,108,,19600,False,2016
+/boxscores/201603030NOP.html,2016-03-03,20:00:00,San Antonio Spurs,94,New Orleans Pelicans,86,,17781,False,2016
+/boxscores/201603030DAL.html,2016-03-03,20:30:00,Sacramento Kings,104,Dallas Mavericks,101,,19910,False,2016
+/boxscores/201603030GSW.html,2016-03-03,22:30:00,Oklahoma City Thunder,106,Golden State Warriors,121,,19596,False,2016
+/boxscores/201603040CHO.html,2016-03-04,19:00:00,Indiana Pacers,101,Charlotte Hornets,108,,19099,False,2016
+/boxscores/201603040ORL.html,2016-03-04,19:00:00,Phoenix Suns,102,Orlando Magic,84,,17546,False,2016
+/boxscores/201603040PHI.html,2016-03-04,19:00:00,Miami Heat,112,Philadelphia 76ers,102,,17610,False,2016
+/boxscores/201603040BOS.html,2016-03-04,19:30:00,New York Knicks,104,Boston Celtics,105,,18624,False,2016
+/boxscores/201603040TOR.html,2016-03-04,19:30:00,Portland Trail Blazers,115,Toronto Raptors,117,,19800,False,2016
+/boxscores/201603040CLE.html,2016-03-04,20:00:00,Washington Wizards,83,Cleveland Cavaliers,108,,20562,False,2016
+/boxscores/201603040MEM.html,2016-03-04,20:00:00,Utah Jazz,88,Memphis Grizzlies,94,,17188,False,2016
+/boxscores/201603040MIL.html,2016-03-04,20:00:00,Minnesota Timberwolves,101,Milwaukee Bucks,116,,16366,False,2016
+/boxscores/201603040DEN.html,2016-03-04,21:00:00,Brooklyn Nets,121,Denver Nuggets,120,OT,14163,False,2016
+/boxscores/201603040LAL.html,2016-03-04,22:30:00,Atlanta Hawks,106,Los Angeles Lakers,77,,18997,False,2016
+/boxscores/201603050CLE.html,2016-03-05,19:00:00,Boston Celtics,103,Cleveland Cavaliers,120,,20562,False,2016
+/boxscores/201603050NOP.html,2016-03-05,19:00:00,Utah Jazz,106,New Orleans Pelicans,94,,16680,False,2016
+/boxscores/201603050NYK.html,2016-03-05,19:00:00,Detroit Pistons,89,New York Knicks,102,,19812,False,2016
+/boxscores/201603050WAS.html,2016-03-05,19:00:00,Indiana Pacers,100,Washington Wizards,99,,20356,False,2016
+/boxscores/201603050MIN.html,2016-03-05,20:00:00,Brooklyn Nets,118,Minnesota Timberwolves,132,,15987,False,2016
+/boxscores/201603050CHI.html,2016-03-05,20:30:00,Houston Rockets,100,Chicago Bulls,108,,22203,False,2016
+/boxscores/201603050SAS.html,2016-03-05,20:30:00,Sacramento Kings,94,San Antonio Spurs,104,,18418,False,2016
+/boxscores/201603050LAC.html,2016-03-05,22:30:00,Atlanta Hawks,107,Los Angeles Clippers,97,,19236,False,2016
+/boxscores/201603060LAL.html,2016-03-06,15:30:00,Golden State Warriors,95,Los Angeles Lakers,112,,18997,False,2016
+/boxscores/201603060MIL.html,2016-03-06,15:30:00,Oklahoma City Thunder,104,Milwaukee Bucks,96,,16565,False,2016
+/boxscores/201603060MEM.html,2016-03-06,16:00:00,Phoenix Suns,109,Memphis Grizzlies,100,,17291,False,2016
+/boxscores/201603060DEN.html,2016-03-06,17:00:00,Dallas Mavericks,114,Denver Nuggets,116,OT,14802,False,2016
+/boxscores/201603060DET.html,2016-03-06,18:00:00,Portland Trail Blazers,103,Detroit Pistons,123,,18386,False,2016
+/boxscores/201603060MIA.html,2016-03-06,18:00:00,Philadelphia 76ers,98,Miami Heat,103,,19820,False,2016
+/boxscores/201603060TOR.html,2016-03-06,18:30:00,Houston Rockets,113,Toronto Raptors,107,,19800,False,2016
+/boxscores/201603070CHO.html,2016-03-07,19:00:00,Minnesota Timberwolves,103,Charlotte Hornets,108,,15912,False,2016
+/boxscores/201603070CLE.html,2016-03-07,19:00:00,Memphis Grizzlies,106,Cleveland Cavaliers,103,,20562,False,2016
+/boxscores/201603070IND.html,2016-03-07,19:00:00,San Antonio Spurs,91,Indiana Pacers,99,,16742,False,2016
+/boxscores/201603070CHI.html,2016-03-07,20:00:00,Milwaukee Bucks,90,Chicago Bulls,100,,21672,False,2016
+/boxscores/201603070NOP.html,2016-03-07,20:00:00,Sacramento Kings,112,New Orleans Pelicans,115,,16403,False,2016
+/boxscores/201603070DAL.html,2016-03-07,20:30:00,Los Angeles Clippers,109,Dallas Mavericks,90,,20002,False,2016
+/boxscores/201603070GSW.html,2016-03-07,22:30:00,Orlando Magic,113,Golden State Warriors,119,,19596,False,2016
+/boxscores/201603080TOR.html,2016-03-08,19:30:00,Brooklyn Nets,99,Toronto Raptors,104,,19800,False,2016
+/boxscores/201603080MIN.html,2016-03-08,20:00:00,San Antonio Spurs,116,Minnesota Timberwolves,91,,14093,False,2016
+/boxscores/201603080DEN.html,2016-03-08,21:00:00,New York Knicks,94,Denver Nuggets,110,,13305,False,2016
+/boxscores/201603080UTA.html,2016-03-08,21:00:00,Atlanta Hawks,91,Utah Jazz,84,,19282,False,2016
+/boxscores/201603080POR.html,2016-03-08,22:00:00,Washington Wizards,109,Portland Trail Blazers,116,OT,19393,False,2016
+/boxscores/201603080LAL.html,2016-03-08,22:30:00,Orlando Magic,98,Los Angeles Lakers,107,,18997,False,2016
+/boxscores/201603090BOS.html,2016-03-09,19:00:00,Memphis Grizzlies,96,Boston Celtics,116,,17790,False,2016
+/boxscores/201603090CHO.html,2016-03-09,19:00:00,New Orleans Pelicans,113,Charlotte Hornets,122,,16335,False,2016
+/boxscores/201603090PHI.html,2016-03-09,19:00:00,Houston Rockets,118,Philadelphia 76ers,104,,15237,False,2016
+/boxscores/201603090MIL.html,2016-03-09,20:00:00,Miami Heat,108,Milwaukee Bucks,114,,15005,False,2016
+/boxscores/201603090DAL.html,2016-03-09,20:30:00,Detroit Pistons,102,Dallas Mavericks,96,,20249,False,2016
+/boxscores/201603090PHO.html,2016-03-09,21:00:00,New York Knicks,128,Phoenix Suns,97,,17105,False,2016
+/boxscores/201603090OKC.html,2016-03-09,21:30:00,Los Angeles Clippers,108,Oklahoma City Thunder,120,,18203,False,2016
+/boxscores/201603090SAC.html,2016-03-09,22:00:00,Cleveland Cavaliers,120,Sacramento Kings,111,,17317,False,2016
+/boxscores/201603090GSW.html,2016-03-09,22:30:00,Utah Jazz,94,Golden State Warriors,115,,19596,False,2016
+/boxscores/201603100TOR.html,2016-03-10,19:30:00,Atlanta Hawks,96,Toronto Raptors,104,,19800,False,2016
+/boxscores/201603100SAS.html,2016-03-10,20:00:00,Chicago Bulls,101,San Antonio Spurs,109,,18418,False,2016
+/boxscores/201603100DEN.html,2016-03-10,21:00:00,Phoenix Suns,98,Denver Nuggets,116,,11582,False,2016
+/boxscores/201603100LAL.html,2016-03-10,22:30:00,Cleveland Cavaliers,120,Los Angeles Lakers,108,,18997,False,2016
+/boxscores/201603110CHO.html,2016-03-11,19:00:00,Detroit Pistons,103,Charlotte Hornets,118,,18189,False,2016
+/boxscores/201603110PHI.html,2016-03-11,19:00:00,Brooklyn Nets,89,Philadelphia 76ers,95,,14128,False,2016
+/boxscores/201603110BOS.html,2016-03-11,19:30:00,Houston Rockets,102,Boston Celtics,98,,18624,False,2016
+/boxscores/201603110CHI.html,2016-03-11,20:00:00,Miami Heat,118,Chicago Bulls,96,,22067,False,2016
+/boxscores/201603110MEM.html,2016-03-11,20:00:00,New Orleans Pelicans,114,Memphis Grizzlies,121,OT,18119,False,2016
+/boxscores/201603110OKC.html,2016-03-11,20:00:00,Minnesota Timberwolves,99,Oklahoma City Thunder,96,,18203,False,2016
+/boxscores/201603110UTA.html,2016-03-11,21:00:00,Washington Wizards,93,Utah Jazz,114,,19911,False,2016
+/boxscores/201603110SAC.html,2016-03-11,22:00:00,Orlando Magic,107,Sacramento Kings,100,,17081,False,2016
+/boxscores/201603110GSW.html,2016-03-11,22:30:00,Portland Trail Blazers,112,Golden State Warriors,128,,19596,False,2016
+/boxscores/201603110LAC.html,2016-03-11,22:30:00,New York Knicks,94,Los Angeles Clippers,101,,19175,False,2016
+/boxscores/201603120DAL.html,2016-03-12,14:00:00,Indiana Pacers,112,Dallas Mavericks,105,,20459,False,2016
+/boxscores/201603120CHO.html,2016-03-12,19:00:00,Houston Rockets,109,Charlotte Hornets,125,,19303,False,2016
+/boxscores/201603120PHI.html,2016-03-12,19:00:00,Detroit Pistons,125,Philadelphia 76ers,111,,16087,False,2016
+/boxscores/201603120TOR.html,2016-03-12,19:00:00,Miami Heat,104,Toronto Raptors,112,OT,19800,False,2016
+/boxscores/201603120ATL.html,2016-03-12,19:30:00,Memphis Grizzlies,83,Atlanta Hawks,95,,17515,False,2016
+/boxscores/201603120MIL.html,2016-03-12,19:30:00,New Orleans Pelicans,92,Milwaukee Bucks,103,,16518,False,2016
+/boxscores/201603120SAS.html,2016-03-12,20:30:00,Oklahoma City Thunder,85,San Antonio Spurs,93,,18418,False,2016
+/boxscores/201603120DEN.html,2016-03-12,21:30:00,Washington Wizards,100,Denver Nuggets,116,,13213,False,2016
+/boxscores/201603120GSW.html,2016-03-12,22:30:00,Phoenix Suns,116,Golden State Warriors,123,,19596,False,2016
+/boxscores/201603120POR.html,2016-03-12,22:30:00,Orlando Magic,84,Portland Trail Blazers,121,,19452,False,2016
+/boxscores/201603130LAC.html,2016-03-13,15:30:00,Cleveland Cavaliers,114,Los Angeles Clippers,90,,19342,False,2016
+/boxscores/201603130ATL.html,2016-03-13,18:00:00,Indiana Pacers,75,Atlanta Hawks,104,,17066,False,2016
+/boxscores/201603130SAC.html,2016-03-13,18:00:00,Utah Jazz,108,Sacramento Kings,99,,17023,False,2016
+/boxscores/201603130BRK.html,2016-03-13,20:00:00,Milwaukee Bucks,109,Brooklyn Nets,100,,15241,False,2016
+/boxscores/201603130LAL.html,2016-03-13,21:30:00,New York Knicks,90,Los Angeles Lakers,87,,18997,False,2016
+/boxscores/201603140CHO.html,2016-03-14,19:00:00,Dallas Mavericks,107,Charlotte Hornets,96,,15686,False,2016
+/boxscores/201603140MIA.html,2016-03-14,19:30:00,Denver Nuggets,119,Miami Heat,124,,19744,False,2016
+/boxscores/201603140TOR.html,2016-03-14,19:30:00,Chicago Bulls,109,Toronto Raptors,107,,19800,False,2016
+/boxscores/201603140HOU.html,2016-03-14,20:00:00,Memphis Grizzlies,81,Houston Rockets,130,,18226,False,2016
+/boxscores/201603140OKC.html,2016-03-14,20:00:00,Portland Trail Blazers,94,Oklahoma City Thunder,128,,18203,False,2016
+/boxscores/201603140WAS.html,2016-03-14,20:00:00,Detroit Pistons,81,Washington Wizards,124,,18042,False,2016
+/boxscores/201603140PHO.html,2016-03-14,22:00:00,Minnesota Timberwolves,104,Phoenix Suns,107,,17480,False,2016
+/boxscores/201603140GSW.html,2016-03-14,22:30:00,New Orleans Pelicans,107,Golden State Warriors,125,,19596,False,2016
+/boxscores/201603140UTA.html,2016-03-14,22:30:00,Cleveland Cavaliers,85,Utah Jazz,94,,19911,False,2016
+/boxscores/201603150IND.html,2016-03-15,19:00:00,Boston Celtics,98,Indiana Pacers,103,,17118,False,2016
+/boxscores/201603150ORL.html,2016-03-15,19:00:00,Denver Nuggets,110,Orlando Magic,116,,16988,False,2016
+/boxscores/201603150BRK.html,2016-03-15,19:30:00,Philadelphia 76ers,114,Brooklyn Nets,131,,14560,False,2016
+/boxscores/201603150MIL.html,2016-03-15,20:00:00,Toronto Raptors,107,Milwaukee Bucks,89,,13522,False,2016
+/boxscores/201603150SAS.html,2016-03-15,20:30:00,Los Angeles Clippers,87,San Antonio Spurs,108,,18418,False,2016
+/boxscores/201603150LAL.html,2016-03-15,22:30:00,Sacramento Kings,106,Los Angeles Lakers,98,,18997,False,2016
+/boxscores/201603160BOS.html,2016-03-16,19:00:00,Oklahoma City Thunder,130,Boston Celtics,109,,18624,False,2016
+/boxscores/201603160CHO.html,2016-03-16,19:00:00,Orlando Magic,99,Charlotte Hornets,107,,16148,False,2016
+/boxscores/201603160CLE.html,2016-03-16,19:00:00,Dallas Mavericks,98,Cleveland Cavaliers,99,,20562,False,2016
+/boxscores/201603160WAS.html,2016-03-16,19:00:00,Chicago Bulls,96,Washington Wizards,117,,19556,False,2016
+/boxscores/201603160DET.html,2016-03-16,19:30:00,Atlanta Hawks,118,Detroit Pistons,114,,14121,False,2016
+/boxscores/201603160MEM.html,2016-03-16,20:00:00,Minnesota Timberwolves,114,Memphis Grizzlies,108,,16588,False,2016
+/boxscores/201603160HOU.html,2016-03-16,21:30:00,Los Angeles Clippers,122,Houston Rockets,106,,18304,False,2016
+/boxscores/201603160SAC.html,2016-03-16,22:00:00,New Orleans Pelicans,123,Sacramento Kings,108,,17086,False,2016
+/boxscores/201603160GSW.html,2016-03-16,22:30:00,New York Knicks,85,Golden State Warriors,121,,19596,False,2016
+/boxscores/201603170IND.html,2016-03-17,19:00:00,Toronto Raptors,101,Indiana Pacers,94,OT,15104,False,2016
+/boxscores/201603170PHI.html,2016-03-17,19:00:00,Washington Wizards,99,Philadelphia 76ers,94,,10521,False,2016
+/boxscores/201603170MIA.html,2016-03-17,19:30:00,Charlotte Hornets,109,Miami Heat,106,,19848,False,2016
+/boxscores/201603170ATL.html,2016-03-17,20:00:00,Denver Nuggets,98,Atlanta Hawks,116,,14383,False,2016
+/boxscores/201603170CHI.html,2016-03-17,20:00:00,Brooklyn Nets,102,Chicago Bulls,118,,21513,False,2016
+/boxscores/201603170MIL.html,2016-03-17,20:00:00,Memphis Grizzlies,86,Milwaukee Bucks,96,,11740,False,2016
+/boxscores/201603170SAS.html,2016-03-17,20:30:00,Portland Trail Blazers,110,San Antonio Spurs,118,,18418,False,2016
+/boxscores/201603170UTA.html,2016-03-17,21:00:00,Phoenix Suns,69,Utah Jazz,103,,18784,False,2016
+/boxscores/201603180ORL.html,2016-03-18,19:00:00,Cleveland Cavaliers,109,Orlando Magic,103,,18046,False,2016
+/boxscores/201603180PHI.html,2016-03-18,19:00:00,Oklahoma City Thunder,111,Philadelphia 76ers,97,,20388,False,2016
+/boxscores/201603180DET.html,2016-03-18,19:30:00,Sacramento Kings,108,Detroit Pistons,115,,15982,False,2016
+/boxscores/201603180TOR.html,2016-03-18,19:30:00,Boston Celtics,91,Toronto Raptors,105,,19800,False,2016
+/boxscores/201603180HOU.html,2016-03-18,20:00:00,Minnesota Timberwolves,111,Houston Rockets,116,,18142,False,2016
+/boxscores/201603180NOP.html,2016-03-18,20:00:00,Portland Trail Blazers,117,New Orleans Pelicans,112,,17263,False,2016
+/boxscores/201603180DAL.html,2016-03-18,20:30:00,Golden State Warriors,130,Dallas Mavericks,112,,20515,False,2016
+/boxscores/201603180LAL.html,2016-03-18,22:30:00,Phoenix Suns,95,Los Angeles Lakers,90,,18997,False,2016
+/boxscores/201603190CHO.html,2016-03-19,18:00:00,Denver Nuggets,101,Charlotte Hornets,93,,19271,False,2016
+/boxscores/201603190DET.html,2016-03-19,19:00:00,Brooklyn Nets,103,Detroit Pistons,115,,17559,False,2016
+/boxscores/201603190IND.html,2016-03-19,19:00:00,Oklahoma City Thunder,115,Indiana Pacers,111,,18165,False,2016
+/boxscores/201603190WAS.html,2016-03-19,19:00:00,New York Knicks,89,Washington Wizards,99,,20356,False,2016
+/boxscores/201603190ATL.html,2016-03-19,19:30:00,Houston Rockets,97,Atlanta Hawks,109,,18067,False,2016
+/boxscores/201603190MIA.html,2016-03-19,19:30:00,Cleveland Cavaliers,101,Miami Heat,122,,19737,False,2016
+/boxscores/201603190CHI.html,2016-03-19,20:00:00,Utah Jazz,85,Chicago Bulls,92,,21856,False,2016
+/boxscores/201603190MEM.html,2016-03-19,20:00:00,Los Angeles Clippers,102,Memphis Grizzlies,113,,18119,False,2016
+/boxscores/201603190SAS.html,2016-03-19,20:30:00,Golden State Warriors,79,San Antonio Spurs,87,,18825,False,2016
+/boxscores/201603200DAL.html,2016-03-20,16:00:00,Portland Trail Blazers,120,Dallas Mavericks,132,OT,20351,False,2016
+/boxscores/201603200TOR.html,2016-03-20,16:30:00,Orlando Magic,100,Toronto Raptors,105,,19800,False,2016
+/boxscores/201603200NOP.html,2016-03-20,18:00:00,Los Angeles Clippers,105,New Orleans Pelicans,109,,17407,False,2016
+/boxscores/201603200PHI.html,2016-03-20,18:00:00,Boston Celtics,120,Philadelphia 76ers,105,,15103,False,2016
+/boxscores/201603200MIL.html,2016-03-20,19:00:00,Utah Jazz,94,Milwaukee Bucks,85,,14124,False,2016
+/boxscores/201603200NYK.html,2016-03-20,19:30:00,Sacramento Kings,88,New York Knicks,80,,19812,False,2016
+/boxscores/201603210CHO.html,2016-03-21,19:00:00,San Antonio Spurs,88,Charlotte Hornets,91,,18260,False,2016
+/boxscores/201603210CLE.html,2016-03-21,19:00:00,Denver Nuggets,91,Cleveland Cavaliers,124,,20562,False,2016
+/boxscores/201603210IND.html,2016-03-21,19:00:00,Philadelphia 76ers,75,Indiana Pacers,91,,16155,False,2016
+/boxscores/201603210BOS.html,2016-03-21,19:30:00,Orlando Magic,96,Boston Celtics,107,,18624,False,2016
+/boxscores/201603210DET.html,2016-03-21,19:30:00,Milwaukee Bucks,91,Detroit Pistons,92,,13577,False,2016
+/boxscores/201603210ATL.html,2016-03-21,20:00:00,Washington Wizards,117,Atlanta Hawks,102,,15729,False,2016
+/boxscores/201603210CHI.html,2016-03-21,20:00:00,Sacramento Kings,102,Chicago Bulls,109,,21531,False,2016
+/boxscores/201603210MIN.html,2016-03-21,20:00:00,Golden State Warriors,109,Minnesota Timberwolves,104,,19452,False,2016
+/boxscores/201603210PHO.html,2016-03-21,22:00:00,Memphis Grizzlies,103,Phoenix Suns,97,,15868,False,2016
+/boxscores/201603220BRK.html,2016-03-22,19:30:00,Charlotte Hornets,105,Brooklyn Nets,100,,15739,False,2016
+/boxscores/201603220NOP.html,2016-03-22,20:00:00,Miami Heat,113,New Orleans Pelicans,99,,16867,False,2016
+/boxscores/201603220OKC.html,2016-03-22,20:00:00,Houston Rockets,107,Oklahoma City Thunder,111,,18203,False,2016
+/boxscores/201603220LAL.html,2016-03-22,22:30:00,Memphis Grizzlies,100,Los Angeles Lakers,107,,18997,False,2016
+/boxscores/201603230CLE.html,2016-03-23,19:00:00,Milwaukee Bucks,104,Cleveland Cavaliers,113,,20562,False,2016
+/boxscores/201603230WAS.html,2016-03-23,19:00:00,Atlanta Hawks,122,Washington Wizards,101,,18807,False,2016
+/boxscores/201603230BOS.html,2016-03-23,19:30:00,Toronto Raptors,79,Boston Celtics,91,,18624,False,2016
+/boxscores/201603230DET.html,2016-03-23,19:30:00,Orlando Magic,102,Detroit Pistons,118,,16609,False,2016
+/boxscores/201603230CHI.html,2016-03-23,20:00:00,New York Knicks,115,Chicago Bulls,107,,21788,False,2016
+/boxscores/201603230HOU.html,2016-03-23,20:00:00,Utah Jazz,89,Houston Rockets,87,,18151,False,2016
+/boxscores/201603230MIN.html,2016-03-23,20:00:00,Sacramento Kings,104,Minnesota Timberwolves,113,,12151,False,2016
+/boxscores/201603230SAS.html,2016-03-23,20:30:00,Miami Heat,88,San Antonio Spurs,112,,18418,False,2016
+/boxscores/201603230DEN.html,2016-03-23,21:00:00,Philadelphia 76ers,103,Denver Nuggets,104,,10684,False,2016
+/boxscores/201603230PHO.html,2016-03-23,22:00:00,Los Angeles Lakers,107,Phoenix Suns,119,,18191,False,2016
+/boxscores/201603230POR.html,2016-03-23,22:00:00,Dallas Mavericks,103,Portland Trail Blazers,109,,19819,False,2016
+/boxscores/201603230GSW.html,2016-03-23,22:30:00,Los Angeles Clippers,98,Golden State Warriors,114,,19596,False,2016
+/boxscores/201603240IND.html,2016-03-24,19:00:00,New Orleans Pelicans,84,Indiana Pacers,92,,17517,False,2016
+/boxscores/201603240BRK.html,2016-03-24,19:30:00,Cleveland Cavaliers,95,Brooklyn Nets,104,,17732,False,2016
+/boxscores/201603240NYK.html,2016-03-24,19:30:00,Chicago Bulls,94,New York Knicks,106,,19812,False,2016
+/boxscores/201603240OKC.html,2016-03-24,20:00:00,Utah Jazz,91,Oklahoma City Thunder,113,,18203,False,2016
+/boxscores/201603240LAC.html,2016-03-24,22:30:00,Portland Trail Blazers,94,Los Angeles Clippers,96,,19359,False,2016
+/boxscores/201603250WAS.html,2016-03-25,19:00:00,Minnesota Timberwolves,132,Washington Wizards,129,2OT,20356,False,2016
+/boxscores/201603250DET.html,2016-03-25,19:30:00,Charlotte Hornets,105,Detroit Pistons,112,,17209,False,2016
+/boxscores/201603250ATL.html,2016-03-25,20:00:00,Milwaukee Bucks,90,Atlanta Hawks,101,,17070,False,2016
+/boxscores/201603250HOU.html,2016-03-25,20:00:00,Toronto Raptors,109,Houston Rockets,112,,18230,False,2016
+/boxscores/201603250MIA.html,2016-03-25,20:00:00,Orlando Magic,97,Miami Heat,108,,19918,False,2016
+/boxscores/201603250SAS.html,2016-03-25,20:30:00,Memphis Grizzlies,104,San Antonio Spurs,110,,18418,False,2016
+/boxscores/201603250SAC.html,2016-03-25,22:00:00,Phoenix Suns,94,Sacramento Kings,116,,17317,False,2016
+/boxscores/201603250GSW.html,2016-03-25,22:30:00,Dallas Mavericks,120,Golden State Warriors,128,,19596,False,2016
+/boxscores/201603250LAL.html,2016-03-25,22:30:00,Denver Nuggets,116,Los Angeles Lakers,105,,18997,False,2016
+/boxscores/201603260BRK.html,2016-03-26,18:00:00,Indiana Pacers,110,Brooklyn Nets,120,,16625,False,2016
+/boxscores/201603260NOP.html,2016-03-26,19:00:00,Toronto Raptors,115,New Orleans Pelicans,91,,17009,False,2016
+/boxscores/201603260ORL.html,2016-03-26,19:00:00,Chicago Bulls,89,Orlando Magic,111,,18846,False,2016
+/boxscores/201603260DET.html,2016-03-26,19:30:00,Atlanta Hawks,112,Detroit Pistons,95,,17857,False,2016
+/boxscores/201603260NYK.html,2016-03-26,19:30:00,Cleveland Cavaliers,107,New York Knicks,93,,19812,False,2016
+/boxscores/201603260MIN.html,2016-03-26,20:00:00,Utah Jazz,93,Minnesota Timberwolves,84,,14694,False,2016
+/boxscores/201603260OKC.html,2016-03-26,20:00:00,San Antonio Spurs,92,Oklahoma City Thunder,111,,18203,False,2016
+/boxscores/201603260MIL.html,2016-03-26,20:30:00,Charlotte Hornets,115,Milwaukee Bucks,91,,15544,False,2016
+/boxscores/201603260PHO.html,2016-03-26,22:00:00,Boston Celtics,102,Phoenix Suns,99,,18055,False,2016
+/boxscores/201603260POR.html,2016-03-26,22:00:00,Philadelphia 76ers,105,Portland Trail Blazers,108,,19506,False,2016
+/boxscores/201603270LAC.html,2016-03-27,15:30:00,Denver Nuggets,90,Los Angeles Clippers,105,,19060,False,2016
+/boxscores/201603270IND.html,2016-03-27,18:00:00,Houston Rockets,101,Indiana Pacers,104,,17165,False,2016
+/boxscores/201603270SAC.html,2016-03-27,18:00:00,Dallas Mavericks,111,Sacramento Kings,133,,17147,False,2016
+/boxscores/201603270GSW.html,2016-03-27,20:00:00,Philadelphia 76ers,105,Golden State Warriors,117,,19596,False,2016
+/boxscores/201603270LAL.html,2016-03-27,21:30:00,Washington Wizards,101,Los Angeles Lakers,88,,18997,False,2016
+/boxscores/201603280MIA.html,2016-03-28,19:30:00,Brooklyn Nets,99,Miami Heat,110,,20003,False,2016
+/boxscores/201603280TOR.html,2016-03-28,19:30:00,Oklahoma City Thunder,119,Toronto Raptors,100,,19800,False,2016
+/boxscores/201603280CHI.html,2016-03-28,20:00:00,Atlanta Hawks,102,Chicago Bulls,100,,21761,False,2016
+/boxscores/201603280MEM.html,2016-03-28,20:00:00,San Antonio Spurs,101,Memphis Grizzlies,87,,17133,False,2016
+/boxscores/201603280MIN.html,2016-03-28,20:00:00,Phoenix Suns,116,Minnesota Timberwolves,121,,11141,False,2016
+/boxscores/201603280NOP.html,2016-03-28,20:00:00,New York Knicks,91,New Orleans Pelicans,99,,17000,False,2016
+/boxscores/201603280DEN.html,2016-03-28,21:00:00,Dallas Mavericks,97,Denver Nuggets,88,,14844,False,2016
+/boxscores/201603280UTA.html,2016-03-28,21:00:00,Los Angeles Lakers,75,Utah Jazz,123,,19911,False,2016
+/boxscores/201603280POR.html,2016-03-28,22:00:00,Sacramento Kings,93,Portland Trail Blazers,105,,19393,False,2016
+/boxscores/201603280LAC.html,2016-03-28,22:30:00,Boston Celtics,90,Los Angeles Clippers,114,,19258,False,2016
+/boxscores/201603290IND.html,2016-03-29,19:00:00,Chicago Bulls,98,Indiana Pacers,96,,17050,False,2016
+/boxscores/201603290ORL.html,2016-03-29,19:00:00,Brooklyn Nets,105,Orlando Magic,139,,17536,False,2016
+/boxscores/201603290PHI.html,2016-03-29,19:00:00,Charlotte Hornets,100,Philadelphia 76ers,85,,14486,False,2016
+/boxscores/201603290DET.html,2016-03-29,19:30:00,Oklahoma City Thunder,82,Detroit Pistons,88,,18201,False,2016
+/boxscores/201603290CLE.html,2016-03-29,20:00:00,Houston Rockets,106,Cleveland Cavaliers,100,,20562,False,2016
+/boxscores/201603290GSW.html,2016-03-29,22:30:00,Washington Wizards,94,Golden State Warriors,102,,19596,False,2016
+/boxscores/201603300TOR.html,2016-03-30,19:30:00,Atlanta Hawks,97,Toronto Raptors,105,,19800,False,2016
+/boxscores/201603300MEM.html,2016-03-30,20:00:00,Denver Nuggets,109,Memphis Grizzlies,105,,16401,False,2016
+/boxscores/201603300MIL.html,2016-03-30,20:00:00,Phoenix Suns,94,Milwaukee Bucks,105,,15733,False,2016
+/boxscores/201603300MIN.html,2016-03-30,20:00:00,Los Angeles Clippers,99,Minnesota Timberwolves,79,,12252,False,2016
+/boxscores/201603300DAL.html,2016-03-30,20:30:00,New York Knicks,89,Dallas Mavericks,91,,20435,False,2016
+/boxscores/201603300SAS.html,2016-03-30,20:30:00,New Orleans Pelicans,92,San Antonio Spurs,100,,18418,False,2016
+/boxscores/201603300UTA.html,2016-03-30,21:00:00,Golden State Warriors,103,Utah Jazz,96,OT,19911,False,2016
+/boxscores/201603300SAC.html,2016-03-30,22:00:00,Washington Wizards,111,Sacramento Kings,120,,17185,False,2016
+/boxscores/201603300LAL.html,2016-03-30,22:30:00,Miami Heat,100,Los Angeles Lakers,102,OT,18997,False,2016
+/boxscores/201603310CLE.html,2016-03-31,19:00:00,Brooklyn Nets,87,Cleveland Cavaliers,107,,20562,False,2016
+/boxscores/201603310HOU.html,2016-03-31,19:00:00,Chicago Bulls,103,Houston Rockets,100,,18244,False,2016
+/boxscores/201603310IND.html,2016-03-31,19:00:00,Orlando Magic,114,Indiana Pacers,94,,17234,False,2016
+/boxscores/201603310NOP.html,2016-03-31,20:00:00,Denver Nuggets,95,New Orleans Pelicans,101,,16269,False,2016
+/boxscores/201603310OKC.html,2016-03-31,21:30:00,Los Angeles Clippers,117,Oklahoma City Thunder,119,,18203,False,2016
+/boxscores/201603310POR.html,2016-03-31,22:00:00,Boston Celtics,109,Portland Trail Blazers,116,,19393,False,2016
+/boxscores/201604010CHO.html,2016-04-01,19:00:00,Philadelphia 76ers,91,Charlotte Hornets,100,,19244,False,2016
+/boxscores/201604010DET.html,2016-04-01,19:30:00,Dallas Mavericks,98,Detroit Pistons,89,,19031,False,2016
+/boxscores/201604010NYK.html,2016-04-01,19:30:00,Brooklyn Nets,91,New York Knicks,105,,19812,False,2016
+/boxscores/201604010ATL.html,2016-04-01,20:00:00,Cleveland Cavaliers,110,Atlanta Hawks,108,OT,19427,False,2016
+/boxscores/201604010MEM.html,2016-04-01,20:00:00,Toronto Raptors,99,Memphis Grizzlies,95,,17077,False,2016
+/boxscores/201604010MIL.html,2016-04-01,20:00:00,Orlando Magic,110,Milwaukee Bucks,113,,16268,False,2016
+/boxscores/201604010UTA.html,2016-04-01,21:00:00,Minnesota Timberwolves,85,Utah Jazz,98,,19911,False,2016
+/boxscores/201604010SAC.html,2016-04-01,22:00:00,Miami Heat,112,Sacramento Kings,106,,17317,False,2016
+/boxscores/201604010GSW.html,2016-04-01,22:30:00,Boston Celtics,109,Golden State Warriors,106,,19596,False,2016
+/boxscores/201604010PHO.html,2016-04-01,22:30:00,Washington Wizards,106,Phoenix Suns,99,,17345,False,2016
+/boxscores/201604020PHI.html,2016-04-02,19:30:00,Indiana Pacers,115,Philadelphia 76ers,102,,19213,False,2016
+/boxscores/201604020CHI.html,2016-04-02,20:00:00,Detroit Pistons,94,Chicago Bulls,90,,22197,False,2016
+/boxscores/201604020SAS.html,2016-04-02,20:30:00,Toronto Raptors,95,San Antonio Spurs,102,,18418,False,2016
+/boxscores/201604020DEN.html,2016-04-02,21:00:00,Sacramento Kings,115,Denver Nuggets,106,,15607,False,2016
+/boxscores/201604020POR.html,2016-04-02,22:00:00,Miami Heat,93,Portland Trail Blazers,110,,19633,False,2016
+/boxscores/201604030BRK.html,2016-04-03,13:00:00,New Orleans Pelicans,106,Brooklyn Nets,87,,16329,False,2016
+/boxscores/201604030CLE.html,2016-04-03,15:30:00,Charlotte Hornets,103,Cleveland Cavaliers,112,,20562,False,2016
+/boxscores/201604030HOU.html,2016-04-03,15:30:00,Oklahoma City Thunder,110,Houston Rockets,118,,18462,False,2016
+/boxscores/201604030LAC.html,2016-04-03,15:30:00,Washington Wizards,109,Los Angeles Clippers,114,,19060,False,2016
+/boxscores/201604030MIN.html,2016-04-03,15:30:00,Dallas Mavericks,88,Minnesota Timberwolves,78,,16117,False,2016
+/boxscores/201604030ORL.html,2016-04-03,18:00:00,Memphis Grizzlies,107,Orlando Magic,119,,17741,False,2016
+/boxscores/201604030PHO.html,2016-04-03,18:00:00,Utah Jazz,101,Phoenix Suns,86,,17279,False,2016
+/boxscores/201604030MIL.html,2016-04-03,19:00:00,Chicago Bulls,102,Milwaukee Bucks,98,,15768,False,2016
+/boxscores/201604030NYK.html,2016-04-03,19:30:00,Indiana Pacers,92,New York Knicks,87,,19812,False,2016
+/boxscores/201604030GSW.html,2016-04-03,20:00:00,Portland Trail Blazers,111,Golden State Warriors,136,,19596,False,2016
+/boxscores/201604030LAL.html,2016-04-03,21:30:00,Boston Celtics,107,Los Angeles Lakers,100,,18997,False,2016
+/boxscores/201604050PHI.html,2016-04-05,19:00:00,New Orleans Pelicans,93,Philadelphia 76ers,107,,10978,False,2016
+/boxscores/201604050TOR.html,2016-04-05,19:30:00,Charlotte Hornets,90,Toronto Raptors,96,,19800,False,2016
+/boxscores/201604050ATL.html,2016-04-05,20:00:00,Phoenix Suns,90,Atlanta Hawks,103,,15176,False,2016
+/boxscores/201604050MEM.html,2016-04-05,20:00:00,Chicago Bulls,92,Memphis Grizzlies,108,,17591,False,2016
+/boxscores/201604050MIA.html,2016-04-05,20:00:00,Detroit Pistons,89,Miami Heat,107,,19621,False,2016
+/boxscores/201604050MIL.html,2016-04-05,20:00:00,Cleveland Cavaliers,109,Milwaukee Bucks,80,,15061,False,2016
+/boxscores/201604050DEN.html,2016-04-05,21:00:00,Oklahoma City Thunder,124,Denver Nuggets,102,,12611,False,2016
+/boxscores/201604050UTA.html,2016-04-05,21:00:00,San Antonio Spurs,88,Utah Jazz,86,,19381,False,2016
+/boxscores/201604050SAC.html,2016-04-05,22:00:00,Portland Trail Blazers,115,Sacramento Kings,107,,17317,False,2016
+/boxscores/201604050GSW.html,2016-04-05,22:30:00,Minnesota Timberwolves,124,Golden State Warriors,117,OT,19596,False,2016
+/boxscores/201604050LAC.html,2016-04-05,22:30:00,Los Angeles Lakers,81,Los Angeles Clippers,103,,19537,False,2016
+/boxscores/201604060IND.html,2016-04-06,19:00:00,Cleveland Cavaliers,109,Indiana Pacers,123,,18165,False,2016
+/boxscores/201604060ORL.html,2016-04-06,19:00:00,Detroit Pistons,108,Orlando Magic,104,,16553,False,2016
+/boxscores/201604060WAS.html,2016-04-06,19:00:00,Brooklyn Nets,103,Washington Wizards,121,,16846,False,2016
+/boxscores/201604060BOS.html,2016-04-06,19:30:00,New Orleans Pelicans,97,Boston Celtics,104,,18624,False,2016
+/boxscores/201604060NYK.html,2016-04-06,19:30:00,Charlotte Hornets,111,New York Knicks,97,,19812,False,2016
+/boxscores/201604060DAL.html,2016-04-06,21:30:00,Houston Rockets,86,Dallas Mavericks,88,,20108,False,2016
+/boxscores/201604060POR.html,2016-04-06,22:00:00,Oklahoma City Thunder,115,Portland Trail Blazers,120,,19393,False,2016
+/boxscores/201604060LAL.html,2016-04-06,22:30:00,Los Angeles Clippers,91,Los Angeles Lakers,81,,18997,False,2016
+/boxscores/201604070ATL.html,2016-04-07,20:00:00,Toronto Raptors,87,Atlanta Hawks,95,,17864,False,2016
+/boxscores/201604070HOU.html,2016-04-07,20:00:00,Phoenix Suns,124,Houston Rockets,115,,18227,False,2016
+/boxscores/201604070MIA.html,2016-04-07,20:00:00,Chicago Bulls,98,Miami Heat,106,,19771,False,2016
+/boxscores/201604070SAC.html,2016-04-07,22:00:00,Minnesota Timberwolves,105,Sacramento Kings,97,,17317,False,2016
+/boxscores/201604070GSW.html,2016-04-07,22:30:00,San Antonio Spurs,101,Golden State Warriors,112,,19596,False,2016
+/boxscores/201604080CHO.html,2016-04-08,19:00:00,Brooklyn Nets,99,Charlotte Hornets,113,,18337,False,2016
+/boxscores/201604080ORL.html,2016-04-08,19:00:00,Miami Heat,109,Orlando Magic,112,,18152,False,2016
+/boxscores/201604080PHI.html,2016-04-08,19:00:00,New York Knicks,109,Philadelphia 76ers,102,,16076,False,2016
+/boxscores/201604080BOS.html,2016-04-08,19:30:00,Milwaukee Bucks,109,Boston Celtics,124,,18624,False,2016
+/boxscores/201604080DET.html,2016-04-08,19:30:00,Washington Wizards,99,Detroit Pistons,112,,18207,False,2016
+/boxscores/201604080TOR.html,2016-04-08,19:30:00,Indiana Pacers,98,Toronto Raptors,111,,19800,False,2016
+/boxscores/201604080NOP.html,2016-04-08,20:00:00,Los Angeles Lakers,102,New Orleans Pelicans,110,,18607,False,2016
+/boxscores/201604080DAL.html,2016-04-08,20:30:00,Memphis Grizzlies,93,Dallas Mavericks,103,,20211,False,2016
+/boxscores/201604080DEN.html,2016-04-08,21:00:00,San Antonio Spurs,98,Denver Nuggets,102,,16347,False,2016
+/boxscores/201604080UTA.html,2016-04-08,21:00:00,Los Angeles Clippers,102,Utah Jazz,99,OT,19911,False,2016
+/boxscores/201604090NOP.html,2016-04-09,19:00:00,Phoenix Suns,121,New Orleans Pelicans,100,,16932,False,2016
+/boxscores/201604090ATL.html,2016-04-09,19:30:00,Boston Celtics,107,Atlanta Hawks,118,,19257,False,2016
+/boxscores/201604090MEM.html,2016-04-09,20:00:00,Golden State Warriors,100,Memphis Grizzlies,99,,18119,False,2016
+/boxscores/201604090CHI.html,2016-04-09,20:30:00,Cleveland Cavaliers,102,Chicago Bulls,105,,22186,False,2016
+/boxscores/201604090POR.html,2016-04-09,22:30:00,Minnesota Timberwolves,106,Portland Trail Blazers,105,,19733,False,2016
+/boxscores/201604090SAC.html,2016-04-09,22:30:00,Oklahoma City Thunder,112,Sacramento Kings,114,,17317,False,2016
+/boxscores/201604100WAS.html,2016-04-10,12:00:00,Charlotte Hornets,98,Washington Wizards,113,,19187,False,2016
+/boxscores/201604100HOU.html,2016-04-10,15:30:00,Los Angeles Lakers,110,Houston Rockets,130,,18442,False,2016
+/boxscores/201604100LAC.html,2016-04-10,15:30:00,Dallas Mavericks,91,Los Angeles Clippers,98,,19170,False,2016
+/boxscores/201604100DEN.html,2016-04-10,17:00:00,Utah Jazz,100,Denver Nuggets,84,,16172,False,2016
+/boxscores/201604100PHI.html,2016-04-10,17:00:00,Milwaukee Bucks,109,Philadelphia 76ers,108,OT,16267,False,2016
+/boxscores/201604100IND.html,2016-04-10,18:00:00,Brooklyn Nets,105,Indiana Pacers,129,,18165,False,2016
+/boxscores/201604100MIA.html,2016-04-10,18:00:00,Orlando Magic,96,Miami Heat,118,,19913,False,2016
+/boxscores/201604100SAS.html,2016-04-10,19:00:00,Golden State Warriors,92,San Antonio Spurs,86,,18658,False,2016
+/boxscores/201604100NYK.html,2016-04-10,19:30:00,Toronto Raptors,93,New York Knicks,89,,19812,False,2016
+/boxscores/201604110CLE.html,2016-04-11,19:00:00,Atlanta Hawks,94,Cleveland Cavaliers,109,,20562,False,2016
+/boxscores/201604110ORL.html,2016-04-11,19:00:00,Milwaukee Bucks,98,Orlando Magic,107,,18374,False,2016
+/boxscores/201604110BOS.html,2016-04-11,19:30:00,Charlotte Hornets,114,Boston Celtics,100,,18624,False,2016
+/boxscores/201604110BRK.html,2016-04-11,19:30:00,Washington Wizards,120,Brooklyn Nets,111,,14653,False,2016
+/boxscores/201604110MIN.html,2016-04-11,20:00:00,Houston Rockets,129,Minnesota Timberwolves,105,,14983,False,2016
+/boxscores/201604110NOP.html,2016-04-11,20:00:00,Chicago Bulls,121,New Orleans Pelicans,116,,16867,False,2016
+/boxscores/201604110OKC.html,2016-04-11,20:00:00,Los Angeles Lakers,79,Oklahoma City Thunder,112,,18203,False,2016
+/boxscores/201604110UTA.html,2016-04-11,21:00:00,Dallas Mavericks,101,Utah Jazz,92,,19911,False,2016
+/boxscores/201604110PHO.html,2016-04-11,22:00:00,Sacramento Kings,105,Phoenix Suns,101,,17288,False,2016
+/boxscores/201604120IND.html,2016-04-12,19:00:00,New York Knicks,90,Indiana Pacers,102,,17906,False,2016
+/boxscores/201604120DET.html,2016-04-12,19:30:00,Miami Heat,99,Detroit Pistons,93,,18575,False,2016
+/boxscores/201604120TOR.html,2016-04-12,19:30:00,Philadelphia 76ers,98,Toronto Raptors,122,,19800,False,2016
+/boxscores/201604120SAS.html,2016-04-12,20:00:00,Oklahoma City Thunder,98,San Antonio Spurs,102,OT,18765,False,2016
+/boxscores/201604120LAC.html,2016-04-12,22:30:00,Memphis Grizzlies,84,Los Angeles Clippers,110,,19147,False,2016
+/boxscores/201604130BOS.html,2016-04-13,20:00:00,Miami Heat,88,Boston Celtics,98,,18624,False,2016
+/boxscores/201604130BRK.html,2016-04-13,20:00:00,Toronto Raptors,103,Brooklyn Nets,96,,16517,False,2016
+/boxscores/201604130CHI.html,2016-04-13,20:00:00,Philadelphia 76ers,105,Chicago Bulls,115,,21777,False,2016
+/boxscores/201604130CHO.html,2016-04-13,20:00:00,Orlando Magic,103,Charlotte Hornets,117,,17372,False,2016
+/boxscores/201604130CLE.html,2016-04-13,20:00:00,Detroit Pistons,112,Cleveland Cavaliers,110,OT,20562,False,2016
+/boxscores/201604130DAL.html,2016-04-13,20:00:00,San Antonio Spurs,96,Dallas Mavericks,91,,20346,False,2016
+/boxscores/201604130HOU.html,2016-04-13,20:00:00,Sacramento Kings,81,Houston Rockets,116,,18311,False,2016
+/boxscores/201604130MIL.html,2016-04-13,20:00:00,Indiana Pacers,97,Milwaukee Bucks,92,,16569,False,2016
+/boxscores/201604130MIN.html,2016-04-13,20:00:00,New Orleans Pelicans,109,Minnesota Timberwolves,144,,14889,False,2016
+/boxscores/201604130WAS.html,2016-04-13,20:00:00,Atlanta Hawks,98,Washington Wizards,109,,17399,False,2016
+/boxscores/201604130GSW.html,2016-04-13,22:30:00,Memphis Grizzlies,104,Golden State Warriors,125,,19596,False,2016
+/boxscores/201604130LAL.html,2016-04-13,22:30:00,Utah Jazz,96,Los Angeles Lakers,101,,18997,False,2016
+/boxscores/201604130PHO.html,2016-04-13,22:30:00,Los Angeles Clippers,105,Phoenix Suns,114,,18055,False,2016
+/boxscores/201604130POR.html,2016-04-13,22:30:00,Denver Nuggets,99,Portland Trail Blazers,107,,19571,False,2016
+/boxscores/201604160TOR.html,2016-04-16,12:30:00,Indiana Pacers,100,Toronto Raptors,90,,19800,True,2016
+/boxscores/201604160GSW.html,2016-04-16,15:30:00,Houston Rockets,78,Golden State Warriors,104,,19596,True,2016
+/boxscores/201604160ATL.html,2016-04-16,19:00:00,Boston Celtics,101,Atlanta Hawks,102,,18980,True,2016
+/boxscores/201604160OKC.html,2016-04-16,21:30:00,Dallas Mavericks,70,Oklahoma City Thunder,108,,18203,True,2016
+/boxscores/201604170CLE.html,2016-04-17,15:00:00,Detroit Pistons,101,Cleveland Cavaliers,106,,20562,True,2016
+/boxscores/201604170MIA.html,2016-04-17,17:30:00,Charlotte Hornets,91,Miami Heat,123,,19600,True,2016
+/boxscores/201604170SAS.html,2016-04-17,20:00:00,Memphis Grizzlies,74,San Antonio Spurs,106,,18418,True,2016
+/boxscores/201604170LAC.html,2016-04-17,22:30:00,Portland Trail Blazers,95,Los Angeles Clippers,115,,19122,True,2016
+/boxscores/201604180TOR.html,2016-04-18,19:00:00,Indiana Pacers,87,Toronto Raptors,98,,19800,True,2016
+/boxscores/201604180OKC.html,2016-04-18,20:00:00,Dallas Mavericks,85,Oklahoma City Thunder,84,,18203,True,2016
+/boxscores/201604180GSW.html,2016-04-18,22:30:00,Houston Rockets,106,Golden State Warriors,115,,19596,True,2016
+/boxscores/201604190ATL.html,2016-04-19,19:00:00,Boston Celtics,72,Atlanta Hawks,89,,18972,True,2016
+/boxscores/201604190SAS.html,2016-04-19,21:30:00,Memphis Grizzlies,68,San Antonio Spurs,94,,18418,True,2016
+/boxscores/201604200MIA.html,2016-04-20,19:00:00,Charlotte Hornets,103,Miami Heat,115,,19650,True,2016
+/boxscores/201604200CLE.html,2016-04-20,20:00:00,Detroit Pistons,90,Cleveland Cavaliers,107,,20562,True,2016
+/boxscores/201604200LAC.html,2016-04-20,22:30:00,Portland Trail Blazers,81,Los Angeles Clippers,102,,19127,True,2016
+/boxscores/201604210DAL.html,2016-04-21,19:00:00,Oklahoma City Thunder,131,Dallas Mavericks,102,,20150,True,2016
+/boxscores/201604210IND.html,2016-04-21,19:30:00,Toronto Raptors,101,Indiana Pacers,85,,18165,True,2016
+/boxscores/201604210HOU.html,2016-04-21,21:30:00,Golden State Warriors,96,Houston Rockets,97,,18200,True,2016
+/boxscores/201604220DET.html,2016-04-22,19:00:00,Cleveland Cavaliers,101,Detroit Pistons,91,,21584,True,2016
+/boxscores/201604220BOS.html,2016-04-22,20:00:00,Atlanta Hawks,103,Boston Celtics,111,,18624,True,2016
+/boxscores/201604220MEM.html,2016-04-22,21:30:00,San Antonio Spurs,96,Memphis Grizzlies,87,,18119,True,2016
+/boxscores/201604230IND.html,2016-04-23,15:00:00,Toronto Raptors,83,Indiana Pacers,100,,18165,True,2016
+/boxscores/201604230CHO.html,2016-04-23,17:30:00,Miami Heat,80,Charlotte Hornets,96,,19604,True,2016
+/boxscores/201604230DAL.html,2016-04-23,20:00:00,Oklahoma City Thunder,119,Dallas Mavericks,108,,20516,True,2016
+/boxscores/201604230POR.html,2016-04-23,22:30:00,Los Angeles Clippers,88,Portland Trail Blazers,96,,19761,True,2016
+/boxscores/201604240MEM.html,2016-04-24,13:00:00,San Antonio Spurs,116,Memphis Grizzlies,95,,18119,True,2016
+/boxscores/201604240HOU.html,2016-04-24,15:30:00,Golden State Warriors,121,Houston Rockets,94,,18200,True,2016
+/boxscores/201604240BOS.html,2016-04-24,18:00:00,Atlanta Hawks,95,Boston Celtics,104,OT,18624,True,2016
+/boxscores/201604240DET.html,2016-04-24,20:30:00,Cleveland Cavaliers,100,Detroit Pistons,98,,21584,True,2016
+/boxscores/201604250CHO.html,2016-04-25,19:00:00,Miami Heat,85,Charlotte Hornets,89,,19156,True,2016
+/boxscores/201604250OKC.html,2016-04-25,20:00:00,Dallas Mavericks,104,Oklahoma City Thunder,118,,18203,True,2016
+/boxscores/201604250POR.html,2016-04-25,22:30:00,Los Angeles Clippers,84,Portland Trail Blazers,98,,19607,True,2016
+/boxscores/201604260TOR.html,2016-04-26,18:00:00,Indiana Pacers,99,Toronto Raptors,102,,19800,True,2016
+/boxscores/201604260ATL.html,2016-04-26,20:30:00,Boston Celtics,83,Atlanta Hawks,110,,18987,True,2016
+/boxscores/201604270MIA.html,2016-04-27,20:00:00,Charlotte Hornets,90,Miami Heat,88,,19685,True,2016
+/boxscores/201604270LAC.html,2016-04-27,22:00:00,Portland Trail Blazers,108,Los Angeles Clippers,98,,19060,True,2016
+/boxscores/201604270GSW.html,2016-04-27,22:30:00,Houston Rockets,81,Golden State Warriors,114,,19596,True,2016
+/boxscores/201604280BOS.html,2016-04-28,20:00:00,Atlanta Hawks,104,Boston Celtics,92,,18624,True,2016
+/boxscores/201604290IND.html,2016-04-29,19:30:00,Toronto Raptors,83,Indiana Pacers,101,,18165,True,2016
+/boxscores/201604290CHO.html,2016-04-29,20:00:00,Miami Heat,97,Charlotte Hornets,90,,19636,True,2016
+/boxscores/201604290POR.html,2016-04-29,22:30:00,Los Angeles Clippers,103,Portland Trail Blazers,106,,19768,True,2016
+/boxscores/201604300SAS.html,2016-04-30,20:30:00,Oklahoma City Thunder,92,San Antonio Spurs,124,,18418,True,2016
+/boxscores/201605010MIA.html,2016-05-01,13:00:00,Charlotte Hornets,73,Miami Heat,106,,19868,True,2016
+/boxscores/201605010GSW.html,2016-05-01,15:30:00,Portland Trail Blazers,106,Golden State Warriors,118,,19596,True,2016
+/boxscores/201605010TOR.html,2016-05-01,20:00:00,Indiana Pacers,84,Toronto Raptors,89,,20669,True,2016
+/boxscores/201605020CLE.html,2016-05-02,19:00:00,Atlanta Hawks,93,Cleveland Cavaliers,104,,20562,True,2016
+/boxscores/201605020SAS.html,2016-05-02,21:30:00,Oklahoma City Thunder,98,San Antonio Spurs,97,,18418,True,2016
+/boxscores/201605030TOR.html,2016-05-03,20:00:00,Miami Heat,102,Toronto Raptors,96,OT,19800,True,2016
+/boxscores/201605030GSW.html,2016-05-03,22:30:00,Portland Trail Blazers,99,Golden State Warriors,110,,19596,True,2016
+/boxscores/201605040CLE.html,2016-05-04,20:00:00,Atlanta Hawks,98,Cleveland Cavaliers,123,,20562,True,2016
+/boxscores/201605050TOR.html,2016-05-05,20:00:00,Miami Heat,92,Toronto Raptors,96,OT,20906,True,2016
+/boxscores/201605060ATL.html,2016-05-06,19:00:00,Cleveland Cavaliers,121,Atlanta Hawks,108,,19089,True,2016
+/boxscores/201605060OKC.html,2016-05-06,21:30:00,San Antonio Spurs,100,Oklahoma City Thunder,96,,18203,True,2016
+/boxscores/201605070MIA.html,2016-05-07,17:00:00,Toronto Raptors,95,Miami Heat,91,,19675,True,2016
+/boxscores/201605070POR.html,2016-05-07,20:30:00,Golden State Warriors,108,Portland Trail Blazers,120,,19673,True,2016
+/boxscores/201605080ATL.html,2016-05-08,15:30:00,Cleveland Cavaliers,100,Atlanta Hawks,99,,19031,True,2016
+/boxscores/201605080OKC.html,2016-05-08,20:00:00,San Antonio Spurs,97,Oklahoma City Thunder,111,,18203,True,2016
+/boxscores/201605090MIA.html,2016-05-09,20:00:00,Toronto Raptors,87,Miami Heat,94,OT,19600,True,2016
+/boxscores/201605090POR.html,2016-05-09,22:30:00,Golden State Warriors,132,Portland Trail Blazers,125,OT,19583,True,2016
+/boxscores/201605100SAS.html,2016-05-10,20:00:00,Oklahoma City Thunder,95,San Antonio Spurs,91,,18418,True,2016
+/boxscores/201605110TOR.html,2016-05-11,20:00:00,Miami Heat,91,Toronto Raptors,99,,20155,True,2016
+/boxscores/201605110GSW.html,2016-05-11,22:30:00,Portland Trail Blazers,121,Golden State Warriors,125,,19596,True,2016
+/boxscores/201605120OKC.html,2016-05-12,20:30:00,San Antonio Spurs,99,Oklahoma City Thunder,113,,18203,True,2016
+/boxscores/201605130MIA.html,2016-05-13,20:00:00,Toronto Raptors,91,Miami Heat,103,,19757,True,2016
+/boxscores/201605150TOR.html,2016-05-15,15:30:00,Miami Heat,89,Toronto Raptors,116,,20257,True,2016
+/boxscores/201605160GSW.html,2016-05-16,21:00:00,Oklahoma City Thunder,108,Golden State Warriors,102,,19596,True,2016
+/boxscores/201605170CLE.html,2016-05-17,20:30:00,Toronto Raptors,84,Cleveland Cavaliers,115,,20562,True,2016
+/boxscores/201605180GSW.html,2016-05-18,21:00:00,Oklahoma City Thunder,91,Golden State Warriors,118,,19596,True,2016
+/boxscores/201605190CLE.html,2016-05-19,20:30:00,Toronto Raptors,89,Cleveland Cavaliers,108,,20562,True,2016
+/boxscores/201605210TOR.html,2016-05-21,20:30:00,Cleveland Cavaliers,84,Toronto Raptors,99,,20207,True,2016
+/boxscores/201605220OKC.html,2016-05-22,20:00:00,Golden State Warriors,105,Oklahoma City Thunder,133,,18203,True,2016
+/boxscores/201605230TOR.html,2016-05-23,20:30:00,Cleveland Cavaliers,99,Toronto Raptors,105,,20367,True,2016
+/boxscores/201605240OKC.html,2016-05-24,21:00:00,Golden State Warriors,94,Oklahoma City Thunder,118,,18203,True,2016
+/boxscores/201605250CLE.html,2016-05-25,20:30:00,Toronto Raptors,78,Cleveland Cavaliers,116,,20562,True,2016
+/boxscores/201605260GSW.html,2016-05-26,21:00:00,Oklahoma City Thunder,111,Golden State Warriors,120,,19596,True,2016
+/boxscores/201605270TOR.html,2016-05-27,20:30:00,Cleveland Cavaliers,113,Toronto Raptors,87,,20605,True,2016
+/boxscores/201605280OKC.html,2016-05-28,21:00:00,Golden State Warriors,108,Oklahoma City Thunder,101,,18203,True,2016
+/boxscores/201605300GSW.html,2016-05-30,21:00:00,Oklahoma City Thunder,88,Golden State Warriors,96,,19596,True,2016
+/boxscores/201606020GSW.html,2016-06-02,21:00:00,Cleveland Cavaliers,89,Golden State Warriors,104,,19596,True,2016
+/boxscores/201606050GSW.html,2016-06-05,20:00:00,Cleveland Cavaliers,77,Golden State Warriors,110,,19596,True,2016
+/boxscores/201606080CLE.html,2016-06-08,21:00:00,Golden State Warriors,90,Cleveland Cavaliers,120,,20562,True,2016
+/boxscores/201606100CLE.html,2016-06-10,21:00:00,Golden State Warriors,108,Cleveland Cavaliers,97,,20562,True,2016
+/boxscores/201606130GSW.html,2016-06-13,21:00:00,Cleveland Cavaliers,112,Golden State Warriors,97,,19596,True,2016
+/boxscores/201606160CLE.html,2016-06-16,21:00:00,Golden State Warriors,101,Cleveland Cavaliers,115,,20562,True,2016
+/boxscores/201606190GSW.html,2016-06-19,20:00:00,Cleveland Cavaliers,93,Golden State Warriors,89,,19596,True,2016
