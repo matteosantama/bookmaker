@@ -49,7 +49,8 @@ class BoxScoreScraper:
     'visitor_team_name'.
     """
 
-    def __load_single_boxscore(self, home: str, away: str, href: str):
+    def __load_single_boxscore(
+            self, home: str, away: str, href: str, date: pd.Timestamp):
         """
         Parameters:
             home: home team acronym
@@ -111,7 +112,7 @@ class BoxScoreScraper:
                 gamedata['side'].append(side)
                 gamedata['br_href'].append(href)
                 gamedata['starter'].append(is_starter)
-
+                gamedata['date'].append(date)
         
         df = pd.DataFrame.from_dict(gamedata)
         # Some sanity checks
@@ -121,19 +122,22 @@ class BoxScoreScraper:
 
     def __load_year_scores(
             self, home: pd.Series, away: pd.Series, 
-            hrefs: pd.Series, verbose: bool
+            hrefs: pd.Series, dates: pd.Series, verbose: bool
         ):
         """Compute running player statistics for one NBA season.
 
         Parameters:
+            home: pd.Series of home team names
+            away: pd.Series of away team names
             hrefs: Link information to locate the box score webpage
+            dates: pd.Series of dates for the games
         """
         df = pd.DataFrame()
         n = len(hrefs)
 
         # We only need home team, away team, and link to successfully
         # scrape a game
-        for i, (h, a, href) in enumerate(zip(home, away, hrefs)):
+        for i, (h, a, href, d) in enumerate(zip(home, away, hrefs, dates)):
             home_acronym = teams[h]
             away_acronym = teams[a]
 
@@ -144,7 +148,7 @@ class BoxScoreScraper:
                     sep=' '
                 )
             boxscore = self.__load_single_boxscore(
-                    home_acronym, away_acronym, href)
+                    home_acronym, away_acronym, href, d)
             df = df.append(boxscore, ignore_index=True)
         return df
 
@@ -161,8 +165,9 @@ class BoxScoreScraper:
             hrefs = season_schedule.index
             home = season_schedule['home_team_name']
             away = season_schedule['visitor_team_name']
+            dates = season_schedule['date_game']
 
-            scores = self.__load_year_scores(home, away, hrefs, verbose)
+            scores = self.__load_year_scores(home, away, hrefs, dates, verbose)
 
             out_file = f'{outdir}/boxscores{year}.csv'
             scores.to_csv(out_file)
