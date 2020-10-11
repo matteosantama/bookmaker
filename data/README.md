@@ -25,6 +25,6 @@ the main logic is:
 5. Load previous season RAPTOR scores from raptor.csv
 6. Deep learning magic :) 
 
-Our training years are the 2015 - 2019 seasons, and the 2020 season is our test
-year. This is an 80% / 20% split, which despite weighting the training rather
-heavily, is still in line with the general wisdom.
+Our training years are the 2015 - 2018 seasons, our validation sets consists of
+the 2019 season, and the 2020 season is our test
+year. This is an ~70% / 15% / 15% split, which is in line with standards.
