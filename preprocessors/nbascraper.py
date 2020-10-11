@@ -105,7 +105,7 @@ def _scrape_boxscores(
         print(f'\tScraped {len(boxscores)} individual statlines')
     return boxscores
 
-def scrape_and_save(year: int, verbose: bool) -> None:
+def scrape_and_save(year: int, domain: str, verbose: bool) -> None:
     """The function first constructs a dataframe containing high-level
     data for every game, such as score, date, gameid, etc. It then 
     iterates through each gameid and scrapes the boxscore. This function
@@ -115,8 +115,8 @@ def scrape_and_save(year: int, verbose: bool) -> None:
     gameids = schedule['GAME_ID'].unique()
     boxscores = _scrape_boxscores(gameids, year, verbose)
 
-    sched_out = os.path.join('..', 'data', 'raw', f'{year}-nba-schedule.csv')
-    box_out = os.path.join('..', 'data', 'raw', f'{year}-nba-boxscores.csv')
+    sched_out = os.path.join('..', 'data', domain, f'{year}-nba-schedule.csv')
+    box_out = os.path.join('..', 'data', domain, f'{year}-nba-boxscores.csv')
     if args.verbose:
         print(f'\tWriting schedule to {sched_out}')
         print(f'\tWriting boxscores to {box_out}')
@@ -128,12 +128,15 @@ if __name__=='__main__':
     parser = argparse.ArgumentParser(description=
         'Scrape historical boxscore and schedule data from nba.stats.com')
 
-    parser.add_argument('year', type=int, choices=range(2015, 2020),
+    parser.add_argument('year', type=int, choices=range(2015, 2021),
         help='A season is identified by it\'s ending year')
+
+    parser.add_argument('domain', choices=['train', 'test', 'dev'],
+        help='Where to store downloaded data')
 
     parser.add_argument('-v', dest='verbose', action='store_true',
         help='Display verbose output')
 
     args = parser.parse_args()
 
-    scrape_and_save(args.year, args.verbose)
+    scrape_and_save(args.year, args.domain, args.verbose)
