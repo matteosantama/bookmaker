@@ -40,7 +40,7 @@ teams = {
 
 def process_and_write(year: int, domain: str, verbose: bool) -> None:
     """Load odds Excel File from /data/raw/, and stores a processed
-    dataframe in either /data/train/ or /data/test/
+    dataframe in either /data/train/, /data/dev/, or /data/test/
     """
     inpath = os.path.join(
         '..', 'data', 'raw', f'odds-{year - 1}-{year - 2000}.xlsx')
@@ -136,8 +136,8 @@ if __name__=='__main__':
     parser.add_argument('year', 
         help=('Seasons are identified by their ending year.'), type=int)
 
-    parser.add_argument('domain', choices=['train', 'test'],
-        help='Whether to store in data/train/ or data/test/')
+    parser.add_argument('domain', choices=['train', 'dev', 'test'],
+        help='Whether to store in data/train/, data/dev/,  or data/test/')
 
     parser.add_argument('-v', dest='verbose',
         help='Flag to display verbose output', action='store_true')
