@@ -90,17 +90,19 @@ def _scrape_boxscores(
     return a single aggregate dataframe.
     """
     if verbose:
-        print(f/t'Requesting boxscores from {BASE_URL}')
+        print(f'\tRequesting boxscores from {BASE_URL}')
     boxscores = pd.DataFrame()
+    tick = time.time()
     for i, _id in enumerate(gameids, 1):
         score = _scrape_single_boxscore(_id, year)
         boxscores = boxscores.append(score, ignore_index=True)
         if verbose and i % 50 == 0:
-            print(f'\t{i} games scraped')
+            tock = time.time()
+            print(f'\t{i} games scraped in {tock - tick:.1f} seconds')
         # I think I got blacklisted, so let's avoid that
         time.sleep(2)
     if verbose:
-        print(f'\tScraped {len(boxscores)} boxscores')
+        print(f'\tScraped {len(boxscores)} individual statlines')
     return boxscores
 
 def scrape_and_save(year: int, verbose: bool) -> None:
@@ -118,8 +120,8 @@ def scrape_and_save(year: int, verbose: bool) -> None:
     if args.verbose:
         print(f'\tWriting schedule to {sched_out}')
         print(f'\tWriting boxscores to {box_out}')
-    schedule.write_csv(sched_out)
-    boxscores.write_csv(box_out)
+    schedule.to_csv(sched_out)
+    boxscores.to_csv(box_out)
 
 
 if __name__=='__main__':
