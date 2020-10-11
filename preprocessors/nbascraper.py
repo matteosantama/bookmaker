@@ -95,7 +95,7 @@ def _scrape_boxscores(
         if verbose and i % 50 == 0:
             print(f'\t{i} games scraped')
         # I think I got blacklisted, so let's avoid that
-        time.sleep(3)
+        time.sleep(2)
     if verbose:
         print(f'\tScraped {len(boxscores)} boxscores')
     return boxscores
