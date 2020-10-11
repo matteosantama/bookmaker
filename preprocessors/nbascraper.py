@@ -100,7 +100,7 @@ def _scrape_boxscores(
             tock = time.time()
             print(f'\t{i} games scraped in {tock - tick:.1f} seconds')
         # I think I got blacklisted, so let's avoid that
-        time.sleep(2)
+        time.sleep(1)
     if verbose:
         print(f'\tScraped {len(boxscores)} individual statlines')
     return boxscores
