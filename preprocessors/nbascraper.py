@@ -46,7 +46,7 @@ def _scrape_schedule(year: int, verbose: bool) -> pd.DataFrame:
     })
     url = f'{BASE_URL}/stats/leaguegamelog?{endpoint_params}'
     if verbose:
-        print(f'\tRequesting {BASE_URL}')
+        print(f'\tRequesting {year} schedule from {BASE_URL}')
     
     referer_params = urllib.parse.urlencode({
         'Season':       season_string, 
@@ -58,7 +58,8 @@ def _scrape_schedule(year: int, verbose: bool) -> pd.DataFrame:
 
     schedule = pd.DataFrame(results['rowSet'], columns=results['headers'])
     if verbose:
-        print(f"\tFound {len(schedule['GAME_ID'].unique())} unique games")
+        n = len(schedule['GAME_ID'].unique())
+        print(f"\tSchedule scraped... found {n} unique games")
     return schedule
 
 def _scrape_single_boxscore(gameid: int, year: int) -> pd.DataFrame:
@@ -88,6 +89,8 @@ def _scrape_boxscores(
     """Accumulate the scraped boxscores for all the gameids and
     return a single aggregate dataframe.
     """
+    if verbose:
+        print(f/t'Requesting boxscores from {BASE_URL}')
     boxscores = pd.DataFrame()
     for i, _id in enumerate(gameids, 1):
         score = _scrape_single_boxscore(_id, year)
