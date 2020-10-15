@@ -104,7 +104,7 @@ def process_and_write(
     df = df.dropna()
 
     if verbose:
-        print(f'\tWriting {len(df)} games to {writepath}')
+        print(f'\tWriting {len(df)} scores to {writepath}')
 
     df.to_csv(writepath)
 
