@@ -1,24 +1,25 @@
 import argparse
 import os
-import itertools as it
 from typing import Dict, List
-import pdb
 
 import pandas as pd
 
 
-def process_and_write(year: int, domain: str, verbose: str) -> None:
+FEATURES = ['PTS', 'AST', 'REB']
+
+def process_and_write(
+        year: int, domain: str, cutoff: int, verbose: str) -> None:
     """Write a single file to /`domain`"""
     sched_path = os.path.join('..', 'data', 'raw', f'{year}-nba-schedule.csv')  
     sched_df = pd.read_csv(sched_path, index_col=0, parse_dates=['GAME_DATE'])
 
     # Cut down on number of columns to preserve memory                          
     sched_df = sched_df.set_index(['GAME_ID', 'TEAM_ID'],                       
-            verify_integrity=True).sort_values(by=['GAME_DATE', 'GAME_ID'])                                       
+            verify_integrity=True).sort_values(by=['GAME_DATE', 'GAME_ID'])
     sched_df = sched_df[['TEAM_NAME', 'GAME_DATE', 'MATCHUP', 'WL', 'PTS']]
     
     # Check two teams for every game
-    assert (sched_df.groupby(level='GAME_ID').size() != 2).sum() == 0
+    assert (sched_df.groupby(level='GAME_ID').size() == 2).all()
     if verbose:
         print('\tMatchups verified')
 
@@ -41,145 +42,94 @@ def process_and_write(year: int, domain: str, verbose: str) -> None:
     bs_df['SECONDS'] = bs_df['MIN'].map(minute_string_to_seconds)
     # Drop anyone who didn't play
     bs_df = bs_df[~bs_df['SECONDS'].isnull()]
-    # Now make an int so we can do operations later
+    # Now convert time played to int so we can do operations later
     bs_df['SECONDS'] = bs_df['SECONDS'].astype('int32')
 
-    # So we can easily look up a player's current stats for a given day         
+    # Live statistics indexed by (date, playerid) so we can easily look 
+    # up a player's current stats for a given day         
     livestats = __compute_live_statistics(sched_df, bs_df)                      
     if verbose:
         print('\tLive season statistics computed')
 
-    # Here we define our parameters of interest                                 
-    features = [                                                                
-            'PTS', 'TO', 'BLK', 'STL', 'AST', 'REB',                            
-            'FTM', 'FTA', 'FGM', 'FGA', 'FG3M', 'FG3A'                          
-    ]                                                                           
-    roles = ['G1', 'G2', 'F1', 'F2', 'C1', 'S1']                                  
-    product = it.product(                                                       
-            ['this', 'other'],                                                  
-            roles,                                                              
-            features                                                            
-    )                                                                           
-    product = map(lambda x: '.'.join(x), product)
-    cols = ['TEAM_PTS'] + list(product)
-    df = pd.DataFrame(index=sched_df.index, columns=cols)            
+    game_counts = sched_df.groupby('TEAM_ID').cumcount()
 
-    # We drop the first game for every team, since we don't
-    # have player stats yet
-    team_game_count = sched_df.groupby(level='TEAM_ID').cumcount()              
-    mask_by_team = team_game_count >= 1                                         
-    mask_by_game = mask_by_team.groupby(level='GAME_ID').all()                  
-    df = df.loc[mask_by_team & mask_by_game]
-    if verbose:
-        drop_count = (~(mask_by_team & mask_by_game)).sum()
-        print(f'\t{drop_count} games are the first of the season')
-        print('\tConstructing final DataFrame...')
-
-    for i, (gameid, gamedf) in enumerate(df.groupby(level='GAME_ID'), 1):
+    data = []
+    for i, (gameid, gamedf) in enumerate(sched_df.groupby(level='GAME_ID'), 1):
         assert len(gamedf) == 2                                                 
-        team_a, team_b = gamedf.index.get_level_values(level='TEAM_ID')
-        try:
-            a_players = __lineup(bs_df.loc[(gameid, team_a)])       
-            b_players = __lineup(bs_df.loc[(gameid, team_b)])   
-
-            a_date = sched_df.loc[(gameid, team_a)]['GAME_DATE']                      
-            b_date = sched_df.loc[(gameid, team_b)]['GAME_DATE']
-            assert a_date == b_date
-    
-            a_stats = __lookup_stats(a_players, a_date, features, livestats)                  
-            b_stats = __lookup_stats(b_players, b_date, features, livestats)
-    
-            flat_a = __flatten(a_stats)                                             
-            flat_b = __flatten(b_stats)                                             
-
-            a_row = __combine(flat_a, flat_b)    
-            b_row = __combine(flat_b, flat_a)
-    
-            a_row['TEAM_PTS'] = sched_df.loc[(gameid, team_a)]['PTS']
-            b_row['TEAM_PTS'] = sched_df.loc[(gameid, team_b)]['PTS']
-
-            df.loc[(gameid, team_a)] = a_row                                        
-            df.loc[(gameid, team_b)] = b_row
+        team_X, team_Y = gamedf.index.get_level_values(level='TEAM_ID')
         
-        except RuntimeError as e:
-            # Some games have corrupted data
-            pass
+        games_played_X = game_counts.loc[(gameid, team_X)]
+        games_played_Y = game_counts.loc[(gameid, team_Y)]
+        # Only proceed if we're deep enough in the season
+        if (games_played_X > cutoff and games_played_Y > cutoff):
+
+            players_dict_X = __extract_lineup(bs_df.loc[(gameid, team_X)])       
+            players_dict_Y = __extract_lineup(bs_df.loc[(gameid, team_Y)])   
+
+            date_X = sched_df.loc[(gameid, team_X)]['GAME_DATE']                      
+            date_Y = sched_df.loc[(gameid, team_Y)]['GAME_DATE']
+            assert date_X == date_Y
+            
+            stats_series_X = __lookup_stats(players_dict_X, date_X, livestats)
+            stats_series_Y = __lookup_stats(players_dict_Y, date_Y, livestats)
+    
+            this_X = pd.concat([stats_series_X], keys=['this'])
+            other_X = pd.concat([stats_series_Y], keys=['other'])
+            row_X = pd.concat([this_X, other_X])
+            row_X['GAME_ID'] = gameid
+            row_X['TEAM_ID'] = team_X
+            row_X['TEAM_PTS'] = gamedf.loc[(gameid, team_X)]['PTS']
+            
+            this_Y = pd.concat([stats_series_Y], keys=['this'])
+            other_Y = pd.concat([stats_series_X], keys=['other'])
+            row_Y = pd.concat([this_Y, other_Y])
+            row_Y['GAME_ID'] = gameid
+            row_Y['TEAM_ID'] = team_Y
+            row_Y['TEAM_PTS'] = gamedf.loc[(gameid, team_Y)]['PTS']
+
+            data.append(row_X.to_dict())
+            data.append(row_Y.to_dict())
 
         if verbose and i % 50 == 0:
             print(f'\t{i} games analyzed')
-    
+   
+    df = pd.DataFrame(data)
+    # Recreate column levels
+    df.columns = pd.MultiIndex.from_tuples(df.columns)
+    # And set index
+    df = df.set_index(['GAME_ID', 'TEAM_ID'])
+
     writepath = os.path.join('..', 'data', domain, f'{year}-data.csv')
     original = len(df)
     df = df.dropna()
 
     if verbose:
-        print(f'\t{len(df)} out of {original} games preserved')
-        print(f'\tWriting {writepath}')
+        print(f'\tWriting {len(df)} games to {writepath}')
 
     df.to_csv(writepath)
-
-
-def __combine(
-        this: Dict[str, float], other: Dict[str, float]) -> Dict[str, float]:
-    """Inputs to this should be the outputs of `__flatten()`"""
-    d = {}
-    for k, v in this.items():
-        d[f'this.{k}'] = v
-    for k, v in other.items():
-        d[f'other.{k}'] = v
-    return d
-
-def __flatten(stats: pd.DataFrame) -> Dict[str, float]:                         
-    """Flatten a 2d DataFrame into a dictionary that represents one row"""      
-    d = stats.to_dict(orient='index')                                         
-    new_dict = {}                                                               
-    for pos_key, stats_dict in d.items():                                       
-        for stat_key in stats_dict:                                             
-            new_dict[f'{pos_key}.{stat_key}'] = stats_dict[stat_key]            
-    return new_dict
 
 def __lookup_stats(                                                             
     players: Dict[int, str],                                                    
     date: pd.Timestamp,                                                         
-    features: List[str],                                                        
     stats: pd.DataFrame                                                         
 ) -> pd.DataFrame:                                                              
     """Identify F1, F2, G1, G2, S1, C1 and their stats for a set of players"""  
     # Isolate by date and playerids                                             
     playerstats = stats.loc[date].loc[players]                              
-    # Add player position                                                       
+   # Add player position                                                       
     playerstats['POSITION'] = playerstats.index.map(players)
     # Rank by seaonsal seconds played per position                              
-    try:
-        rankings = playerstats.groupby('POSITION')['SECONDS'].rank(                 
-            ascending=False).astype(int).astype(str)
-    except ValueError:
-        pdb.set_trace()
-    # Append ranking to position column                                         
+    rankings = playerstats.groupby('POSITION')['SECONDS'].rank(                 
+            ascending=False, method='first').astype(int).astype(str)
+    # Append ranking to position column
     playerstats['POSITION'] = playerstats['POSITION'].str.cat(rankings)         
-    # Index by unique position + ranking
-    filtered = playerstats.set_index('POSITION')[features]
-    
-    truth = pd.Series(
-        {'F1': 1, 'F2': 1, 'G1': 1, 'G2': 1, 'C1': 1, 'S1': 1}, 
-        name='POSITION'
-    ).sort_index()
-    counts = filtered.index.value_counts().sort_index()
-    try:
-        equals = (truth == counts).all()
-    except ValueError:
-        equals = False
-    hasnull = filtered.isnull().values.any()
-    
-    if not equals:
-        msg = f'Missing starters: {filtered}'
-        raise RuntimeError(msg)
-    if hasnull:
-        msg = f'Encountered NAs in {filtered}'
-        raise RuntimeError(msg)
-    return filtered
+    # Now we can drop the seconds
+    playerstats = playerstats.drop(columns=['SECONDS'])
+    # Create a series with a MultiIndex
+    playerstats = playerstats.pivot(columns='POSITION').max()
+    return playerstats
 
-def __lineup(boxscore: pd.DataFrame) -> Dict[int, str]:        
+def __extract_lineup(boxscore: pd.DataFrame) -> Dict[int, str]:        
     """Retrieve starting lineup (plus sub) for a team.                          
                                                                                 
     Returns:                                                                    
@@ -189,9 +139,8 @@ def __lineup(boxscore: pd.DataFrame) -> Dict[int, str]:
     bench_mask = boxscore['START_POSITION'].isnull()                            
     starters = boxscore[~bench_mask]                                           
     bench = boxscore[bench_mask]                                                      
-                                                                                
     top_sub = bench['SECONDS'].idxmax()                                         
-    lineup = dict(starters['START_POSITION'])                                   
+    lineup = starters['START_POSITION'].to_dict()
     lineup[top_sub] = 'S'                                                        
     return lineup
 
@@ -207,11 +156,7 @@ def __compute_live_statistics(
     stats = boxscore.copy()
     
     # Now we can drop unnecessary columns
-    stats = stats.drop(columns=[                                      
-            'TEAM_ABBREVIATION', 'PLAYER_NAME', 'TEAM_CITY', 'COMMENT',         
-            'FG_PCT', 'FG3_PCT', 'FT_PCT', 'MIN', 'START_POSITION',             
-            'PLUS_MINUS'                                                        
-    ])    
+    stats = stats[FEATURES + ['SECONDS']]
     # Then we add dates by joining with the schedule df                         
     stats = stats.join(schedule['GAME_DATE'], on=['GAME_ID', 'TEAM_ID'])        
     # Then we reset the index and reindex on date and player_id                 
@@ -257,9 +202,13 @@ if __name__=='__main__':
     parser.add_argument('domain', choices=['train', 'dev', 'test'],
             help='Where to find the nba-*.csv files')
 
+    parser.add_argument('-c', type=int, default=3, dest='cutoff', 
+            choices=range(1, 25), help=
+            'Number of games a team must have played in a season')
+
     parser.add_argument('-v', dest='verbose', action='store_true', 
             help='Display verbose output flag')
 
     args = parser.parse_args()
 
-    process_and_write(args.year, args.domain, args.verbose)
+    process_and_write(args.year, args.domain, args.cutoff, args.verbose)
