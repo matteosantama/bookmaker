@@ -5,30 +5,37 @@ from typing import Dict, List
 import pandas as pd
 
 
-FEATURES = ['PTS', 'AST', 'REB']
+boxscore_features = ['PTS', 'AST', 'REB']
 
 def process_and_write(
         year: int, domain: str, cutoff: int, verbose: str) -> None:
-    """Write a single file to /`domain`"""
-    sched_path = os.path.join('..', 'data', 'raw', f'{year}-nba-schedule.csv')  
-    sched_df = pd.read_csv(sched_path, index_col=0, parse_dates=['GAME_DATE'])
+    """Write a single data file labeled '{year}-data.csv to the 
+    folder specified by 'domain'.
 
-    # Cut down on number of columns to preserve memory                          
-    sched_df = sched_df.set_index(['GAME_ID', 'TEAM_ID'],                       
+    Returns:
+        None
+    """
+    # Read our raw schedule file and set appropriate index
+    sched_path = os.path.join('..', 'data', 'raw', f'{year}-nba-schedule.csv')  
+    schedule = pd.read_csv(sched_path, index_col=0, parse_dates=['GAME_DATE'])
+    schedule = schedule.set_index(['GAME_ID', 'TEAM_ID'],                       
             verify_integrity=True).sort_values(by=['GAME_DATE', 'GAME_ID'])
-    sched_df = sched_df[['TEAM_NAME', 'GAME_DATE', 'MATCHUP', 'WL', 'PTS']]
+    # Now we want to determine if the team is home or away
+    schedule['HOME'] = schedule['MATCHUP'].str.split(' ').str[1] == 'vs'
+    # Drop unused columns
+    schedule = schedule[['TEAM_NAME', 'GAME_DATE', 'HOME', 'WL', 'PTS']]
     
     # Check two teams for every game
-    assert (sched_df.groupby(level='GAME_ID').size() == 2).all()
+    assert (schedule.groupby(level='GAME_ID').size() == 2).all()
     if verbose:
         print('\tMatchups verified')
 
     # Now we load the boxscores                                                 
     bs_path = os.path.join('..', 'data', 'raw', f'{year}-nba-boxscores.csv')    
-    bs_df = pd.read_csv(bs_path, index_col=0)                                   
+    boxscores = pd.read_csv(bs_path, index_col=0)                                   
 
     # and set index                                                             
-    bs_df = bs_df.set_index(['GAME_ID', 'TEAM_ID', 'PLAYER_ID'],                
+    boxscores = boxscores.set_index(['GAME_ID', 'TEAM_ID', 'PLAYER_ID'],                
             verify_integrity=True).sort_index()      
 
     # Convert minutes played string to seconds                                  
@@ -39,22 +46,22 @@ def process_and_write(
         return 60 * minutes + seconds  
 
     # Convert minute string to seconds
-    bs_df['SECONDS'] = bs_df['MIN'].map(minute_string_to_seconds)
+    boxscores['SECONDS'] = boxscores['MIN'].map(minute_string_to_seconds)
     # Drop anyone who didn't play
-    bs_df = bs_df[~bs_df['SECONDS'].isnull()]
+    boxscores = boxscores[~boxscores['SECONDS'].isnull()]
     # Now convert time played to int so we can do operations later
-    bs_df['SECONDS'] = bs_df['SECONDS'].astype('int32')
+    boxscores['SECONDS'] = boxscores['SECONDS'].astype('int32')
 
     # Live statistics indexed by (date, playerid) so we can easily look 
     # up a player's current stats for a given day         
-    livestats = __compute_live_statistics(sched_df, bs_df)                      
+    livestats = __compute_live_statistics(schedule, boxscores)                      
     if verbose:
         print('\tLive season statistics computed')
 
-    game_counts = sched_df.groupby('TEAM_ID').cumcount()
+    game_counts = schedule.groupby('TEAM_ID').cumcount()
 
     data = []
-    for i, (gameid, gamedf) in enumerate(sched_df.groupby(level='GAME_ID'), 1):
+    for i, (gameid, gamedf) in enumerate(schedule.groupby(level='GAME_ID'), 1):
         assert len(gamedf) == 2                                                 
         team_X, team_Y = gamedf.index.get_level_values(level='TEAM_ID')
         
@@ -63,29 +70,36 @@ def process_and_write(
         # Only proceed if we're deep enough in the season
         if (games_played_X > cutoff and games_played_Y > cutoff):
 
-            players_dict_X = __extract_lineup(bs_df.loc[(gameid, team_X)])       
-            players_dict_Y = __extract_lineup(bs_df.loc[(gameid, team_Y)])   
+            players_dict_X = __extract_lineup(
+                    boxscores.loc[(gameid, team_X)])       
+            players_dict_Y = __extract_lineup(
+                    boxscores.loc[(gameid, team_Y)] )   
 
-            date_X = sched_df.loc[(gameid, team_X)]['GAME_DATE']                      
-            date_Y = sched_df.loc[(gameid, team_Y)]['GAME_DATE']
+            date_X = schedule.loc[(gameid, team_X)]['GAME_DATE']                      
+            date_Y = schedule.loc[(gameid, team_Y)]['GAME_DATE']
             assert date_X == date_Y
             
             stats_series_X = __lookup_stats(players_dict_X, date_X, livestats)
             stats_series_Y = __lookup_stats(players_dict_Y, date_Y, livestats)
     
+            # THIS IS WHERE WE ADD FEATURES
+            # Make sure that explanatory features are keyed
+            # with either 'this' or 'other'
             this_X = pd.concat([stats_series_X], keys=['this'])
             other_X = pd.concat([stats_series_Y], keys=['other'])
             row_X = pd.concat([this_X, other_X])
             row_X['GAME_ID'] = gameid
             row_X['TEAM_ID'] = team_X
             row_X['TEAM_PTS'] = gamedf.loc[(gameid, team_X)]['PTS']
-            
+            row_X[('this', '', 'HOME')] = gamedf.loc[(gameid, team_X)]['HOME']
+
             this_Y = pd.concat([stats_series_Y], keys=['this'])
             other_Y = pd.concat([stats_series_X], keys=['other'])
             row_Y = pd.concat([this_Y, other_Y])
             row_Y['GAME_ID'] = gameid
             row_Y['TEAM_ID'] = team_Y
             row_Y['TEAM_PTS'] = gamedf.loc[(gameid, team_Y)]['PTS']
+            row_Y[('this', '', 'HOME')] = gamedf.loc[(gameid, team_Y)]['HOME']
 
             data.append(row_X.to_dict())
             data.append(row_Y.to_dict())
@@ -156,7 +170,7 @@ def __compute_live_statistics(
     stats = boxscore.copy()
     
     # Now we can drop unnecessary columns
-    stats = stats[FEATURES + ['SECONDS']]
+    stats = stats[boxscore_features + ['SECONDS']]
     # Then we add dates by joining with the schedule df                         
     stats = stats.join(schedule['GAME_DATE'], on=['GAME_ID', 'TEAM_ID'])        
     # Then we reset the index and reindex on date and player_id                 
