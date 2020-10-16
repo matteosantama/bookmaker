@@ -25,8 +25,9 @@ def process_and_write(
     schedule = schedule.set_index(['GAME_ID', 'TEAM_ID'],                       
             verify_integrity=True).sort_values(by=['GAME_DATE', 'GAME_ID'])
     # Now we want to determine if the team is home or away
-    schedule['HOME'] = schedule['MATCHUP'].str.split(' ').str[1] == 'vs'
-    # Drop unused columns
+    schedule['HOME'] = schedule['MATCHUP'].str.split(' ').str[1] == 'vs.'
+    assert schedule['HOME'].any()
+    #Drop unused columns
     schedule = schedule[['TEAM_NAME', 'GAME_DATE', 'HOME', 'WL', 'PTS']]
     
     # Check two teams for every game
