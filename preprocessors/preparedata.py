@@ -8,6 +8,7 @@ import pandas as pd
 # Define offensive and defensive features
 this_features = ['PTS', 'AST', 'OREB']
 other_features = ['STL', 'DREB', 'BLK']
+raptor_features = ['raptor_total']
 
 def process_and_write(
         year: int, domain: str, cutoff: int, verbose: str) -> None:
@@ -63,7 +64,8 @@ def process_and_write(
     livestats = __compute_live_statistics(schedule, boxscores)
     if verbose:
         print('\tLive season statistics computed')
-    
+        print(livestats)
+        
     # Load raptor and join to livestats                                               
     raptor_path = os.path.join('..', 'data', 'raw', 'raptor.csv')    
     raptor = pd.read_csv(raptor_path, index_col=0)  
@@ -102,7 +104,10 @@ def process_and_write(
                     [stats_series_X[this_features]], keys=['this'])
             other_X = pd.concat(
                     [stats_series_Y[other_features]], keys=['other'])
-            row_X = pd.concat([this_X, other_X])
+            raptor_X = pd.concat(
+                    [stats_series_X[raptor_features]], keys=['raptor'])
+            
+            row_X = pd.concat([this_X, other_X, raptor_X])
             row_X['GAME_ID'] = gameid
             row_X['TEAM_ID'] = team_X
             row_X['TEAM_PTS'] = gamedf.loc[(gameid, team_X)]['PTS']
@@ -112,7 +117,9 @@ def process_and_write(
                     [stats_series_Y[this_features]], keys=['this'])
             other_Y = pd.concat(
                     [stats_series_X[other_features]], keys=['other'])
-            row_Y = pd.concat([this_Y, other_Y])
+            raptor_Y = pd.concat(
+                    [stats_series_Y[raptor_features]], keys=['raptor'])
+            row_Y = pd.concat([this_Y, other_Y, raptor_Y])
             row_Y['GAME_ID'] = gameid
             row_Y['TEAM_ID'] = team_Y
             row_Y['TEAM_PTS'] = gamedf.loc[(gameid, team_Y)]['PTS']
@@ -263,13 +270,13 @@ def __prepare_raptor(
                            left_on = ['PLAYER_ID', 'season'],
                            right_on = ['PLAYER_ID', 'season'])
     combinedstats.set_index(['GAME_DATE', 'PLAYER_ID'], inplace = True)
+    combinedstats.drop('season', inplace = True, axis = 1)
     
     # fill rookie NA values
     combinedstats['poss'].fillna(np.mean(combinedstats['poss']), inplace = True)
     combinedstats['mp'].fillna(np.mean(combinedstats['mp']), inplace = True)
     combinedstats.fillna(0, inplace = True)
     
-    print(combinedstats.info())
     # To check out all the players that don't have raptor stats 
     # This should be all rookies
     
