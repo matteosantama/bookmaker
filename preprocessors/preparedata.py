@@ -2,6 +2,7 @@ import argparse
 import os
 from typing import Dict, List
 
+import numpy as np
 import pandas as pd
 
 # Define offensive and defensive features
@@ -225,8 +226,9 @@ def __prepare_raptor(
         boxscore: pd.DataFrame,
         stats: pd.DataFrame
         ) -> pd.DataFrame:
-    """ Take the live statistics dataframe and join it to Raptor Data
-    Boxscore used to retrieve player id's to not mess with stats df
+    """ 
+    Take the live statistics dataframe and join it to Raptor Data
+    - Boxscore used to retrieve player id's only
     """
     # extract year and find the season
     stats = stats.reset_index()
@@ -262,6 +264,12 @@ def __prepare_raptor(
                            right_on = ['PLAYER_ID', 'season'])
     combinedstats.set_index(['GAME_DATE', 'PLAYER_ID'], inplace = True)
     
+    # fill rookie NA values
+    combinedstats['poss'].fillna(np.mean(combinedstats['poss']), inplace = True)
+    combinedstats['mp'].fillna(np.mean(combinedstats['mp']), inplace = True)
+    combinedstats.fillna(0, inplace = True)
+    
+    print(combinedstats.info())
     # To check out all the players that don't have raptor stats 
     # This should be all rookies
     
