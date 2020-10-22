@@ -4,9 +4,11 @@ from typing import Dict, List
 
 import pandas as pd
 
+
 # Define offensive and defensive features
-this_features = ['PTS', 'AST', 'OREB']
-other_features = ['STL', 'DREB', 'BLK']
+offense_features = ['PTS', 'AST', 'OREB', 'FGM', 
+        'FGA', 'FG3M', 'FG3A', 'FTM', 'FTA']
+defense_features = ['STL', 'DREB', 'BLK', 'TO']
 
 def process_and_write(
         year: int, domain: str, cutoff: int, verbose: str) -> None:
@@ -91,9 +93,9 @@ def process_and_write(
             # Make sure that explanatory features are keyed
             # with either 'this' or 'other'
             this_X = pd.concat(
-                    [stats_series_X[this_features]], keys=['this'])
+                    [stats_series_X[offense_features]], keys=['this'])
             other_X = pd.concat(
-                    [stats_series_Y[other_features]], keys=['other'])
+                    [stats_series_Y[defense_features]], keys=['other'])
             row_X = pd.concat([this_X, other_X])
             row_X['GAME_ID'] = gameid
             row_X['TEAM_ID'] = team_X
@@ -101,9 +103,9 @@ def process_and_write(
             row_X[('this', '', 'HOME')] = gamedf.loc[(gameid, team_X)]['HOME']
 
             this_Y = pd.concat(
-                    [stats_series_Y[this_features]], keys=['this'])
+                    [stats_series_Y[offense_features]], keys=['this'])
             other_Y = pd.concat(
-                    [stats_series_X[other_features]], keys=['other'])
+                    [stats_series_X[defense_features]], keys=['other'])
             row_Y = pd.concat([this_Y, other_Y])
             row_Y['GAME_ID'] = gameid
             row_Y['TEAM_ID'] = team_Y
@@ -179,7 +181,7 @@ def __compute_live_statistics(
     stats = boxscore.copy()
     
     # Now we can drop unnecessary columns
-    stats = stats[this_features + other_features + ['SECONDS']]
+    stats = stats[offense_features + defense_features + ['SECONDS']]
     # Then we add dates by joining with the schedule df                         
     stats = stats.join(schedule['GAME_DATE'], on=['GAME_ID', 'TEAM_ID'])        
     # Then we reset the index and reindex on date and player_id                 
