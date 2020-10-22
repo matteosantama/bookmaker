@@ -109,12 +109,15 @@ def process_and_write(year: int, domain: str, verbose: bool) -> None:
             df.at[i + offset, 'ml'] = team['ML']
             df.at[i + offset, 'ou_open'] = ou_open
             df.at[i + offset, 'ou_close'] = ou_close
+            
             df.at[i + offset, 'spread_open'] = spread_open
-            df.at[i + offset, 'spread_close'] = spread_close 
-            # Spreads need to take into account who the favorite is
-            if team.equals(home) and home_is_fav:
+            df.at[i + offset, 'spread_close'] = spread_close
+
+            # Spreads take into account who the favorite is
+            # This checks if (HOME and FAVE) or (NOT HOME and NOT FAVE)
+            if (team.equals(home) ==  home_is_fav):
                 df.at[i + offset, 'spread_open'] *= -1
-                df.at[i + offset, 'spread_close'] *= -1
+                df.at[i + offset, 'spread_close'] *= -1 
 
     # At this point, the odds data has been cleaned. Now we need to 
     # add NBA game and team ids
