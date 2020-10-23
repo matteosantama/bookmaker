@@ -51,7 +51,7 @@ def process_and_write(year: int, domain: str, verbose: bool) -> None:
     raw = pd.read_excel(inpath)
     # First we have to fix the date because no year info is included
     if verbose:
-        print('\tParsing monthyear dates')
+        print(f'\tParsing monthyear dates from {inpath}')
         
     new_year = False
     for i, monthday in raw['Date'].iteritems():
