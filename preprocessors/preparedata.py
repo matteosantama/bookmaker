@@ -97,32 +97,36 @@ def process_and_write(
             other_X = pd.concat(
                     [stats_series_Y[defense_features]], keys=['other'])
             row_X = pd.concat([this_X, other_X])
-            row_X['GAME_ID'] = gameid
-            row_X['TEAM_ID'] = team_X
-            row_X['TEAM_PTS'] = gamedf.loc[(gameid, team_X)]['PTS']
-            row_X[('this', '', 'HOME')] = gamedf.loc[(gameid, team_X)]['HOME']
+            row_X[('GAME_ID', '', '')] = gameid
+            row_X[('TEAM_ID', '', '')] = team_X
+            row_X[('TEAM_PTS', '', '')] = gamedf.loc[(gameid, team_X)]['PTS']
+            row_X[('HOME', '', '')] = gamedf.loc[(gameid, team_X)]['HOME']
 
             this_Y = pd.concat(
                     [stats_series_Y[offense_features]], keys=['this'])
             other_Y = pd.concat(
                     [stats_series_X[defense_features]], keys=['other'])
             row_Y = pd.concat([this_Y, other_Y])
-            row_Y['GAME_ID'] = gameid
-            row_Y['TEAM_ID'] = team_Y
-            row_Y['TEAM_PTS'] = gamedf.loc[(gameid, team_Y)]['PTS']
-            row_Y[('this', '', 'HOME')] = gamedf.loc[(gameid, team_Y)]['HOME']
+            row_Y[('GAME_ID', '', '')] = gameid
+            row_Y[('TEAM_ID', '', '')] = team_Y
+            row_Y[('TEAM_PTS', '', '')] = gamedf.loc[(gameid, team_Y)]['PTS']
+            row_Y[('HOME', '', '')] = gamedf.loc[(gameid, team_Y)]['HOME']
 
             data.append(row_X.to_dict())
             data.append(row_Y.to_dict())
 
         if verbose and i % 50 == 0:
             print(f'\t{i} games analyzed')
-   
+  
+    # The columns here are tuples, but its actually easier to load in this way
     df = pd.DataFrame(data)
-    # Recreate column levels
-    df.columns = pd.MultiIndex.from_tuples(df.columns)
+    df = df.astype({
+        ('GAME_ID', '', ''): 'int32',
+        ('TEAM_ID', '', ''): 'int32',
+        ('TEAM_PTS', '', ''): 'int32'
+    })
     # And set index
-    df = df.set_index(['GAME_ID', 'TEAM_ID'])
+    df = df.set_index([('GAME_ID', '', ''), ('TEAM_ID', '', '')])
 
     writepath = os.path.join('..', 'data', domain, f'{year}-data.csv')
     original = len(df)
