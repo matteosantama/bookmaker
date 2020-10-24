@@ -8,7 +8,11 @@ import pandas as pd
 # Define offensive and defensive features
 this_features = ['PTS', 'AST', 'OREB']
 other_features = ['STL', 'DREB', 'BLK']
-raptor_features = ['raptor_total']
+raptor_features = ['raptor_total', 'raptor_box_offense',
+                   'raptor_box_defense', 'raptor_onoff_defense',
+                   'raptor_onoff_total', 'raptor_offense',
+                   'raptor_defense', 'war_total', 'war_reg_season',
+                   'pace_impact']
 
 def process_and_write(
         year: int, domain: str, cutoff: int, verbose: str) -> None:
@@ -104,10 +108,12 @@ def process_and_write(
                     [stats_series_X[this_features]], keys=['this'])
             other_X = pd.concat(
                     [stats_series_Y[other_features]], keys=['other'])
-            raptor_X = pd.concat(
-                    [stats_series_X[raptor_features]], keys=['raptor'])
+            this_raptor_X = pd.concat(
+                    [stats_series_X[raptor_features]], keys=['this_raptor'])
+            other_raptor_X = pd.concat(
+                    [stats_series_Y[raptor_features]], keys=['other_raptor'])
             
-            row_X = pd.concat([this_X, other_X, raptor_X])
+            row_X = pd.concat([this_X, other_X, this_raptor_X, other_raptor_X])
             row_X['GAME_ID'] = gameid
             row_X['TEAM_ID'] = team_X
             row_X['TEAM_PTS'] = gamedf.loc[(gameid, team_X)]['PTS']
@@ -117,9 +123,11 @@ def process_and_write(
                     [stats_series_Y[this_features]], keys=['this'])
             other_Y = pd.concat(
                     [stats_series_X[other_features]], keys=['other'])
-            raptor_Y = pd.concat(
-                    [stats_series_Y[raptor_features]], keys=['raptor'])
-            row_Y = pd.concat([this_Y, other_Y, raptor_Y])
+            this_raptor_Y = pd.concat(
+                    [stats_series_Y[raptor_features]], keys=['this_raptor'])
+            other_raptor_Y = pd.concat(
+                    [stats_series_X[raptor_features]], keys=['other_raptor'])
+            row_Y = pd.concat([this_Y, other_Y, this_raptor_Y, other_raptor_Y])
             row_Y['GAME_ID'] = gameid
             row_Y['TEAM_ID'] = team_Y
             row_Y['TEAM_PTS'] = gamedf.loc[(gameid, team_Y)]['PTS']
