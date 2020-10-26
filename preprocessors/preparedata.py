@@ -5,9 +5,11 @@ from typing import Dict, List
 import numpy as np
 import pandas as pd
 
+
 # Define offensive and defensive features
-this_features = ['PTS', 'AST', 'OREB']
-other_features = ['STL', 'DREB', 'BLK']
+offense_features = ['PTS', 'AST', 'OREB', 'FGM', 
+                    'FGA', 'FG3M', 'FG3A', 'FTM', 'FTA']
+defense_features = ['STL', 'DREB', 'BLK', 'TO']
 raptor_features = ['raptor_total', 'raptor_box_offense',
                    'raptor_box_defense', 'raptor_onoff_defense',
                    'raptor_onoff_total', 'raptor_offense',
@@ -105,7 +107,7 @@ def process_and_write(
             # Make sure that explanatory features are keyed
             # with either 'this' or 'other'
             this_X = pd.concat(
-                    [stats_series_X[this_features]], keys=['this'])
+                    [stats_series_X[offense_features]], keys=['this'])
             other_X = pd.concat(
                     [stats_series_Y[other_features]], keys=['other'])
             this_raptor_X = pd.concat(
@@ -114,36 +116,41 @@ def process_and_write(
                     [stats_series_Y[raptor_features]], keys=['other_raptor'])
             
             row_X = pd.concat([this_X, other_X, this_raptor_X, other_raptor_X])
-            row_X['GAME_ID'] = gameid
-            row_X['TEAM_ID'] = team_X
-            row_X['TEAM_PTS'] = gamedf.loc[(gameid, team_X)]['PTS']
-            row_X[('this', '', 'HOME')] = gamedf.loc[(gameid, team_X)]['HOME']
+            row_X[('GAME_ID', '', '')] = gameid
+            row_X[('TEAM_ID', '', '')] = team_X
+            row_X[('TEAM_PTS', '', '')] = gamedf.loc[(gameid, team_X)]['PTS']
+            row_X[('HOME', '', '')] = gamedf.loc[(gameid, team_X)]['HOME']
 
             this_Y = pd.concat(
-                    [stats_series_Y[this_features]], keys=['this'])
+                    [stats_series_Y[offense_features]], keys=['this'])
             other_Y = pd.concat(
                     [stats_series_X[other_features]], keys=['other'])
             this_raptor_Y = pd.concat(
                     [stats_series_Y[raptor_features]], keys=['this_raptor'])
             other_raptor_Y = pd.concat(
                     [stats_series_X[raptor_features]], keys=['other_raptor'])
+            
             row_Y = pd.concat([this_Y, other_Y, this_raptor_Y, other_raptor_Y])
-            row_Y['GAME_ID'] = gameid
-            row_Y['TEAM_ID'] = team_Y
-            row_Y['TEAM_PTS'] = gamedf.loc[(gameid, team_Y)]['PTS']
-            row_Y[('this', '', 'HOME')] = gamedf.loc[(gameid, team_Y)]['HOME']
+            row_Y[('GAME_ID', '', '')] = gameid
+            row_Y[('TEAM_ID', '', '')] = team_Y
+            row_Y[('TEAM_PTS', '', '')] = gamedf.loc[(gameid, team_Y)]['PTS']
+            row_Y[('HOME', '', '')] = gamedf.loc[(gameid, team_Y)]['HOME']
 
             data.append(row_X.to_dict())
             data.append(row_Y.to_dict())
 
         if verbose and i % 50 == 0:
             print(f'\t{i} games analyzed')
-   
+  
+    # The columns here are tuples, but its actually easier to load in this way
     df = pd.DataFrame(data)
-    # Recreate column levels
-    df.columns = pd.MultiIndex.from_tuples(df.columns)
+    df = df.astype({
+        ('GAME_ID', '', ''): 'int32',
+        ('TEAM_ID', '', ''): 'int32',
+        ('TEAM_PTS', '', ''): 'int32'
+    })
     # And set index
-    df = df.set_index(['GAME_ID', 'TEAM_ID'])
+    df = df.set_index([('GAME_ID', '', ''), ('TEAM_ID', '', '')])
 
     writepath = os.path.join('..', 'data', domain, f'{year}-data.csv')
     original = len(df)
@@ -202,7 +209,7 @@ def __compute_live_statistics(
     stats = boxscore.copy()
     
     # Now we can drop unnecessary columns
-    stats = stats[this_features + other_features + ['SECONDS']]
+    stats = stats[offense_features + defense_features + ['SECONDS']]
     # Then we add dates by joining with the schedule df                         
     stats = stats.join(schedule['GAME_DATE'], on=['GAME_ID', 'TEAM_ID'])        
     # Then we reset the index and reindex on date and player_id                 
@@ -287,7 +294,6 @@ def __prepare_raptor(
     
     # To check out all the players that don't have raptor stats 
     # This should be all rookies
-    
 #     nulls = combinedstats[combinedstats['poss'].isnull()]
 #     nulls.drop_duplicates('PLAYER_ID', inplace = True)
     
@@ -302,9 +308,6 @@ def __prepare_raptor(
 #                                'season_x',
 #                                'season_y',
 #                                'raptor_total_y']]
-#     pd.set_option("display.max_rows", None, "display.max_columns", None)
-#     print(check_nulls)
-    
     return combinedstats
 
 if __name__=='__main__':
