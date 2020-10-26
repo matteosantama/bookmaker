@@ -2,13 +2,19 @@ import argparse
 import os
 from typing import Dict, List
 
+import numpy as np
 import pandas as pd
 
 
 # Define offensive and defensive features
 offense_features = ['PTS', 'AST', 'OREB', 'FGM', 
-        'FGA', 'FG3M', 'FG3A', 'FTM', 'FTA']
+                    'FGA', 'FG3M', 'FG3A', 'FTM', 'FTA']
 defense_features = ['STL', 'DREB', 'BLK', 'TO']
+raptor_features = ['raptor_total', 'raptor_box_offense',
+                   'raptor_box_defense', 'raptor_onoff_defense',
+                   'raptor_onoff_total', 'raptor_offense',
+                   'raptor_defense', 'war_total', 'war_reg_season',
+                   'pace_impact']
 
 def process_and_write(
         year: int, domain: str, cutoff: int, verbose: str) -> None:
@@ -61,10 +67,18 @@ def process_and_write(
 
     # Live statistics indexed by (date, playerid) so we can easily look 
     # up a player's current stats for a given day         
-    livestats = __compute_live_statistics(schedule, boxscores)                      
+    livestats = __compute_live_statistics(schedule, boxscores)
     if verbose:
         print('\tLive season statistics computed')
-
+        print(livestats)
+        
+    # Load raptor and join to livestats                                               
+    raptor_path = os.path.join('..', 'data', 'raw', 'raptor.csv')    
+    raptor = pd.read_csv(raptor_path, index_col=0)  
+    livestats = __prepare_raptor(raptor, boxscores, livestats)
+    if verbose:
+        print('\tRaptor data joined to stats')
+    
     game_counts = schedule.groupby('TEAM_ID').cumcount()
 
     data = []
@@ -81,7 +95,7 @@ def process_and_write(
                     boxscores.loc[(gameid, team_X)])       
             players_dict_Y = __extract_lineup(
                     boxscores.loc[(gameid, team_Y)] )   
-
+            
             date_X = schedule.loc[(gameid, team_X)]['GAME_DATE']                      
             date_Y = schedule.loc[(gameid, team_Y)]['GAME_DATE']
             assert date_X == date_Y
@@ -95,8 +109,13 @@ def process_and_write(
             this_X = pd.concat(
                     [stats_series_X[offense_features]], keys=['this'])
             other_X = pd.concat(
-                    [stats_series_Y[defense_features]], keys=['other'])
-            row_X = pd.concat([this_X, other_X])
+                    [stats_series_Y[other_features]], keys=['other'])
+            this_raptor_X = pd.concat(
+                    [stats_series_X[raptor_features]], keys=['this_raptor'])
+            other_raptor_X = pd.concat(
+                    [stats_series_Y[raptor_features]], keys=['other_raptor'])
+            
+            row_X = pd.concat([this_X, other_X, this_raptor_X, other_raptor_X])
             row_X[('GAME_ID', '', '')] = gameid
             row_X[('TEAM_ID', '', '')] = team_X
             row_X[('TEAM_PTS', '', '')] = gamedf.loc[(gameid, team_X)]['PTS']
@@ -105,8 +124,13 @@ def process_and_write(
             this_Y = pd.concat(
                     [stats_series_Y[offense_features]], keys=['this'])
             other_Y = pd.concat(
-                    [stats_series_X[defense_features]], keys=['other'])
-            row_Y = pd.concat([this_Y, other_Y])
+                    [stats_series_X[other_features]], keys=['other'])
+            this_raptor_Y = pd.concat(
+                    [stats_series_Y[raptor_features]], keys=['this_raptor'])
+            other_raptor_Y = pd.concat(
+                    [stats_series_X[raptor_features]], keys=['other_raptor'])
+            
+            row_Y = pd.concat([this_Y, other_Y, this_raptor_Y, other_raptor_Y])
             row_Y[('GAME_ID', '', '')] = gameid
             row_Y[('TEAM_ID', '', '')] = team_Y
             row_Y[('TEAM_PTS', '', '')] = gamedf.loc[(gameid, team_Y)]['PTS']
@@ -219,6 +243,72 @@ def __compute_live_statistics(
     stats = stats.fillna(0)
     return stats
 
+def __prepare_raptor(
+        raptor: pd.DataFrame,
+        boxscore: pd.DataFrame,
+        stats: pd.DataFrame
+        ) -> pd.DataFrame:
+    """ 
+    Take the live statistics dataframe and join it to Raptor Data
+    - Boxscore used to retrieve player id's only
+    """
+    # extract year and find the season
+    stats = stats.reset_index()
+    stats['season'] = max(pd.DatetimeIndex(stats['GAME_DATE']).year)
+    season = stats['season'][0]
+    
+    # map player names to ids
+    boxnamesreset = boxscore.reset_index()
+    boxnamesidnames = boxnamesreset[['PLAYER_ID', 'PLAYER_NAME']]
+    boxnamesidnames.drop_duplicates(inplace = True)
+    
+    # left join ids to raptor dataset
+    # null values appear in non-analyzed seasons
+    raptor_ided = pd.merge(raptor,
+                           boxnamesidnames,
+                           how = 'left',
+                           left_on = "player_name",
+                           right_on = "PLAYER_NAME")
+    
+    # now drop player_id, PLAYER_NAME, and keep only most recent data
+    # set the season to the most recent season for merging
+    raptor_nocurr = raptor_ided[raptor_ided['season'] != season]
+    raptor_nocurr.drop_duplicates('player_id', keep = 'last', inplace = True)
+    raptor_nocurr['season'] = season
+    raptor_nocurr['season'].astype(str)
+    raptor_clean = raptor_nocurr.drop(['player_id', 'PLAYER_NAME'], axis = 1)
+    
+
+    combinedstats = pd.merge(stats,
+                           raptor_clean,
+                           how = 'left',
+                           left_on = ['PLAYER_ID', 'season'],
+                           right_on = ['PLAYER_ID', 'season'])
+    combinedstats.set_index(['GAME_DATE', 'PLAYER_ID'], inplace = True)
+    combinedstats.drop('season', inplace = True, axis = 1)
+    
+    # fill rookie NA values
+    combinedstats['poss'].fillna(np.mean(combinedstats['poss']), inplace = True)
+    combinedstats['mp'].fillna(np.mean(combinedstats['mp']), inplace = True)
+    combinedstats.fillna(0, inplace = True)
+    
+    # To check out all the players that don't have raptor stats 
+    # This should be all rookies
+#     nulls = combinedstats[combinedstats['poss'].isnull()]
+#     nulls.drop_duplicates('PLAYER_ID', inplace = True)
+    
+#     nulls = nulls[['PLAYER_ID', 'season', 'raptor_total']]
+#     check_nulls = pd.merge(raptor_ided, nulls,
+#                            how = 'inner',
+#                            left_on = 'PLAYER_ID',
+#                            right_on = 'PLAYER_ID').reset_index()
+    
+#     check_nulls = check_nulls[['PLAYER_ID',
+#                                'PLAYER_NAME',
+#                                'season_x',
+#                                'season_y',
+#                                'raptor_total_y']]
+    return combinedstats
 
 if __name__=='__main__':
     parser = argparse.ArgumentParser(description=(
