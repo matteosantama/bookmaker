@@ -70,7 +70,6 @@ def process_and_write(
     livestats = __compute_live_statistics(schedule, boxscores)
     if verbose:
         print('\tLive season statistics computed')
-        print(livestats)
         
     # Load raptor and join to livestats                                               
     raptor_path = os.path.join('..', 'data', 'raw', 'raptor.csv')    
@@ -109,7 +108,7 @@ def process_and_write(
             this_X = pd.concat(
                     [stats_series_X[offense_features]], keys=['this'])
             other_X = pd.concat(
-                    [stats_series_Y[other_features]], keys=['other'])
+                    [stats_series_Y[defense_features]], keys=['other'])
             this_raptor_X = pd.concat(
                     [stats_series_X[raptor_features]], keys=['this_raptor'])
             other_raptor_X = pd.concat(
@@ -124,7 +123,7 @@ def process_and_write(
             this_Y = pd.concat(
                     [stats_series_Y[offense_features]], keys=['this'])
             other_Y = pd.concat(
-                    [stats_series_X[other_features]], keys=['other'])
+                    [stats_series_X[defense_features]], keys=['other'])
             this_raptor_Y = pd.concat(
                     [stats_series_Y[raptor_features]], keys=['this_raptor'])
             other_raptor_Y = pd.concat(
