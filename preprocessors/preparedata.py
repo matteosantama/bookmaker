@@ -17,7 +17,12 @@ raptor_features = ['raptor_total', 'raptor_box_offense',
                    'pace_impact']
 
 def process_and_write(
-        year: int, domain: str, cutoff: int, verbose: str) -> None:
+        year: int, 
+        domain: str, 
+        cutoff: int, 
+        verbose: bool, 
+        raptor: bool
+) -> None:
     """Write a single data file labeled '{year}-data.csv to the 
     folder specified by 'domain'.
 
@@ -70,13 +75,14 @@ def process_and_write(
     livestats = __compute_live_statistics(schedule, boxscores)
     if verbose:
         print('\tLive season statistics computed')
-        
-    # Load raptor and join to livestats                                               
-    raptor_path = os.path.join('..', 'data', 'raw', 'raptor.csv')    
-    raptor = pd.read_csv(raptor_path, index_col=0)  
-    livestats = __prepare_raptor(raptor, boxscores, livestats)
-    if verbose:
-        print('\tRaptor data joined to stats')
+       
+    if raptor:
+        # Load raptor and join to livestats                                               
+        raptor_path = os.path.join('..', 'data', 'raw', 'raptor.csv')    
+        raptor = pd.read_csv(raptor_path, index_col=0)  
+        livestats = __prepare_raptor(raptor, boxscores, livestats)
+        if verbose:
+            print('\tRaptor data joined to stats')
     
     game_counts = schedule.groupby('TEAM_ID').cumcount()
 
@@ -151,7 +157,8 @@ def process_and_write(
     # And set index
     df = df.set_index([('GAME_ID', '', ''), ('TEAM_ID', '', '')])
 
-    writepath = os.path.join('..', 'data', domain, f'{year}-data.csv')
+    fname = f"{year}-data{'-raptor' if raptor else ''}.csv"
+    writepath = os.path.join('..', 'data', domain, fname)
     original = len(df)
     df = df.dropna()
 
@@ -291,22 +298,6 @@ def __prepare_raptor(
     combinedstats['mp'].fillna(np.mean(combinedstats['mp']), inplace = True)
     combinedstats.fillna(0, inplace = True)
     
-    # To check out all the players that don't have raptor stats 
-    # This should be all rookies
-#     nulls = combinedstats[combinedstats['poss'].isnull()]
-#     nulls.drop_duplicates('PLAYER_ID', inplace = True)
-    
-#     nulls = nulls[['PLAYER_ID', 'season', 'raptor_total']]
-#     check_nulls = pd.merge(raptor_ided, nulls,
-#                            how = 'inner',
-#                            left_on = 'PLAYER_ID',
-#                            right_on = 'PLAYER_ID').reset_index()
-    
-#     check_nulls = check_nulls[['PLAYER_ID',
-#                                'PLAYER_NAME',
-#                                'season_x',
-#                                'season_y',
-#                                'raptor_total_y']]
     return combinedstats
 
 if __name__=='__main__':
@@ -328,7 +319,11 @@ if __name__=='__main__':
     parser.add_argument('-v', dest='verbose', action='store_true', 
             help='Display verbose output flag')
 
+    parser.add_argument('-r', dest='raptor', action='store_true',
+            help='Include RAPTOR features in our data')
+
     args = parser.parse_args()
 
     for y in args.years:
-        process_and_write(y, args.domain, args.cutoff, args.verbose)
+        process_and_write(y, args.domain, args.cutoff, 
+                args.verbose, args.raptor)
