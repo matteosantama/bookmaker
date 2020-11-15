@@ -1,8 +1,12 @@
+import pkbar
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from torch.utils.data import DataLoader, TensorDataset
 from torch import optim
+
+import attn_dl
 
 # http://peterbloem.nl/blog/transformers
 # This code was written by Peter Bloem for the article Transformers from Scratch
@@ -93,68 +97,48 @@ class TransformerModel(nn.Module):
         x = self.toscore(x)
         return torch.sum(x, dim = 1)
 
-
-
-# #https://tomekkorbak.com/2020/06/26/implementing-attention-in-pytorch/
-# class Attention(nn.Module):
-
-#     def __init__(self, encoder_dim: int, decoder_dim: int):
-#         super().__init__()
-#         self.encoder_dim = encoder_dim
-#         self.decoder_dim = decoder_dim
-
-#     def forward(self, 
-#         query: torch.Tensor,  # [decoder_dim]
-#         values: torch.Tensor, # [seq_length, encoder_dim]
-#         ):
-#         weights = self._get_weights(query, values) # [seq_length]
-#         weights = torch.nn.functional.softmax(weights, dim=0)
-#         return weights @ values  # [encoder_dim]
+def train_model(num_epochs, batch_size, learning_rate, heads, depth, loss_func):
+    """
+    Trains the model with the specified parameters and returns the model
+    as well as the point estimate of losses on the validation set over each
+    epoch.
+    """
+    pbar = pkbar.Pbar(name='Training Model', target = num_epochs)
     
-# class MultiplicativeAttention(Attention):
-#     # aka scaled dot product attention
-#     def __init__(self, encoder_dim: int, decoder_dim: int):
-#         super().__init__(encoder_dim, decoder_dim)
-#         self.W = torch.nn.Parameter(torch.FloatTensor(
-#             self.decoder_dim, self.encoder_dim).uniform_(-0.1, 0.1))
+    # Load data as torch.tensors
+    _, x_train, y_train = attn_dl.load_vectorized_data('train')
+    _, x_validate, y_validate = attn_dl.load_vectorized_data('dev')
 
-#     def _get_weights(self,
-#         query: torch.Tensor,  # [decoder_dim]
-#         values: torch.Tensor, # [seq_length, encoder_dim]
-#     ):
-#         weights = query @ self.W @ values.T  # [seq_length]
-#         return weights/np.sqrt(self.decoder_dim)  # [seq_length]
+    model = TransformerModel(x_train.shape[2], heads, depth).double()
+    optimizer = optim.Adam(model.parameters(), lr=learning_rate)
 
-# class Attn_Stack(nn.Module):
-#     def __init__(self, input_dim, H):
-#         super(Attn_Stack, self).__init__()
-#         self.attn1 = MultiplicativeAttention(input_dim, input_dim)
-#         self.bn1 = nn.BatchNorm1d(input_dim)
-#         self.linear1 = nn.Linear(input_dim, H)
-#         #self.drop_layer = nn.Dropout(p = 0.5)
-#         self.bn2 = nn.BatchNorm1d(H)
-        
+    train_ds = TensorDataset(x_train, y_train)
+    # Notice we shuffle our training data so the seasons are mixed!
+    train_dl = DataLoader(train_ds, batch_size=batch_size, 
+                          shuffle=True)
 
-#     def forward(self, x):
-#         x = self.attn1(x, x)
-#         x = self.bn1(x)
-#         x = F.relu(self.linear1(x))
-#         #x = self.drop_layer(x)
-#         x = self.bn2(x)
-    
-#         return x
+    validate_ds = TensorDataset(x_validate, y_validate)
+    validate_dl = DataLoader(validate_ds, 
+                             batch_size=batch_size * 2)
 
-# class Attn_Net(nn.Module):
-#     def __init__(self, input_dim):
-#         super(Attn_Net, self).__init__()
+    # L1 loss is more robust to outliers
+    losses = []
+    for epoch in range(num_epochs):
+        model.train()
+        for xb, yb in train_dl:
+            pred = model(xb)
+            loss = loss_func(pred.double(), yb.double())
 
-#         self.l1 = Attn_Stack(input_dim, input_dim//2)
-#         self.l4 = Attn_Stack(input_dim//2, input_dim//2)
-#         # we add a final regression layer
-#         self.lastlinear = nn.Linear(input_dim//2, 1)
-    
-#     def forward(self, x):
-#         x = self.l1(x)
-#         x = self.l4(x)
-#         x = self.lastlinear(x)
-#         return x
+            loss.backward()
+            optimizer.step()
+            optimizer.zero_grad()
+
+        model.eval()
+        with torch.no_grad():
+            epoch_loss = sum(loss_func(model(xb), yb) for xb, yb in validate_dl)
+            if epoch % 10 == 0:
+                print(epoch_loss/len(xb))
+            losses.append( epoch_loss / len(xb) )
+        pbar.update(epoch)
+    return model, losses
+
