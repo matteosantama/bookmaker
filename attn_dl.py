@@ -12,6 +12,10 @@ os.environ['KMP_DUPLICATE_LIB_OK']='True'
 
 
 def load_vectorized_data(_type: str):
+    """
+    Loads the data, joining players together as a vector of player-specific statistics
+    (Instead of single vector for all statistics in every row)
+    """
     df = pd.DataFrame()
     data_path = os.path.join('data', _type, '*-data-raptor.csv')
     for fp in glob.glob(data_path):
@@ -24,8 +28,8 @@ def load_vectorized_data(_type: str):
     #list of columns by position
     ptypes = ['C1', 'F1', 'F2', 'G1', 'G2', 'S1']
     positions = [[column for column in df.columns if playertype in column] for playertype in ptypes]
-
     new = df
+    # Join players together as a vector of statistics
     for i in range(len(ptypes)):
         new[ptypes[i]] = new[positions[i]].values.tolist()
         new[ptypes[i]] = new[ptypes[i]].apply(lambda x: np.array(x))
@@ -43,11 +47,16 @@ def load_vectorized_data(_type: str):
     n_output = len(scores.columns)
     msg = 'Uh oh, you might be losing features!'
     assert n_features + n_output == len(playervec_df.columns), msg
-
+    
+    # stack the arrays together on axis = 1 so torch can convert it
     test = np.array([np.stack(example, axis = 1) for example in features.values])
+
     features = torch.from_numpy(test)
     scores = torch.from_numpy(scores.to_numpy())
     simple_index = df.index.rename(['GAME_ID', 'TEAM_ID'])
+    
+    # flip so each row is a f
+    features = features.transpose(1,2)
     
     return simple_index, features, scores
 

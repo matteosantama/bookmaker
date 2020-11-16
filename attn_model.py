@@ -11,6 +11,7 @@ import attn_dl
 # http://peterbloem.nl/blog/transformers
 # This code was written by Peter Bloem for the article Transformers from Scratch
 # implements multi-headed attention and a simple "transformer" block
+weights = []
 class SelfAttention(nn.Module):
     def __init__(self, k, heads=8):
         super().__init__()
@@ -43,6 +44,7 @@ class SelfAttention(nn.Module):
         # - dot has size (b*h, t, t) containing raw weights
 
         dot = F.softmax(dot, dim=2) 
+        weights.append(dot)
         # - dot now contains row-wise normalized weights
         # apply the self attention to the values
         out = torch.bmm(dot, values).view(b, h, t, k)
@@ -95,7 +97,9 @@ class TransformerModel(nn.Module):
         """
         x = self.tblocks(x)
         x = self.toscore(x)
+        # have to sum over the first dimension to get the scores for each game
         return torch.sum(x, dim = 1)
+
 
 def train_model(num_epochs, batch_size, learning_rate, heads, depth, loss_func):
     """
@@ -103,6 +107,8 @@ def train_model(num_epochs, batch_size, learning_rate, heads, depth, loss_func):
     as well as the point estimate of losses on the validation set over each
     epoch.
     """
+    global weights
+    weights = []
     pbar = pkbar.Pbar(name='Training Model', target = num_epochs)
     
     # Load data as torch.tensors
@@ -141,4 +147,7 @@ def train_model(num_epochs, batch_size, learning_rate, heads, depth, loss_func):
             losses.append( epoch_loss / len(xb) )
         pbar.update(epoch)
     return model, losses
+
+def get_weights():
+    return weights
 
