@@ -119,6 +119,7 @@ def train_model(num_epochs, batch_size, learning_rate, heads, depth, loss_func):
     optimizer = optim.Adam(model.parameters(), lr=learning_rate)
 
     train_ds = TensorDataset(x_train, y_train)
+    
     # Notice we shuffle our training data so the seasons are mixed!
     train_dl = DataLoader(train_ds, batch_size=batch_size, 
                           shuffle=True)

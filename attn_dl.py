@@ -25,10 +25,11 @@ def load_vectorized_data(_type: str):
         season = season.set_index([('GAME_ID', '', ''), ('TEAM_ID', '', '')])
         df = df.append(season)
     
-    #list of columns by position
+    # List of Columns Organized by Position
     ptypes = ['C1', 'F1', 'F2', 'G1', 'G2', 'S1']
     positions = [[column for column in df.columns if playertype in column] for playertype in ptypes]
     new = df
+    
     # Join players together as a vector of statistics
     for i in range(len(ptypes)):
         new[ptypes[i]] = new[positions[i]].values.tolist()
@@ -36,7 +37,8 @@ def load_vectorized_data(_type: str):
     featurelen = len(new[ptypes[0]].iloc[0])
     new[('HOME', '', '')] = new[('HOME', '', '')].apply(lambda x: np.array([x]*featurelen))
     playervec_df = new[['C1', 'F1', 'F2', 'G1', 'G2', 'S1', ('TEAM_PTS', '', ''), ('HOME', '', '')]]
-
+    
+    # Pull out the y and x from one another
     outcome_col = ('TEAM_PTS', '', '')
     features = playervec_df[playervec_df.columns.difference([outcome_col])]
 
@@ -48,14 +50,15 @@ def load_vectorized_data(_type: str):
     msg = 'Uh oh, you might be losing features!'
     assert n_features + n_output == len(playervec_df.columns), msg
     
-    # stack the arrays together on axis = 1 so torch can convert it
+    # Stack the arrays together on axis = 1 so torch can convert it
     test = np.array([np.stack(example, axis = 1) for example in features.values])
-
+    
+    # Convert to torch tensors
     features = torch.from_numpy(test)
     scores = torch.from_numpy(scores.to_numpy())
     simple_index = df.index.rename(['GAME_ID', 'TEAM_ID'])
     
-    # flip so each row is a f
+    # flip so each vector in the row is a player's statistics
     features = features.transpose(1,2)
     
     return simple_index, features, scores
